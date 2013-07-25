@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<struct>
+	<!-- REPLICAR PARA LA TODOS LOS RSS -->
+	<categorias>
+		<data>
+			<id>1</id>
+			<name>Política</name>
+			<description></description>
+		</data>
+		<data>
+			<id>2</id>
+			<name>Economía</name>
+			<description></description>
+		</data>
+		<data>
+			<id>3</id>
+			<name>Espectáculos</name>
+			<description></description>
+		</data>
+		<data>
+			<id>4</id>
+			<name>Deportes</name>
+			<description></description>
+		</data>
+		<data>
+			<id>5</id>
+			<name>Internacional</name>
+			<description></description>
+		</data>
+		<data>
+			<id>6</id>
+			<name>Cultura</name>
+			<description></description>
+		</data>
+		<data>
+			<id>7</id>
+			<name>Otros</name>
+			<description>no categorizados</description>
+		</data>		
+	</categorias>
+	
+	<perfiles>
+		<data>
+			<name>Beligerante</name>
+			<words>
+				populista, derechista, izquierdista, chavista, neoliberal, capitalista, irresponsable, ridículo, violento, violenta, irracional, inconsciente, ex-presidenta, silenciosa, silencioso, culpable, improvisado, improvisada, mentiroso, mentirosa, inexperto, inexperta, vulgar, mal educado, mal educada, clasista, racista, burgués, burguesa, pequeño burgués, pequeña burguesa, tecnócrata, servil, tarado, tarada, hegemónico, hegemónica, explotador, explotadora, ilegal, violador de los derechos humanos, abusador, repulsivo, repulsiva, encubridor, maltratador, maltratadora, encubridora, traidor, traidora, aprovechador, aprovechadora, sacar provecho, ineficiente, sesgado, sucio, sucia, cruel, cruelmente, triste, tristemente, estúpido, estúpida, protesta, violentista, encapuchado, autoritario, terrorismo, atentado, aterrador, anarquista, derrotado, derrotada, perdedor, perdedora, indisciplinado, condenado, condenada, sabotaje,
+			</words>
+			<description></description>
+		</data>
+		<data>
+			<name>Complaciente</name>
+			<words>
+				exitoso, exitosa, eficiente, consciente, responsable, servidor público, servidora pública, grandeza, visionario, visionaria, trascendente, influyente, admirable, próspero, próspera, boyante, líder, gran líder, gran liderazgo, destacado, destacada, hermoso, hermosa, bello, bella, elegante, brillante, espléndido, espléndida, atractivo, atractiva, activo, activa, proactivo, proactiva, afortunado, afortunada, espectacular, desarrollo, crecimiento, excelente, bueno, buena, querido, querida, esperanza, esperanzador, amor, amoroso, amorosa, unidad, unido, unida, ganador, ganadora, querido, querida, triunfador, triunfadora, patriota, educado, educada, disciplinado, apasionado, apasionada, ferviente, hincha, fan, soñador, soñadora, solidario, solidaria, ético, ética, justo, justa, decidido, decidida, esmerado, esmerada, experimentado, experimentada, robusto, robusta, preferido, preferida, favorito, favorita 
+			</words>
+			<description></description>
+		</data>
+		<data>
+			<name>Ambiguo</name>
+			<words>
+				relativo, relativa, suficiente, adecuado, adecuada, cambio, modificaciones, consenso, acuerdo, común, general, tranquilo, tranquila, tranquilidad, paz, templado, templanza, mesura, sociedad, centro, centro social, social, clase media, quintil, quintiles, pobreza, medioambiente, sustentabilidad, mayoría, ciudadanos, ciudadanía, trabajo, empleo, empresariado, empresas, emprendimiento, emprendedores, emprendedor, innovación, tecnología, industria, ciencia, educación, calidad, espera, calma, alegría, comisión, valores, valóricos, iglesia, liberal, liberales, conservador, conservadores, turismo, elecciones, electores, votación, votantes, partidos, políticos, político, congreso, diputado, diputada, diputados, diputadas, senador, senadora, senadores, senadoras, juez, jueza, tribunales, ministerio, ministerios, ministro, ministra, ministros, ministras, presidente, la moneda, te deum, religión, salud, previsional, laboral 
+			</words>
+			<description></description>
+		</data>
+		<data>
+			<name>Optimista</name>
+			<words>
+				exitoso, exitosa, próspero, próspera, boyante, futuro próspero, grandeza, transcendente, influyente, admirable, líder, liderando, destacado, destacada, destacando, crecimiento, creciendo, crecer,  desarrollo, desarrollarse, desarrollarnos, desarrollar, desarrollado, brillante, brillantemente, espléndido, espléndida, espléndidamente, optimista, prometedor, prometedora, fuerte, blindado, blindada, ganador, ganadora, triunfador, triunfadora, triunfante, avanzar, avanzando, impulso, impulsar, fortalecer, fortalecido, fortaleciendo, admirado, admirada, admirando, lucir, luciendo, campeón, inmejorable, popular, famoso, fama, glamoroso, glamorosa, glamour, espectacular, atractivo, atractiva, feliz
+			</words>
+			<description></description>
+		</data>
+	</perfiles>
+	
+	<persons>
+		<person>Bachelet</person>
+		<person>Piñera</person>
+		<person>Sanchez</person>		
+		<person>Canales</person>
+	</persons>
+	
+	<rss>
+		<data>
+			<id>1</id>
+			<name>Emol</name>
+			<curl>1</curl><!-- 0: NO TIENE, 1: TIENE URL Y SE DEBE BUSCAR CONTENIDO EN URL -->
+			<urltagname>link</urltagname> <!-- SOLO SI EL VALOR curl ES 1 -->
+			<url>http://www.ultimasnoticias.com.ve/cmspages/rss/un/deportes.aspx</url> <!-- URL RSS FEED -->
+			<categoria>1</categoria>
+		</data>
+		<data>
+			<id>2</id>
+			<name>Lun</name>
+			<curl>1</curl><!-- 0: NO TIENE, 1: TIENE URL Y SE DEBE BUSCAR CONTENIDO EN URL -->
+			<urltagname>link</urltagname> <!-- SOLO SI EL VALOR curl ES 1 -->
+			<url>http://www.ultimasnoticias.com.ve/cmspages/rss/un/deportes.aspx</url> <!-- URL RSS FEED -->
+			<categoria>4</categoria>
+		</data>
+	</rss>
+</struct>
