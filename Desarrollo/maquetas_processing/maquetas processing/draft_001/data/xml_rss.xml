@@ -83,15 +83,120 @@
 			<name>Emol</name>
 			<curl>1</curl><!-- 0: NO TIENE, 1: TIENE URL Y SE DEBE BUSCAR CONTENIDO EN URL -->
 			<urltagname>link</urltagname> <!-- SOLO SI EL VALOR curl ES 1 -->
-			<url>http://www.ultimasnoticias.com.ve/cmspages/rss/un/deportes.aspx</url> <!-- URL RSS FEED -->
+			<url>http://feeds.feedburner.com/emol/dVNf</url> <!-- URL RSS FEED -->
 			<categoria>1</categoria>
 		</data>
 		<data>
 			<id>2</id>
-			<name>Lun</name>
+			<name>La tercera</name>
 			<curl>1</curl><!-- 0: NO TIENE, 1: TIENE URL Y SE DEBE BUSCAR CONTENIDO EN URL -->
 			<urltagname>link</urltagname> <!-- SOLO SI EL VALOR curl ES 1 -->
-			<url>http://www.ultimasnoticias.com.ve/cmspages/rss/un/deportes.aspx</url> <!-- URL RSS FEED -->
+			<url>http://feeds.feedburner.com/latercera/xMfs</url> <!-- URL RSS FEED -->
+			<categoria>4</categoria>
+		</data>
+		<data>
+			<id>3</id>
+			<name>El mostrador</name>
+			<curl>1</curl><!-- 0: NO TIENE, 1: TIENE URL Y SE DEBE BUSCAR CONTENIDO EN URL -->
+			<urltagname>link</urltagname> <!-- SOLO SI EL VALOR curl ES 1 -->
+			<url>http://feeds.feedburner.com/elmostrador/yBjK</url> <!-- URL RSS FEED -->
+			<categoria>4</categoria>
+		</data>
+		<data>
+			<id>4</id>
+			<name>La cuarta</name>
+			<curl>1</curl><!-- 0: NO TIENE, 1: TIENE URL Y SE DEBE BUSCAR CONTENIDO EN URL -->
+			<urltagname>link</urltagname> <!-- SOLO SI EL VALOR curl ES 1 -->
+			<url>http://www.lacuarta.com/feed/manager?type=rss&sc=TEFDVUFSVEE=</url> <!-- URL RSS FEED -->
+			<categoria>4</categoria>
+		</data>
+		<data>
+			<id>5</id>
+			<name>The Clinic</name>
+			<curl>1</curl><!-- 0: NO TIENE, 1: TIENE URL Y SE DEBE BUSCAR CONTENIDO EN URL -->
+			<urltagname>link</urltagname> <!-- SOLO SI EL VALOR curl ES 1 -->
+			<url>http://www.theclinic.cl/feed/</url> <!-- URL RSS FEED -->
+			<categoria>4</categoria>
+		</data>
+		<data>
+			<id>6</id>
+			<name>EL Ciudadano</name>
+			<curl>1</curl><!-- 0: NO TIENE, 1: TIENE URL Y SE DEBE BUSCAR CONTENIDO EN URL -->
+			<urltagname>link</urltagname> <!-- SOLO SI EL VALOR curl ES 1 -->
+			<url>http://feeds.feedburner.com/elciudadano/KrLw</url> <!-- URL RSS FEED -->
+			<categoria>4</categoria>
+		</data>
+		<data>
+			<id>7</id>
+			<name>Diario Financiero</name>
+			<curl>1</curl><!-- 0: NO TIENE, 1: TIENE URL Y SE DEBE BUSCAR CONTENIDO EN URL -->
+			<urltagname>link</urltagname> <!-- SOLO SI EL VALOR curl ES 1 -->
+			<url>http://www.df.cl/prontus_df/site/edic/base/rss/inicio.xml</url> <!-- URL RSS FEED -->
+			<categoria>4</categoria>
+		</data>
+		<data>
+			<id>8</id>
+			<name>Bio-Bio</name>
+			<curl>1</curl><!-- 0: NO TIENE, 1: TIENE URL Y SE DEBE BUSCAR CONTENIDO EN URL -->
+			<urltagname>link</urltagname> <!-- SOLO SI EL VALOR curl ES 1 -->
+			<url>http://feeds.feedburner.com/feedburner/fPAv</url> <!-- URL RSS FEED -->
+			<categoria>4</categoria>
+		</data>
+		<data>
+			<id>9</id>
+			<name>ADN</name>
+			<curl>1</curl><!-- 0: NO TIENE, 1: TIENE URL Y SE DEBE BUSCAR CONTENIDO EN URL -->
+			<urltagname>link</urltagname> <!-- SOLO SI EL VALOR curl ES 1 -->
+			<url>http://feeds.feedburner.com/adnradio/xUZA</url> <!-- URL RSS FEED -->
+			<categoria>4</categoria>
+		</data>
+		<data>
+			<id>10</id>
+			<name>Cooperativa</name>
+			<curl>1</curl><!-- 0: NO TIENE, 1: TIENE URL Y SE DEBE BUSCAR CONTENIDO EN URL -->
+			<urltagname>link</urltagname> <!-- SOLO SI EL VALOR curl ES 1 -->
+			<url>http://www.cooperativa.cl/noticias/site/tax/port/all/rss____1.xml</url> <!-- URL RSS FEED -->
+			<categoria>4</categoria>
+		</data>
+		<data>
+			<id>11</id>
+			<name>U. de Chile</name>
+			<curl>1</curl><!-- 0: NO TIENE, 1: TIENE URL Y SE DEBE BUSCAR CONTENIDO EN URL -->
+			<urltagname>link</urltagname> <!-- SOLO SI EL VALOR curl ES 1 -->
+			<url>http://feeds.feedburner.com/radiouchile</url> <!-- URL RSS FEED -->
+			<categoria>4</categoria>
+		</data>
+		<data>
+			<id>12</id>
+			<name>24 Horas</name>
+			<curl>1</curl><!-- 0: NO TIENE, 1: TIENE URL Y SE DEBE BUSCAR CONTENIDO EN URL -->
+			<urltagname>link</urltagname> <!-- SOLO SI EL VALOR curl ES 1 -->
+			<url>http://feeds.feedburner.com/24horas/REEC</url> <!-- URL RSS FEED -->
+			<categoria>4</categoria>
+		</data>
+		
+		<data>
+			<id>13</id>
+			<name>CNN Chile</name>
+			<curl>1</curl><!-- 0: NO TIENE, 1: TIENE URL Y SE DEBE BUSCAR CONTENIDO EN URL -->
+			<urltagname>link</urltagname> <!-- SOLO SI EL VALOR curl ES 1 -->
+			<url>http://www.cnnchile.com/rss/</url> <!-- URL RSS FEED -->
+			<categoria>4</categoria>
+		</data>
+		<data>
+			<id>14</id>
+			<name>MegaNoticias</name>
+			<curl>1</curl><!-- 0: NO TIENE, 1: TIENE URL Y SE DEBE BUSCAR CONTENIDO EN URL -->
+			<urltagname>link</urltagname> <!-- SOLO SI EL VALOR curl ES 1 -->
+			<url>http://feeds.feedburner.com/meganoticias/SyVE</url> <!-- URL RSS FEED -->
+			<categoria>4</categoria>
+		</data>
+		<data>
+			<id>15</id>
+			<name>La Red</name>
+			<curl>1</curl><!-- 0: NO TIENE, 1: TIENE URL Y SE DEBE BUSCAR CONTENIDO EN URL -->
+			<urltagname>link</urltagname> <!-- SOLO SI EL VALOR curl ES 1 -->
+			<url>http://feeds.feedburner.com/lared/axaL</url> <!-- URL RSS FEED -->
 			<categoria>4</categoria>
 		</data>
 	</rss>
