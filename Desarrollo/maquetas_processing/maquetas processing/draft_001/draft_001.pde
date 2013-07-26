@@ -5,22 +5,79 @@ ControlP5 cp5Perfil;
 int offTrianX = 25;    // Con esto desplazo todos los triangulo en 25 pix en eje X para dejarlos centrados en canvas
 PFont f;
 XML tags,name;
-XML[] categorias, perfiles, personas, rss;
+XML[] categorias, perfiles, personas, rss,time ;
+Mount politica, economia, espectaculo, deporte, internacional, cultura, otro;
+Iceberg ice1, ice2, ice3, ice4, ice5, ice6, ice7;
+int politicas, economias, espectaculos, deportes, internacionals, culturas, otros;
+int ice1s, ice2s, ice3s, ice4s, ice5s, ice6s, ice7s;
 Group g1;
 Group g2;
 ListBox  g3; 
 Builder build;
+HashMap<String,Integer> hashCategorias = null;
+HashMap<String,String> hashPerfiles=null;
 
 void setup() {
+    
   size(1200, 700);
   f = createFont("Arial", 12, true);
-  /*CARGA XML desde donde se leeran los RSS*/
   tags = loadXML("xml_rss.xml", "UTF-8");  
   categorias = tags.getChildren("categorias/data");
   personas = tags.getChildren("persons/person");
   rss = tags.getChildren("rss/data");
   perfiles = tags.getChildren("perfiles/data");
+ 
   Logic.loadPerfiles(perfiles);
+  
+  /*TAGS DE TIEMPOS */
+  time = tags.getChildren("time");  
+  Utils util = new Utils();
+  if(util.saveRss(rss, time) ) {
+    /*SE ACTUALIZA XML SOLO SI HA CUMPLIDO EL TIEMPO DE ESPERA*/  
+    saveXML(tags, "data/xml_rss.xml");
+  }
+  
+  /*BUSCA MATCH*/
+  //XML[] categorias, XML[] rss
+  /*SE CARGA MAPA CON LOS CONTADORES DE CATEGORIAS*/
+  hashCategorias = util.matching(categorias, rss);
+  politicas= (hashCategorias.get("Política")==null)?350:hashCategorias.get("Política");
+  economias= (hashCategorias.get("Economía")==null)?350:hashCategorias.get("Economía");
+  espectaculos= (hashCategorias.get("Espectáculos")==null)?350:hashCategorias.get("Espectáculos");
+  deportes= (hashCategorias.get("Deportes")==null)?350:hashCategorias.get("Deportes");
+  internacionals= (hashCategorias.get("Internacional")==null)?350:hashCategorias.get("Internacional");
+  culturas= (hashCategorias.get("Cultura")==null)?350:hashCategorias.get("Cultura");
+  otros= (hashCategorias.get("Otros")==null)?350:hashCategorias.get("Otros");
+  /*
+  politica = new Mount(225+(offTrianX), 350, 275+(offTrianX), politicas, 325+(offTrianX), 350);
+  economia = new Mount(325+(offTrianX), 350, 375+(offTrianX), economias, 425+(offTrianX), 350);
+  espectaculo = new Mount(425+(offTrianX), 350, 475+(offTrianX), espectaculos, 525+(offTrianX), 350);
+  deporte = new Mount(525+(offTrianX), 350, 575+(offTrianX), deportes, 625+(offTrianX), 350);
+  internacional = new Mount(625+(offTrianX), 350, 675+(offTrianX), internacionals, 725+(offTrianX), 350);
+  cultura = new Mount(725+(offTrianX), 350, 775+(offTrianX), culturas, 825+(offTrianX), 350);
+  otro = new Mount(825+(offTrianX), 350, 875+(offTrianX), otros, 925+(offTrianX), 350);
+  */
+  /*SE CARGA MAPA CON LOS CONTADORES DE PERFILES*/
+  hashPerfiles = util.matchingPerfiles(categorias, perfiles, rss);
+  
+  /*
+  println("-------------CONTADORES PERFILES--------------");
+  println("--> " + hashPerfiles.get("Beligerante"));
+  println("--> " + hashPerfiles.get("Complaciente"));
+  println("--> " + hashPerfiles.get("Ambiguo"));
+  println("--> " + hashPerfiles.get("Optimista"));
+  */
+  
+  /*
+  ice1s= (hashCategorias.get("Política")==null)?350:hashCategorias.get("Política");
+  ice2s= (hashCategorias.get("Economía")==null)?350:hashCategorias.get("Economía");
+  ice3s= (hashCategorias.get("Espectáculos")==null)?350:hashCategorias.get("Espectáculos");
+  ice4s= (hashCategorias.get("Deportes")==null)?350:hashCategorias.get("Deportes");
+  ice5s= (hashCategorias.get("Internacional")==null)?350:hashCategorias.get("Internacional");
+  ice6s= (hashCategorias.get("Cultura")==null)?350:hashCategorias.get("Cultura");
+  ice7s= (hashCategorias.get("Otros")==null)?350:hashCategorias.get("Otros");
+  */
+  
   build = new Builder();
   cp5 = new ControlP5(this);
   g1 = cp5.addGroup("Medios")
@@ -34,10 +91,36 @@ void setup() {
 
 void draw() {
   background(255);
-  
+   //superMenu();  // Barras de menu general (superior e inferior)
   // Triangulos (no dinamicos)
   stroke(90);  // color de lineav
-  build.loadTriangles(200,220,230,250,260,100,310);
+  build.loadTriangles(politicas, economias, espectaculos,deportes, internacionals, culturas, otros);
+  
+  
+  
+  
+  /*
+  politica.update();
+  politica.display();
+  
+  economia.update();
+  economia.display();
+
+  espectaculo.update();
+  espectaculo.display();
+
+  deporte.update();
+  deporte.display();
+
+  internacional.update();
+  internacional.display();
+
+  cultura.update();
+  cultura.display();
+
+  otro.update();
+  otro.display();
+  */
   
   build.loadLines();
 
@@ -48,9 +131,9 @@ void draw() {
   //TEXTOS
   textFont(f);
   fill(0);
-  text("Política" ,280,120);
-  text("Deportes" ,380,120);
-  text("Economía" ,480,120);
+  //text("Política" ,280,120);
+  //text("Deportes" ,380,120);
+  //text("Economía" ,480,120);
   
   // Icebergs
   stroke(90);

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+<channel>
+<title>24horas - Home</title>
+<link>http://www.24horas.cl/</link>
+
+<description>RSS Feed from 24horas</description>
+<language>en</language>
+<copyright>Escenic</copyright>
+<pubDate>2013-06-10 17:48:32.0</pubDate>
+<lastBuildDate>2013-06-10 17:48:32.0</lastBuildDate>
+<category>Home</category>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/24horas/REEC" /><feedburner:info uri="24horas/reec" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><feedburner:browserFriendly></feedburner:browserFriendly><item>
+<title>Video muestra aterrizaje forzoso de avión en Nueva York</title>
+<link>http://www.24horas.cl/internacional/video-muestra-aterrizaje-forzoso-de-avion-en-nueva-york-764600</link>
+<description>Un pasajero del Boing 737 de la compañía Southwest Airlines grabó el momento exacto en que el avión aterrizó de emergencia en el aeropuerto de LaGuardia.</description>
+<pubDate>2013-07-26 18:14:24.0</pubDate>
+<guid>http://www.24horas.cl/internacional/video-muestra-aterrizaje-forzoso-de-avion-en-nueva-york-764600</guid>
+</item>
+<item>
+<title>Copiapó:
+Los Leones se preparan para el apertura</title>
+<link>http://www.24horas.cl/regiones/atacama/copiapolos-leones-se-preparan-para-el-apertura-764326</link>
+<description>Este fin de semana Deportes Copiapó enfrentará nuevamente a La Serena, esta vez por el campeonato de la primera B.</description>
+<pubDate>2013-07-26 17:54:43.0</pubDate>
+<guid>http://www.24horas.cl/regiones/atacama/copiapolos-leones-se-preparan-para-el-apertura-764326</guid>
+</item>
+<item>
+<title>Copiapó:
+Lanzan campaña para evitar femicidios</title>
+<link>http://www.24horas.cl/regiones/atacama/copiapolanzan-campana-para-evitar-femicidios-764320</link>
+<description>En lo que va del año se han registrado 34 femicidios en el país, uno de ellos ocurrió en la comuna de Vallenar.</description>
+<pubDate>2013-07-26 17:53:51.0</pubDate>
+<guid>http://www.24horas.cl/regiones/atacama/copiapolanzan-campana-para-evitar-femicidios-764320</guid>
+</item>
+<item>
+<title>España: última herida fue reconocida por su anillo de boda</title>
+<link>http://www.24horas.cl/internacional/espana-ultima-herida-fue-reconocida-por-su-anillo-de-boda-764585</link>
+<description>Luego de 14 horas de angustiosa búsqueda, una pasajera del tren que quedó en coma logró ser encontrada por su familia gracias a la inscripción de su argolla.</description>
+<pubDate>2013-07-26 17:52:08.0</pubDate>
+<guid>http://www.24horas.cl/internacional/espana-ultima-herida-fue-reconocida-por-su-anillo-de-boda-764585</guid>
+</item>
+<item>
+<title>Casi 500 millones de celulares en peligro de ser atacados </title>
+<link>http://www.24horas.cl/tendencias/mundodigital/casi-500-millones-de-celulares-en-peligro-de-ser-atacados--764545</link>
+<description>Un reporte de la ONU indica que una falla puede permitir obtener el control de un terminal de forma remota y clonar las tarjetas SIM. </description>
+<pubDate>2013-07-26 17:43:22.0</pubDate>
+<guid>http://www.24horas.cl/tendencias/mundodigital/casi-500-millones-de-celulares-en-peligro-de-ser-atacados--764545</guid>
+</item>
+</channel>
+</rss>
