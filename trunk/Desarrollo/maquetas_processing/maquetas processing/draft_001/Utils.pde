@@ -136,17 +136,17 @@ class Utils {
                data = rss[j].getChild("name");  
                logger("en RSS: " + data.getContent() );
                strings = loadStrings("data/rss/" + data.getContent() + ".xml");
-               for(int k = 0; k<strings.length; k++) { //
+               for(int k = 0; k<strings.length; k++) { //ITERO EL CONTENIDO DEL RSS
                   for(int f=0; f< array.length; f++) { //ITERO LAS PALABRAS DE LOS PERFILES
                       String[] m = match(strings[k], array[f].trim() );                     
                       if (m != null){
-                        total = total +1;
+                        total = total + 1;
                       }
                   }  
                }
             }
             
-            logger("Perfil: " + perfilName.getContent() );      
+            logger("Perfil: " + perfilName.getContent() + "total: " + total);                  
             if("Beligerante".equals(perfilName.getContent())) {
               beligerante = total;
             } else if("Complaciente".equals(perfilName.getContent())) {
