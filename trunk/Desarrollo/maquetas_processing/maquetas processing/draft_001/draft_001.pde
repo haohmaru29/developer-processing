@@ -11,21 +11,25 @@ Iceberg ice1, ice2, ice3, ice4, ice5, ice6, ice7;
 int politicas, economias, espectaculos, deportes, internacionals, culturas, otros;
 int ice1s, ice2s, ice3s, ice4s, ice5s, ice6s, ice7s;
 
-int polBel=0, polCom=0, polAmb=0, polOpt=0;
-int ecoBel=0, ecoCom=0, ecoAmb=0, ecoOpt=0;
-int espBel=0, espCom=0, espAmb=0, espOpt=0;
-int depBel=0, depCom=0, depAmb=0, depOpt=0;
-int intBel=0, intCom=0, intAmb=0, intOpt=0;
-int culBel=0, culCom=0, culAmb=0, culOpt=0;
-int otrBel=0, otrCom=0, otrAmb=0, otrOpt=0;
-
-Group g1;
-Group g2;
-ListBox  g3; 
+int polBel=350, polCom=350, polAmb=350, polOpt=350;
+int ecoBel=350, ecoCom=350, ecoAmb=350, ecoOpt=350;
+int espBel=350, espCom=350, espAmb=350, espOpt=350;
+int depBel=350, depCom=350, depAmb=350, depOpt=350;
+int intBel=350, intCom=350, intAmb=350, intOpt=350;
+int culBel=350, culCom=350, culAmb=350, culOpt=350;
+int otrBel=350, otrCom=350, otrAmb=350, otrOpt=350;
+int start  =0;
+Utils util = null;
+ListBox  g3,g1,g2; 
 Builder build;
+
+
+//PerfilListener perfilListener;
+
+
 HashMap<String,Integer> hashCategorias = null;
 HashMap<String,String> hashPerfiles=null;
-
+String menuInicialSelected = "";
 void setup() {
     
   size(1200, 800);
@@ -40,8 +44,8 @@ void setup() {
   
   /*TAGS DE TIEMPOS */
   time = tags.getChildren("time");  
-  Utils util = new Utils();
-  if(util.saveRss(rss, time) ) {
+  util = new Utils();
+  if(util.saveRss(rss, time, categorias) ) {
     /*SE ACTUALIZA XML SOLO SI HA CUMPLIDO EL TIEMPO DE ESPERA*/  
     saveXML(tags, "data/xml_rss.xml");
   }
@@ -67,63 +71,11 @@ void setup() {
   otro = new Mount(825+(offTrianX), 350, 875+(offTrianX), otros, 925+(offTrianX), 350);
   */
   
-  /*SE CARGA MAPA CON LOS CONTADORES DE PERFILES*/
-  hashPerfiles = util.matchingPerfiles(categorias, perfiles, rss);
-  String[] aPol = hashPerfiles.get("Política").split(",");
-  String[] aEco = hashPerfiles.get("Economía").split(",");
-  String[] aEsp = hashPerfiles.get("Espectáculos").split(",");
-  String[] aDep = hashPerfiles.get("Deportes").split(",");
-  String[] aInt = hashPerfiles.get("Internacional").split(",");
-  String[] aCul = hashPerfiles.get("Cultura").split(",");
-  String[] aOtro = hashPerfiles.get("Otros").split(",");
+  
 
-
-  polBel= int(aPol[0]);
-  polCom=int(aPol[1]);
-  polAmb=int(aPol[2]);
-  polOpt=int(aPol[3]);
-  
-  ecoBel=int(aEco[0]);
-  ecoCom=int(aEco[1]);
-  ecoAmb=int(aEco[2]);
-  ecoOpt=int(aEco[3]);
-  
-  espBel=int(aEsp[0]);
-  espCom=int(aEsp[1]);
-  espAmb=int(aEsp[2]);
-  espOpt=int(aEsp[3]);
-  
-  depBel=int(aDep[0]);
-  depCom=int(aDep[1]);
-  depAmb=int(aDep[2]);
-  depOpt=int(aDep[3]);
-  
-  
-  intBel=int(aInt[0]);
-  intCom=int(aInt[1]);
-  intAmb=int(aInt[2]);
-  intOpt=int(aInt[3]);
-  
-  culBel=int(aCul[0]);
-  culCom=int(aCul[1]);
-  culAmb=int(aCul[2]);
-  culOpt=int(aCul[3]);
-  
-  otrBel=int(aOtro[0]);
-  otrCom=int(aOtro[1]);
-  otrAmb=int(aOtro[2]);
-  otrOpt=int(aOtro[3]);  
-  /*
-  println("-------------CONTADORES PERFILES--------------");
-  println("--> " + hashPerfiles.get("Beligerante"));
-  println("--> " + hashPerfiles.get("Complaciente"));
-  println("--> " + hashPerfiles.get("Ambiguo"));
-  println("--> " + hashPerfiles.get("Optimista"));
-  */
-  
   /*
   ice1s= (hashCategorias.get("Política")==null)?350:hashCategorias.get("Política");
-  ice2s= (hashCategorias.get("Economía")==null)?350:hashCategorias.get("Economía");
+  ice2s= (hashCategorias.get("Economía")==null)y ad?350:hashCategorias.get("Economía");
   ice3s= (hashCategorias.get("Espectáculos")==null)?350:hashCategorias.get("Espectáculos");
   ice4s= (hashCategorias.get("Deportes")==null)?350:hashCategorias.get("Deportes");
   ice5s= (hashCategorias.get("Internacional")==null)?350:hashCategorias.get("Internacional");
@@ -131,15 +83,12 @@ void setup() {
   ice7s= (hashCategorias.get("Otros")==null)?350:hashCategorias.get("Otros");
   */
   
-  build = new Builder();
-  cp5 = new ControlP5(this);
-  g1 = cp5.addGroup("Medios")
-        .setPosition(25,42)
-        .setBackgroundHeight(100)
-        .setBackgroundColor(color(255,50))
-        ;
-  g1.close();
-  build.loadGroup(g1, rss);
+  
+  
+  build = new Builder();  
+  loadMenuInicial();
+  loadMenuPerfiles();
+  loadMenuCategorias();
 }
 
 void draw() {
@@ -191,10 +140,7 @@ void draw() {
   // Icebergs
   stroke(90);
   fill(0, 70);
-  //build.loadIcebergs();
   
-  
- 
   
   build.loadIcebergPolitica(polBel,polCom,polAmb,polOpt);
   build.loadIcebergEconomia(ecoBel,ecoCom, ecoAmb, ecoOpt);
@@ -217,75 +163,124 @@ void draw() {
   */
 }
 
+void loadMenuInicial() {
+  cp5 = new ControlP5(this);
+  g1 = cp5.addListBox("Principal")
+        .setPosition(25,42)
+        .setBackgroundHeight(100)
+        .setBackgroundColor(color(255,50))
+        ;
+  g1.actAsPulldownMenu(true);
+  
+  //g1.captionLabel().set("Emol");    
+  g1.close();
+  //build.loadGroup(g1, rss);
+  build.loadList(g1, rss);  
+  g1.setValue(0);
+}
+
+void loadMenuCategorias() {
+    cp5Medio = new ControlP5(this);
+    g3 = cp5Medio.addListBox("Categorias").setPosition(140,280);
+    g3.setItemHeight(15);
+    g3.setBarHeight(15);
+    g3.actAsPulldownMenu(true);
+    g3.captionLabel().toUpperCase(true);
+    g3.captionLabel().style().marginTop = 3;
+    g3.valueLabel().style().marginTop = 3; // the +/- sign
+    g3.close();
+    build.loadList(g3, categorias);
+    g3.setValue(0);
+}
+
+void loadMenuPerfiles() {
+    cp5Perfil = new ControlP5(this);
+    g2 = cp5Perfil.addListBox("Perfil")
+      .setPosition(140,360)
+      .setBackgroundHeight(100)
+      .setBackgroundColor(color(255,50))
+      ;
+      g2.actAsPulldownMenu(true);
+      g2.close();
+    build.loadList(g2, perfiles);
+    g2.setValue(0);
+}
 
 /*
   AREA DE LISTENERS
 */
 void controlEvent(ControlEvent theEvent) {
-  if(theEvent.isController()){
-    //ControlP5 cp5Perfil
-    if(g2==null) {
-      cp5Medio = new ControlP5(this);
-      cp5.addListener(new ControlListener() {
-          @Override          
-          public void controlEvent(ControlEvent arg0) {          
-             if(arg0.isController()){
-                 println("Menu ----> " + arg0.controller().id());
-             }
-          
-          }
-      });
-      g2 = cp5Medio.addGroup("Medios")
-        .setPosition(140,260)
-        .setBackgroundHeight(100)
-        .setBackgroundColor(color(255,50))
-        ;
-        g2.close();
+  if( "Perfil".equals(theEvent.group().name()) ) {
+     //println("Es el grupo del perfil");
+     //println(g2.getCaptionLabel().getText() );
+     //matchingPerfiles(categorias, perfiles,g2.getCaptionLabel().getText(),  menuInicialSelected);
+     cargaPerfiles(g2.getCaptionLabel().getText(),"" );
+     
+  } else if("Categorias".equals(theEvent.group().name()) ) {
+    //println("Es el grupo del perfil");
+    //println(g3.getCaptionLabel().getText() );
+    
+  } else if("Principal".equals(theEvent.group().name())) {
+    //println("Es el grupo del Menu principal");
+    menuInicialSelected = g1.getCaptionLabel().getText();
+    //println(g1.getCaptionLabel().getText() );
+    if(start == 1 ) {
+       cargaPerfiles(g2.getCaptionLabel().getText(),"" );    
     }
-    
-    if(g3==null) {
-      cp5Perfil = new ControlP5(this);
-      g3 = cp5Perfil.addListBox("myList").setPosition(140,280);
-      cp5Perfil.addListener(new ControlListener() {
-          @Override          
-          public void controlEvent(ControlEvent arg0) {          
-             if(arg0.isController()){
-                 println("Perfil -----> " + arg0.controller().id());
-             }
-          }
-      });
-        
-      g3.setItemHeight(15);
-      g3.setBarHeight(15);
-      g3.actAsPulldownMenu(true);
-      g3.captionLabel().toUpperCase(true);
-      //g3.captionLabel().set("SELECT A NAME");
-      g3.captionLabel().style().marginTop = 3;
-      g3.valueLabel().style().marginTop = 3; // the +/- sign
-      g3.close();
-      Logic.printArray(Logic.hm.get("Beligerante"));
-      build.loadList(g3, categorias);
-    }
-    
-    if(theEvent.controller().id()==1) { //Politica
-      g3.captionLabel().set("Politica");
-    } else if(theEvent.controller().id()==2) { //Economia
-      
-    } else if(theEvent.controller().id()==3) { //Espectaculos
-    
-    } else if(theEvent.controller().id()==4) { //Deportes 
-    
-    } else if(theEvent.controller().id()==5) { //Internacional
-    
-    } else if(theEvent.controller().id()==6) { //Cultura
-    
-    } else {//OTROS
-    
-    }
+    start = 1;
     
   }
 }
 
+void cargaPerfiles(String nombrePerfil, String nombreCategoria) {
+    /*SE CARGA MAPA CON LOS CONTADORES DE PERFILES*/
+  //hashPerfiles = util.matchingPerfiles(categorias, perfiles, rss);
+  //HashMap<String,String> matchingPerfiles(XML[] categorias, XML[] perfil, String perfilName, String rssName) 
+  hashPerfiles = util.matchingPerfiles(categorias, perfiles, nombrePerfil, menuInicialSelected); 
+  String[] aPol = hashPerfiles.get("Política").split(",");
+  String[] aEco = hashPerfiles.get("Economía").split(",");
+  String[] aEsp = hashPerfiles.get("Espectáculos").split(",");
+  String[] aDep = hashPerfiles.get("Deportes").split(",");
+  String[] aInt = hashPerfiles.get("Internacional").split(",");
+  String[] aCul = hashPerfiles.get("Cultura").split(",");
+  String[] aOtro = hashPerfiles.get("Otros").split(",");
+  polBel= int(aPol[0]);
+  polCom=int(aPol[1]);
+  polAmb=int(aPol[2]);
+  polOpt=int(aPol[3]);
+  
+  ecoBel=int(aEco[0]);
+  ecoCom=int(aEco[1]);
+  ecoAmb=int(aEco[2]);
+  ecoOpt=int(aEco[3]);
+  
+  espBel=int(aEsp[0]);
+  espCom=int(aEsp[1]);
+  espAmb=int(aEsp[2]);
+  espOpt=int(aEsp[3]);
+  
+  depBel=int(aDep[0]);
+  depCom=int(aDep[1]);
+  depAmb=int(aDep[2]);
+  depOpt=int(aDep[3]);
+  
+  
+  intBel=int(aInt[0]);
+  intCom=int(aInt[1]);
+  intAmb=int(aInt[2]);
+  intOpt=int(aInt[3]);
+  
+  culBel=int(aCul[0]);
+  culCom=int(aCul[1]);
+  culAmb=int(aCul[2]);
+  culOpt=int(aCul[3]);
+  
+  otrBel=int(aOtro[0]);
+  otrCom=int(aOtro[1]);
+  otrAmb=int(aOtro[2]);
+  otrOpt=int(aOtro[3]);  
+  
+}
 
 void keyPressed() {
   if(key==' ') {
@@ -293,4 +288,3 @@ void keyPressed() {
     println("Tecla Presionada" + key);
   }
 }
-

@@ -36,7 +36,7 @@ class Builder {
       if(ambiguo>700){
         ambiguo = 600 + (ambiguo-700)/10;
       }
-      vertex(275+(offTrianX), complaciente);  // Punto Inferior
+      vertex(275+(offTrianX), complaciente);  // Punto Inferior      
       vertex(255+(offTrianX), ambiguo);
       vertex(245+(offTrianX), optimista);
       endShape(CLOSE);
@@ -56,8 +56,8 @@ class Builder {
         ambiguo = 600 + (ambiguo-700)/10;
       }
       vertex(375+(offTrianX), complaciente);  // Punto Inferior
-      vertex(355+(offTrianX), ambiguo);
-      vertex(345+(offTrianX), optimista);
+      vertex(255+(offTrianX), ambiguo);
+      vertex(245+(offTrianX), optimista);
       endShape(CLOSE);
     }
     
@@ -75,8 +75,8 @@ class Builder {
         ambiguo = 600 + (ambiguo-700)/10;
       }
       vertex(475+(offTrianX), complaciente);  // Punto Inferior
-      vertex(455+(offTrianX), ambiguo);
-      vertex(445+(offTrianX), optimista);
+      vertex(255+(offTrianX), ambiguo);
+      vertex(245+(offTrianX), optimista);
       endShape(CLOSE);
     }
     
@@ -158,17 +158,6 @@ class Builder {
       vertex(845+(offTrianX), ambiguo);
       endShape(CLOSE);
     }
-    
-    void loadIcebergs() {
-      beginShape();                  // Iceberg 07
-      vertex(825+(offTrianX), 350);
-      vertex(925+(offTrianX), 350);
-      vertex(875+(offTrianX), 390);  // Punto Inferior
-      vertex(855+(offTrianX), 390);
-      vertex(845+(offTrianX), 370);
-      endShape(CLOSE);
-      
-    }
       
      
       
@@ -198,7 +187,7 @@ class Builder {
       for (int i = 0; i < medios.length; i++) {
         XML name = medios[i].getChild("name");
         XML id = medios[i].getChild("id");
-        int catId = int(id.getContent());
+        //int catId = int(id.getContent());
         String catName = name.getContent();    
         ListBoxItem lbi = l.addItem(catName +"", i);
         lbi.setColorBackground(0xffff0000);    

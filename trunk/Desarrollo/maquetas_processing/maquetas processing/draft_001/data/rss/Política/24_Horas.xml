@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+<channel>
+<title>24horas - Home</title>
+<link>http://www.24horas.cl/</link>
+
+<description>RSS Feed from 24horas</description>
+<language>en</language>
+<copyright>Escenic</copyright>
+<pubDate>2013-06-10 17:48:32.0</pubDate>
+<lastBuildDate>2013-06-10 17:48:32.0</lastBuildDate>
+<category>Home</category>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/24horas/REEC" /><feedburner:info uri="24horas/reec" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><feedburner:browserFriendly></feedburner:browserFriendly><item>
+<title>¿Cuánto afectan a Bachelet sus vacaciones en Nueva York? </title>
+<link>http://www.24horas.cl/politica/decision2013/cuanto-afectan-a-bachelet-sus-vacaciones-en-nueva-york-767514</link>
+<description>Cientistas políticos de la UDP y LyD analizan si el viaje de la candidata de Nueva Mayoría podría complicarla. Andrade, por su parte, asegura que no fue a a descansar, sino que a hacer trámites.</description>
+<pubDate>2013-07-29 15:39:35.0</pubDate>
+<guid>http://www.24horas.cl/politica/decision2013/cuanto-afectan-a-bachelet-sus-vacaciones-en-nueva-york-767514</guid>
+</item>
+<item>
+<title>Gobierno expresa disposición al diálogo ante paro de basureros</title>
+<link>http://www.24horas.cl/nacional/gobierno-expresa-disposicion-al-dialogo-ante-paro-de-basureros-767595</link>
+<description>El Ministro del trabajo señaló que esta tarde se reunirá con los dirigentes del sector.</description>
+<pubDate>2013-07-29 15:28:42.0</pubDate>
+<guid>http://www.24horas.cl/nacional/gobierno-expresa-disposicion-al-dialogo-ante-paro-de-basureros-767595</guid>
+</item>
+<item>
+<title>Marinos fallecen en ejercicios realizados en la Región de Valparaíso</title>
+<link>http://www.24horas.cl/nacional/marinos-fallecen-en-ejercicios-realizados-en-la-region-de-valparaiso-767594</link>
+<description>Los funcionarios murieron en Laguna Verde. El motivo del accidente, que derivó en el fallecimiento de los uniformados, se encuentra bajo investigación. </description>
+<pubDate>2013-07-29 15:13:57.0</pubDate>
+<guid>http://www.24horas.cl/nacional/marinos-fallecen-en-ejercicios-realizados-en-la-region-de-valparaiso-767594</guid>
+</item>
+<item>
+<title>Realizan examen gratis de Hepatitis C en Plaza de Armas</title>
+<link>http://www.24horas.cl/nacional/realizan-examen-gratis-de-hepatitis-c-en-plaza-de-armas-767503</link>
+<description>La enfermedad, que afecta a un 0,8% de la población, se transmite por vía sexual o mediante transfusión de sangre.</description>
+<pubDate>2013-07-29 15:06:24.0</pubDate>
+<guid>http://www.24horas.cl/nacional/realizan-examen-gratis-de-hepatitis-c-en-plaza-de-armas-767503</guid>
+</item>
+<item>
+<title>Todo lo que se puede hackear en un auto</title>
+<link>http://www.24horas.cl/noticiasbbc/todo-lo-que-se-puede-hackear-en-un-auto-767095</link>
+<description>Entre más computarizado es un carro, mayor es la posibilidad de que sea controlado por alguien que no sea el conductor. BBC Mundo le cuenta de los últimos avances en estas tecnologías.</description>
+<pubDate>2013-07-29 14:57:25.0</pubDate>
+<guid>http://www.24horas.cl/noticiasbbc/todo-lo-que-se-puede-hackear-en-un-auto-767095</guid>
+</item>
+</channel>
+</rss>
