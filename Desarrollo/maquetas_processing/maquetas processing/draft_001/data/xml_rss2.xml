@@ -12,7 +12,6 @@
         <rss>EL_Ciudadano.xml</rss>
         <rss>Cooperativa.xml</rss>
         <rss>U._de_Chile.xml</rss>
-        <rss>24_Horas.xml</rss>
         <rss>CNN_Chile.xml</rss>
       </files>
     </data>
@@ -37,6 +36,7 @@
       <name>Deportes</name>
       <words>Deportes, Deporte</words>
       <files>
+        <rss>El_mostrador.xml</rss>
         <rss>ADN.xml</rss>
         <rss>Cooperativa.xml</rss>
       </files>
@@ -61,6 +61,7 @@
       <name>Cultura</name>
       <words>Cultura, Machu</words>
       <files>
+        <rss>La_tercera.xml</rss>
         <rss>The_Clinic.xml</rss>
         <rss>Bio-Bio.xml</rss>
         <rss>CNN_Chile.xml</rss>
@@ -77,6 +78,7 @@
         <rss>EL_Ciudadano.xml</rss>
         <rss>Diario_Financiero.xml</rss>
         <rss>Bio-Bio.xml</rss>
+        <rss>Cooperativa.xml</rss>
         <rss>U._de_Chile.xml</rss>
         <rss>24_Horas.xml</rss>
         <rss>CNN_Chile.xml</rss>
@@ -84,7 +86,6 @@
       </files>
     </data>
   </categorias>
-  
   <perfiles>
     <data>
       <name>Beligerante</name>
@@ -213,13 +214,13 @@
     </data>
   </rss>
   <time>
-    <!-- false no tiene conexion a internet; true si tiene conexion a internet -->
-    <internet>false</internet>
+    <!-- false no tiene internet -->
+    <internet>true</internet>
     <day>29</day>
     <month>7</month>
     <year>2013</year>
-    <hour>18</hour>
-    <minute>10</minute>
+    <hour>12</hour>
+    <minute>33</minute>
     <!-- TIEMPO EN MINUTOS -->
     <diff>50</diff>
   </time>

@@ -80,7 +80,16 @@ void setup() {
   m7 = new Mount(225+(offTrianX)+(600), 350, 235+(offTrianX)+(600), 330, 250+(offTrianX)+(600), 310, 256+(offTrianX)+(600), 290, 275+(offTrianX)+(600), 270, 305+(offTrianX)+(600), 300, 310+(offTrianX)+(600), 320, 320+(offTrianX)+(600), 330, 325+(offTrianX)+(600), 350, chgMount07);
 
   // the Icebergs (quinto y sexto valor dan el "pick" del iceberg)
-  ice1 = new Iceberg(225+(offTrianX)+(0), 350, 235+(offTrianX)+(0), 330, 250+(offTrianX)+(0), 310, 256+(offTrianX)+(0), 290, 275+(offTrianX)+(0), 270, 305+(offTrianX)+(0), 300, 310+(offTrianX)+(0), 320, 320+(offTrianX)+(0), 330, 325+(offTrianX)+(0), 350, chgIce01);
+  ice1 = new Iceberg(
+      225+(offTrianX)+(0), 350, 
+      235+(offTrianX)+(0), 330, 
+      250+(offTrianX)+(0), 310, 
+      256+(offTrianX)+(0), 290, 
+      275+(offTrianX)+(0), 270, 
+      305+(offTrianX)+(0), 300, 
+      310+(offTrianX)+(0), 320, 
+      320+(offTrianX)+(0), 330, 
+      325+(offTrianX)+(0), 350, chgIce01);
   ice2 = new Iceberg(225+(offTrianX)+(100), 350, 235+(offTrianX)+(100), 330, 250+(offTrianX)+(100), 310, 256+(offTrianX)+(100), 290, 275+(offTrianX)+(100), 270, 305+(offTrianX)+(100), 300, 310+(offTrianX)+(100), 320, 320+(offTrianX)+(100), 330, 325+(offTrianX)+(100), 350, chgIce02);
   ice3 = new Iceberg(225+(offTrianX)+(200), 350, 235+(offTrianX)+(200), 330, 250+(offTrianX)+(200), 310, 256+(offTrianX)+(200), 290, 275+(offTrianX)+(200), 270, 305+(offTrianX)+(200), 300, 310+(offTrianX)+(200), 320, 320+(offTrianX)+(200), 330, 325+(offTrianX)+(200), 350, chgIce03);
   ice4 = new Iceberg(225+(offTrianX)+(300), 350, 235+(offTrianX)+(300), 330, 250+(offTrianX)+(300), 310, 256+(offTrianX)+(300), 290, 275+(offTrianX)+(300), 270, 305+(offTrianX)+(300), 300, 310+(offTrianX)+(300), 320, 320+(offTrianX)+(300), 330, 325+(offTrianX)+(300), 350, chgIce04);
