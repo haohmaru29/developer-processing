@@ -56,8 +56,8 @@ class Builder {
         ambiguo = 600 + (ambiguo-700)/10;
       }
       vertex(375+(offTrianX), complaciente);  // Punto Inferior
-      vertex(255+(offTrianX), ambiguo);
-      vertex(245+(offTrianX), optimista);
+      vertex(355+(offTrianX), ambiguo);
+      vertex(345+(offTrianX), optimista);
       endShape(CLOSE);
     }
     
@@ -75,8 +75,8 @@ class Builder {
         ambiguo = 600 + (ambiguo-700)/10;
       }
       vertex(475+(offTrianX), complaciente);  // Punto Inferior
-      vertex(255+(offTrianX), ambiguo);
-      vertex(245+(offTrianX), optimista);
+      vertex(455+(offTrianX), ambiguo);
+      vertex(445+(offTrianX), optimista);
       endShape(CLOSE);
     }
     
