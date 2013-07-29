@@ -70,7 +70,18 @@ void setup() {
   cultura = new Mount(725+(offTrianX), 350, 775+(offTrianX), culturas, 825+(offTrianX), 350);
   otro = new Mount(825+(offTrianX), 350, 875+(offTrianX), otros, 925+(offTrianX), 350);
   */
-  
+   ice1 = new Iceberg(
+    225+(offTrianX), 350, 
+    325+(offTrianX), 350, 
+    295+(offTrianX), 350, //LINEA A MODIFICAR
+    255+(offTrianX), 350, 
+    245+(offTrianX), 350);
+  ice2 = new Iceberg(325+(offTrianX), 350, 425+(offTrianX), 350, 375+(offTrianX), 350, 355+(offTrianX),  350, 345+(offTrianX), 350);
+  ice3 = new Iceberg(425+(offTrianX), 350, 525+(offTrianX), 350, 475+(offTrianX), 350, 455+(offTrianX), 350, 445+(offTrianX), 350);
+  ice4 = new Iceberg(525+(offTrianX), 350, 625+(offTrianX), 350, 575+(offTrianX), 350, 555+(offTrianX), 350, 545+(offTrianX), 350);
+  ice5 = new Iceberg(625+(offTrianX), 350, 725+(offTrianX), 350, 675+(offTrianX), 350, 655+(offTrianX), 350, 645+(offTrianX), 350);
+  ice6 = new Iceberg(725+(offTrianX), 350, 825+(offTrianX), 350, 775+(offTrianX), 350, 755+(offTrianX), 350, 745+(offTrianX), 350);
+  ice7 = new Iceberg(825+(offTrianX), 350, 925+(offTrianX), 350, 875+(offTrianX), 350, 855+(offTrianX), 350, 845+(offTrianX), 350);
   
 
   /*
@@ -82,7 +93,6 @@ void setup() {
   ice6s= (hashCategorias.get("Cultura")==null)?350:hashCategorias.get("Cultura");
   ice7s= (hashCategorias.get("Otros")==null)?350:hashCategorias.get("Otros");
   */
-  
   
   
   build = new Builder();  
@@ -98,32 +108,7 @@ void draw() {
   stroke(90);  // color de lineav
   build.loadTriangles(politicas, economias, espectaculos,deportes, internacionals, culturas, otros);
   
-  
-  
-  
-  /*
-  politica.update();
-  politica.display();
-  
-  economia.update();
-  economia.display();
-
-  espectaculo.update();
-  espectaculo.display();
-
-  deporte.update();
-  deporte.display();
-
-  internacional.update();
-  internacional.display();
-
-  cultura.update();
-  cultura.display();
-
-  otro.update();
-  otro.display();
-  */
-  
+    
   build.loadLines();
 
   // Linea mitad
@@ -142,16 +127,42 @@ void draw() {
   fill(0, 70);
   
   
+  
+  
+  
+  
+  
+  /*
+  
   build.loadIcebergPolitica(polBel,polCom,polAmb,polOpt);
   build.loadIcebergEconomia(ecoBel,ecoCom, ecoAmb, ecoOpt);
   build.loadIceberEspectaculo(espBel, espCom, espAmb,espOpt);
   build.loadIceberDeporte(depBel,depCom,depAmb,depOpt);
   build.loadIceberInternacional(intBel, intCom,intAmb,intOpt);
   build.loadIcebergCultura(culBel,culCom,culAmb,culOpt);
-  build.loadIcebergOtro(otrBel,otrCom,otrAmb, otrOpt);
-  
+  build.loadIcebergOtro(otrBel,otrCom,otrAmb, otrOpt);  
+*/
+// Icebergs (vertex no dinamicos aun)
+  ice1.update();
+  ice1.display();
 
+  ice2.update();
+  ice2.display();
 
+  ice3.update();
+  ice3.display();
+
+  ice4.update();
+  ice4.display();
+
+  ice5.update();
+  ice5.display();
+
+  ice6.update();
+  ice6.display();
+
+  ice7.update();
+  ice7.display();
   // Puntos "mar"
   /*
   stroke(0);
@@ -279,6 +290,24 @@ void cargaPerfiles(String nombrePerfil, String nombreCategoria) {
   otrCom=int(aOtro[1]);
   otrAmb=int(aOtro[2]);
   otrOpt=int(aOtro[3]);  
+  
+  ice1 = new Iceberg(
+      225+(offTrianX), 350, 
+      325+(offTrianX), 350, 
+      polCom+(offTrianX), 475, //LINEA A CAMBIAR
+      255+(offTrianX), 400, 
+      245+(offTrianX), 400);
+  ice2 = new Iceberg(
+      325+(offTrianX), 350, 
+      425+(offTrianX), 350, 
+      375+(offTrianX), 420, //LINEA A CAMBIAR
+      355+(offTrianX), 400, 
+      345+(offTrianX), 400);
+  ice3 = new Iceberg(425+(offTrianX), 350, 525+(offTrianX), 350, 475+(offTrianX), 430, 455+(offTrianX), 400, 445+(offTrianX), 400);
+  ice4 = new Iceberg(525+(offTrianX), 350, 625+(offTrianX), 350, 575+(offTrianX), 390, 555+(offTrianX), 370, 545+(offTrianX), 370);
+  ice5 = new Iceberg(625+(offTrianX), 350, 725+(offTrianX), 350, 675+(offTrianX), 390, 655+(offTrianX), 370, 645+(offTrianX), 370);
+  ice6 = new Iceberg(725+(offTrianX), 350, 825+(offTrianX), 350, 775+(offTrianX), 380, 755+(offTrianX), 370, 745+(offTrianX), 370);
+  ice7 = new Iceberg(825+(offTrianX), 350, 925+(offTrianX), 350, 875+(offTrianX), 390, 855+(offTrianX), 370, 845+(offTrianX), 370);
   
 }
 
