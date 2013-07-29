@@ -10,6 +10,15 @@ Mount politica, economia, espectaculo, deporte, internacional, cultura, otro;
 Iceberg ice1, ice2, ice3, ice4, ice5, ice6, ice7;
 int politicas, economias, espectaculos, deportes, internacionals, culturas, otros;
 int ice1s, ice2s, ice3s, ice4s, ice5s, ice6s, ice7s;
+
+int polBel=0, polCom=0, polAmb=0, polOpt=0;
+int ecoBel=0, ecoCom=0, ecoAmb=0, ecoOpt=0;
+int espBel=0, espCom=0, espAmb=0, espOpt=0;
+int depBel=0, depCom=0, depAmb=0, depOpt=0;
+int intBel=0, intCom=0, intAmb=0, intOpt=0;
+int culBel=0, culCom=0, culAmb=0, culOpt=0;
+int otrBel=0, otrCom=0, otrAmb=0, otrOpt=0;
+
 Group g1;
 Group g2;
 ListBox  g3; 
@@ -19,7 +28,7 @@ HashMap<String,String> hashPerfiles=null;
 
 void setup() {
     
-  size(1200, 700);
+  size(1200, 800);
   f = createFont("Arial", 12, true);
   tags = loadXML("xml_rss.xml", "UTF-8");  
   categorias = tags.getChildren("categorias/data");
@@ -57,9 +66,53 @@ void setup() {
   cultura = new Mount(725+(offTrianX), 350, 775+(offTrianX), culturas, 825+(offTrianX), 350);
   otro = new Mount(825+(offTrianX), 350, 875+(offTrianX), otros, 925+(offTrianX), 350);
   */
+  
   /*SE CARGA MAPA CON LOS CONTADORES DE PERFILES*/
   hashPerfiles = util.matchingPerfiles(categorias, perfiles, rss);
+  String[] aPol = hashPerfiles.get("Política").split(",");
+  String[] aEco = hashPerfiles.get("Economía").split(",");
+  String[] aEsp = hashPerfiles.get("Espectáculos").split(",");
+  String[] aDep = hashPerfiles.get("Deportes").split(",");
+  String[] aInt = hashPerfiles.get("Internacional").split(",");
+  String[] aCul = hashPerfiles.get("Cultura").split(",");
+  String[] aOtro = hashPerfiles.get("Otros").split(",");
+
+
+  polBel= int(aPol[0]);
+  polCom=int(aPol[1]);
+  polAmb=int(aPol[2]);
+  polOpt=int(aPol[3]);
   
+  ecoBel=int(aEco[0]);
+  ecoCom=int(aEco[1]);
+  ecoAmb=int(aEco[2]);
+  ecoOpt=int(aEco[3]);
+  
+  espBel=int(aEsp[0]);
+  espCom=int(aEsp[1]);
+  espAmb=int(aEsp[2]);
+  espOpt=int(aEsp[3]);
+  
+  depBel=int(aDep[0]);
+  depCom=int(aDep[1]);
+  depAmb=int(aDep[2]);
+  depOpt=int(aDep[3]);
+  
+  
+  intBel=int(aInt[0]);
+  intCom=int(aInt[1]);
+  intAmb=int(aInt[2]);
+  intOpt=int(aInt[3]);
+  
+  culBel=int(aCul[0]);
+  culCom=int(aCul[1]);
+  culAmb=int(aCul[2]);
+  culOpt=int(aCul[3]);
+  
+  otrBel=int(aOtro[0]);
+  otrCom=int(aOtro[1]);
+  otrAmb=int(aOtro[2]);
+  otrOpt=int(aOtro[3]);  
   /*
   println("-------------CONTADORES PERFILES--------------");
   println("--> " + hashPerfiles.get("Beligerante"));
@@ -138,7 +191,18 @@ void draw() {
   // Icebergs
   stroke(90);
   fill(0, 70);
-  build.loadIcebergs();
+  //build.loadIcebergs();
+  
+  
+ 
+  
+  build.loadIcebergPolitica(polBel,polCom,polAmb,polOpt);
+  build.loadIcebergEconomia(ecoBel,ecoCom, ecoAmb, ecoOpt);
+  build.loadIceberEspectaculo(espBel, espCom, espAmb,espOpt);
+  build.loadIceberDeporte(depBel,depCom,depAmb,depOpt);
+  build.loadIceberInternacional(intBel, intCom,intAmb,intOpt);
+  build.loadIcebergCultura(culBel,culCom,culAmb,culOpt);
+  build.loadIcebergOtro(otrBel,otrCom,otrAmb, otrOpt);
   
 
 

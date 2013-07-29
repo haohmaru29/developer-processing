@@ -23,23 +23,41 @@ class Builder {
       line(850, 480, 850, 100); //8VA LINEA
     }
     
-    void loadIcebergPolitica() {
+    void loadIcebergPolitica(int beligerante, int complaciente, int ambiguo, int optimista) {
       beginShape();                  // Iceberg 01
       vertex(225+(offTrianX), 350);
-      vertex(325+(offTrianX), 380);
-      vertex(275+(offTrianX), 475);  // Punto Inferior
-      vertex(255+(offTrianX), 470);
-      vertex(245+(offTrianX), 400);
+      vertex(325+(offTrianX), 350);
+      if(complaciente>700){
+        complaciente = 600 + (complaciente-700)/10;
+      }
+      if(optimista>700){
+        optimista = 600 + (optimista-700)/10;
+      }
+      if(ambiguo>700){
+        ambiguo = 600 + (ambiguo-700)/10;
+      }
+      vertex(275+(offTrianX), complaciente);  // Punto Inferior
+      vertex(255+(offTrianX), ambiguo);
+      vertex(245+(offTrianX), optimista);
       endShape(CLOSE);
     }
     
-    void loadIcebergEconomia() {
+    void loadIcebergEconomia(int beligerante, int complaciente, int ambiguo, int optimista) {
       beginShape();                  // Iceberg 02
       vertex(325+(offTrianX), 350);
       vertex(425+(offTrianX), 350);
-      vertex(375+(offTrianX), 420);  // Punto Inferior
-      vertex(355+(offTrianX), 400);
-      vertex(345+(offTrianX), 400);
+      if(complaciente>700){
+        complaciente = 600 + (complaciente-700)/10;
+      }
+      if(optimista>700){
+        optimista = 600 + (optimista-700)/10;
+      }
+      if(ambiguo>700){
+        ambiguo = 600 + (ambiguo-700)/10;
+      }
+      vertex(375+(offTrianX), complaciente);  // Punto Inferior
+      vertex(355+(offTrianX), ambiguo);
+      vertex(345+(offTrianX), optimista);
       endShape(CLOSE);
     }
     
@@ -47,29 +65,56 @@ class Builder {
       beginShape();                  // Iceberg 03
       vertex(425+(offTrianX), 350);
       vertex(525+(offTrianX), 350);
-      vertex(475+(offTrianX), 430);  // Punto Inferior
-      vertex(455+(offTrianX), 400);
-      vertex(445+(offTrianX), 400);
+      if(complaciente>700){
+        complaciente = 600 + (complaciente-700)/10;
+      }
+      if(optimista>700){
+        optimista = 600 + (optimista-700)/10;
+      }
+      if(ambiguo>700){
+        ambiguo = 600 + (ambiguo-700)/10;
+      }
+      vertex(475+(offTrianX), complaciente);  // Punto Inferior
+      vertex(455+(offTrianX), ambiguo);
+      vertex(445+(offTrianX), optimista);
       endShape(CLOSE);
     }
     
-    void loadIceberfDeporte(int beligerante, int complaciente, int ambiguo, int optimista) {
+    void loadIceberDeporte(int beligerante, int complaciente, int ambiguo, int optimista) {
        beginShape();                  // Iceberg 04
       vertex(525+(offTrianX), 350);
       vertex(625+(offTrianX), 350);
-      vertex(575+(offTrianX), 390);  // Punto Inferior
-      vertex(555+(offTrianX), 370);
-      vertex(545+(offTrianX), 370);
+      if(complaciente>700){
+        complaciente = 600 + (complaciente-700)/10;
+      }
+      if(optimista>700){
+        optimista = 600 + (optimista-700)/10;
+      }
+      if(ambiguo>700){
+        ambiguo = 600 + (ambiguo-700)/10;
+      }
+      vertex(575+(offTrianX), complaciente);  // Punto Inferior
+      vertex(555+(offTrianX), ambiguo);
+      vertex(545+(offTrianX), optimista);
       endShape(CLOSE);
     }
     
-    void loadIceberfInternacional(int beligerante, int complaciente, int ambiguo, int optimista) {
+    void loadIceberInternacional(int beligerante, int complaciente, int ambiguo, int optimista) {
       beginShape();                  // Iceberg 05
       vertex(625+(offTrianX), 350);
       vertex(725+(offTrianX), 350);
-      vertex(675+(offTrianX), 390);  // Punto Inferior
-      vertex(655+(offTrianX), 370);
-      vertex(645+(offTrianX), 370);
+      if(complaciente>700){
+        complaciente = 600 + (complaciente-700)/10;
+      }
+      if(optimista>700){
+        optimista = 600 + (optimista-700)/10;
+      }
+      if(ambiguo>700){
+        ambiguo = 600 + (ambiguo-700)/10;
+      }
+      vertex(675+(offTrianX), complaciente);  // Punto Inferior
+      vertex(655+(offTrianX), ambiguo);
+      vertex(645+(offTrianX), optimista);
       endShape(CLOSE);
     }
     
@@ -77,9 +122,19 @@ class Builder {
       beginShape();                  // Iceberg 06
       vertex(725+(offTrianX), 350);
       vertex(825+(offTrianX), 350);
-      vertex(775+(offTrianX), 380);  // Punto Inferior
-      vertex(755+(offTrianX), 370);
-      vertex(745+(offTrianX), 370);
+      if(complaciente>700){
+        complaciente = 600 + (complaciente-700)/10;
+      }
+      if(optimista>700){
+        optimista = 600 + (optimista-700)/10;
+      }
+      if(ambiguo>700){
+        ambiguo = 600 + (ambiguo-700)/10;
+      }
+      
+      vertex(775+(offTrianX), complaciente);  // Punto Inferior
+      vertex(755+(offTrianX), ambiguo);
+      vertex(745+(offTrianX), optimista);
       endShape(CLOSE);
     
     }
@@ -88,9 +143,19 @@ class Builder {
       beginShape();                  // Iceberg 07
       vertex(825+(offTrianX), 350);
       vertex(925+(offTrianX), 350);
-      vertex(875+(offTrianX), 390);  // Punto Inferior
-      vertex(855+(offTrianX), 370);
-      vertex(845+(offTrianX), 370);
+      
+      if(complaciente>700){
+        complaciente = 600 + (complaciente-700)/10;
+      }
+      if(optimista>700){
+        optimista = 600 + (optimista-700)/10;
+      }
+      if(ambiguo>700){
+        ambiguo = 600 + (ambiguo-700)/10;
+      }
+      vertex(875+(offTrianX), complaciente);  // Punto Inferior
+      vertex(855+(offTrianX), optimista);
+      vertex(845+(offTrianX), ambiguo);
       endShape(CLOSE);
     }
     

@@ -120,53 +120,61 @@ class Utils {
   
   HashMap<String,String> matchingPerfiles(XML[] categorias, XML[] perfil, XML[] rss) {
       HashMap hash = new HashMap();
-      XML words = null, catName = null, perfilName=null, data=null;
+      XML wordsBeligerante = null,wordsComplaciente = null,wordsAmbiguo = null,wordsOptimista = null, catName = null, perfilName=null, data=null;
       String[] strings = null;
-      int beligerante=0, complaciente=0, ambiguo=0, optimista=0, total=0;
-
+      int beligerante=350, complaciente=350, ambiguo=350, optimista=350, total=0;
+      logger("Se inicia busqueda de palabras");
       for(int x=0; x<categorias.length; x++) { //ITERO LAS CATEGORIAS
         catName = categorias[x].getChild("name");
         logger("CATEGORIA :" + catName.getContent());
-        for(int i=0; i<perfil.length; i++) { // ITERO LOS PERFILES
-            words = perfil[i].getChild("words");
-            perfilName = perfil[i].getChild("name");
-            String[] array = words.getContent().split(",");
-            logger("Perfil: " + perfilName.getContent() );                       
-            for(int j=0; j<rss.length; j++) { //ITERO LOS RSS
-               data = rss[j].getChild("name");  
-               logger("en RSS: " + data.getContent() );
-               strings = loadStrings("data/rss/" + data.getContent() + ".xml");
-               for(int k = 0; k<strings.length; k++) { //ITERO EL CONTENIDO DEL RSS
-                  for(int f=0; f< array.length; f++) { //ITERO LAS PALABRAS DE LOS PERFILES
-                      String[] m = match(strings[k], array[f].trim() );                     
-                      if (m != null){
-                        total = total + 1;
-                      }
-                  }  
-               }
-            }
-            
-            logger("Perfil: " + perfilName.getContent() + "total: " + total);                  
-            if("Beligerante".equals(perfilName.getContent())) {
-              beligerante = total;
-            } else if("Complaciente".equals(perfilName.getContent())) {
-              complaciente = total;
-            } else if("Ambiguo".equals(perfilName.getContent())) {
-              ambiguo = total;
-            } else if("Optimista".equals(perfilName.getContent())) {
-              optimista = total;
-            }
-            total = 0;
-             
-        }
+        wordsBeligerante = perfil[0].getChild("words");
+        wordsComplaciente = perfil[1].getChild("words");
+        wordsAmbiguo = perfil[2].getChild("words");
+        wordsOptimista = perfil[3].getChild("words");
         
+        String[] array = wordsBeligerante.getContent().split(",");
+        String[] arrayComplaciente = wordsComplaciente.getContent().split(",");
+        String[] arrayAmbiguo = wordsAmbiguo.getContent().split(",");
+        String[] arrayOptimista = wordsOptimista.getContent().split(",");
+        
+        for(int j=0; j<rss.length; j++) { //ITERO LOS RSS
+           data = rss[j].getChild("name");  
+           logger("en RSS: " + data.getContent() );
+           strings = loadStrings("data/rss/" + data.getContent() + ".xml");
+           for(int k = 0; k<strings.length; k++) { //ITERO EL CONTENIDO DEL RSS                    
+               for(int f=0; f< array.length; f++) { //ITERO LAS PALABRAS DE LOS PERFILES 
+                  String[] aBeligerante = match(strings[k], array[f].trim() );
+                  if (aBeligerante != null){     
+                    beligerante = beligerante + 1;
+                  }
+               }
+               for(int f=0; f< arrayComplaciente.length; f++) { //ITERO LAS PALABRAS DE LOS PERFILES 
+                  String[] aComplaciente = match(strings[k], arrayComplaciente[f].trim() );
+                  if (aComplaciente != null){     
+                    complaciente = complaciente + 1;
+                  }
+              }
+              for(int f=0; f< arrayAmbiguo.length; f++) { //ITERO LAS PALABRAS DE LOS PERFILES 
+                  String[] aAmbiguo = match(strings[k], arrayAmbiguo[f].trim() );
+                  if (aAmbiguo != null){     
+                    ambiguo = ambiguo + 1;
+                  }
+              }
+              for(int f=0; f< arrayOptimista.length; f++) { //ITERO LAS PALABRAS DE LOS PERFILES 
+                  String[] aOptimista = match(strings[k], arrayOptimista[f].trim() );
+                  if (aOptimista != null){     
+                    optimista = optimista + 1;
+                  }
+              }  
+           }
+        }
         String r = beligerante + "," + complaciente + "," + ambiguo + "," + optimista;
         logger(catName.getContent() + " --> " + r);
-        hash.put(catName.getContent(), r );       
-        beligerante=0; 
-        complaciente=0;
-        ambiguo=0;
-        optimista=0;
+        hash.put(catName.getContent().trim(), r );       
+        beligerante=350; 
+        complaciente=350;
+        ambiguo=350;
+        optimista=350;
         total=0;
       }
       return hash;
