@@ -92,10 +92,12 @@ void draw() {
   //TEXTOS
   textFont(f);
   fill(0);
-  //text("Política" ,280,120);
-  //text("Deportes" ,380,120);
-  //text("Economía" ,480,120);
-  
+  text("Política" ,280,120);
+  text("Economia" ,380,120);
+  text("Espectaculos" ,460,120);
+  text("Deportes" ,580,120);
+  text("Internacional" ,660,120);
+  text("Cultura" ,780,120);
   // Icebergs
   stroke(90);
   fill(0, 70);
