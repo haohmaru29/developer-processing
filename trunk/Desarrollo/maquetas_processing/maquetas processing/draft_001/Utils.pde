@@ -135,44 +135,37 @@ class Utils {
       }
   }
   
-  
-  boolean findText(String txt, String expresionRegular) {
-      return false;
-  }
-  
   HashMap<String,Integer> matching(XML[] categorias, XML[] rss, String rssName) {
       HashMap hash = new HashMap();
       XML[] files = null;
-      XML catWords = null, catName=null, data=null;
+      XML catWords = null, catName=null, data=null, file=null;
       String[] strings = null;
-      logger("RSS NAME: " + rssName);
       for(int x=0; x<categorias.length; x++) {
           catWords = categorias[x].getChild("words");
           catName = categorias[x].getChild("name");
-          files = categorias[x].getChildren("files");
-          logger("Buscando categoria: " + catName.getContent());
+          files = categorias[x].getChildren("files/rss");
           String[] words = catWords.getContent().split(",");
           int links = 0;
           for(int k=0; k< words.length; k++) {
               for(int i=0; i<files.length; i++) {
-                 data = files[i].getChild("rss");    
-                 if(catName.getContent() != null) {
-                     if(data!=null) {
-                       if((rssName.replace(" ", "_")+".xml").equals(data.getContent()) ) {
-                           logger("RSS CATEGORIAS -> " + data.getContent());
-                           strings = loadStrings("data/rss/" + catName.getContent() + "/" + data.getContent());                                
-                           for(int j = 0; j<strings.length; j++) {
-                              String[] m = match(strings[j], words[k] );                     
-                              if (m != null){
-                                links = links+1;
-                              }
-                           }
+                 data = files[i];
+                 if(data!=null) {
+                   if((rssName.replace(" ", "_")+".xml").equals(data.getContent()) ) {
+                       //logger("Cargando: " + "data/rss/" + catName.getContent() + "/" + data.getContent());
+                       strings = loadStrings("data/rss/" + catName.getContent() + "/" + data.getContent());                                
+                       for(int j = 0; j<strings.length; j++) {
+                          String[] m = match(strings[j], words[k].trim() );                     
+                          if (m != null){
+                            links = links + m.length;
+                          }
                        }
-                     }
+                   }
+                 } else {
+                   logger("La data es null");
                  }
               }  
           }
-          links = 350 -(links*8);
+          links = int(map(links, 0, 100, 350, 90));
           hash.put(catName.getContent(), links );          
       }
       
@@ -185,7 +178,6 @@ class Utils {
       String[] strings = null, sacoPalabras=null;
       int[] palabrasPorCategoria = new int[categorias.length];
       int beligerante=350, complaciente=350, ambiguo=350, optimista=350, total=350;
-      
       for(int x=0; x<perfil.length; x++) {
           namePerfil = perfil[x].getChild("name");
           if(perfilName.equals(namePerfil.getContent())) {
@@ -201,15 +193,16 @@ class Utils {
             total = 350;
             catName = categorias[x].getChild("name");
             palabrasPorCategoria[x] = 0;
-            XML[] files =  categorias[x].getChild("files").getChildren("rss");
+            XML[] files =  categorias[x].getChildren("files/rss");
             for(int y=0; y<files.length; y++) { //ITERO LOS RSS     
                 if((rssName.replace(" ", "_") + ".xml").equals(files[y].getContent())) {    
-                    logger("Cargando... " + "data/rss/" + catName.getContent() + "/" + files[y].getContent() );       
+                    //logger("Cargando... " + "data/rss/" + catName.getContent() + "/" + files[y].getContent() );       
                     strings = loadStrings("data/rss/" + catName.getContent() + "/" + files[y].getContent()); //Cargo Strings para comparar              
                     for(int k = 0; k<strings.length; k++) { //ITERO EL CONTENIDO DEL ARRAY DE STRINGS                    
                        for(int f=0; f< sacoPalabras.length; f++) { //ITERO LAS PALABRAS DEL PERFIL SELECCIONADO         
                             String[] palabrasEncontradas = match(strings[k], sacoPalabras[f].trim() );
                             if (palabrasEncontradas != null) {
+                               //logger("Palabra encontrada: " + sacoPalabras[f]);
                                palabrasPorCategoria[x] = palabrasPorCategoria[x]+palabrasEncontradas.length;
                             }
                        }
@@ -218,7 +211,7 @@ class Utils {
              }
         }
        for(int t=0; t<palabrasPorCategoria.length; t++) {
-         println("total Econtrados:"+palabrasPorCategoria[t]);
+         println("total Perfiles Econtrados por categoria [" + catName.getContent() + "]"+palabrasPorCategoria[t]);
          if(palabrasPorCategoria[t] <= 400) { 
              valoresMapeados[t] = map(palabrasPorCategoria[t], 0, 400, 350, 700);
          } else {
@@ -226,7 +219,7 @@ class Utils {
          }              
        }
       } else {
-        logger("Perfil no encontrado :::::D " + perfilName);
+        logger("Perfil no encontrado :::::> " + perfilName);
       }
       
       return valoresMapeados;
