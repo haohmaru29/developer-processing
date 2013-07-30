@@ -1,3 +1,0 @@
-1.- Medios OK--> uno por default.
-2.- Combo de Perfiles por default.
-3.- Categorizar los rss, en un archivo nuevo de politica.
