@@ -1,26 +1,349 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0"
-	xmlns:content="http://purl.org/rss/1.0/modules/content/"
-	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
-	xmlns:dc="http://purl.org/dc/elements/1.1/"
-	xmlns:atom="http://www.w3.org/2005/Atom"
-	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
-	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
-	>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2spanishfull.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
 
 <channel>
 	<title>Diario y Radio Uchile</title>
-	<atom:link href="http://radio.uchile.cl/feed/" rel="self" type="application/rss+xml" />
+	
 	<link>http://radio.uchile.cl</link>
 	<description>Diario y Radio de la Universidad de Chile, medio informativo digital con señal de su radio en vivo</description>
-	<lastBuildDate>Mon, 29 Jul 2013 17:56:35 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 30 Jul 2013 03:07:54 +0000</lastBuildDate>
 	<language>es-ES</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>http://wordpress.org/?v=3.5.2</generator>
+		<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/radiouchile" /><feedburner:info uri="radiouchile" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">News &amp; Politics</media:category><itunes:explicit>no</itunes:explicit><itunes:subtitle>Diario y Radio de la Universidad de Chile, medio informativo digital con señal de su radio en vivo</itunes:subtitle><itunes:category text="News &amp; Politics" /><geo:lat>-33.437163</geo:lat><geo:long>-70.635234</geo:long><creativeCommons:license>http://creativecommons.org/licenses/by/3.0/</creativeCommons:license><feedburner:emailServiceId>radiouchile</feedburner:emailServiceId><feedburner:feedburnerHostname>http://feedburner.google.com</feedburner:feedburnerHostname><feedburner:feedFlare href="http://add.my.yahoo.com/content?lg=es&amp;url=http%3A%2F%2Ffeeds.feedburner.com%2Fradiouchile" src="http://eur.i1.yimg.com/eur.yimg.com/i/es/my/addto1.gif">Subscribe with My Yahoo!</feedburner:feedFlare><feedburner:feedFlare href="http://www.feedness.com/alta/http://feeds.feedburner.com/radiouchile" src="http://www.feedness.com/ayuda/wp-content/square_b_sh_feed.gif">Subscribe with Feedness</feedburner:feedFlare><feedburner:feedFlare href="http://www.bloglines.com/sub/http://feeds.feedburner.com/radiouchile" src="http://www.bloglines.com/images/sub_modern11.gif">Subscribe with Bloglines</feedburner:feedFlare><feedburner:feedFlare href="http://www.netvibes.com/subscribe.php?url=http%3A%2F%2Ffeeds.feedburner.com%2Fradiouchile" src="http://www.netvibes.com/img/add2netvibes.gif">Subscribe with Netvibes</feedburner:feedFlare><feedburner:feedFlare href="http://www.pageflakes.com/subscribe.aspx?url=http%3A%2F%2Ffeeds.feedburner.com%2Fradiouchile" src="http://www.pageflakes.com/ImageFile.ashx?instanceId=Static_4&amp;fileName=ATP_blu_91x17.gif">Subscribe with Pageflakes</feedburner:feedFlare><feedburner:feedFlare href="http://www.thefreedictionary.com/_/hp/AddRSS.aspx?http%3A%2F%2Ffeeds.feedburner.com%2Fradiouchile" src="http://img.tfd.com/hp/addToTheFreeDictionary.gif">Subscribe with The Free Dictionary</feedburner:feedFlare><feedburner:feedFlare href="http://www.bitty.com/manual/?contenttype=rssfeed&amp;contentvalue=http%3A%2F%2Ffeeds.feedburner.com%2Fradiouchile" src="http://www.bitty.com/img/bittychicklet_91x17.gif">Subscribe with Bitty Browser</feedburner:feedFlare><feedburner:feedFlare href="http://www.podcastready.com/oneclick_bookmark.php?url=http%3A%2F%2Ffeeds.feedburner.com%2Fradiouchile" src="http://www.podcastready.com/images/podcastready_button.gif">Subscribe with Podcast Ready</feedburner:feedFlare><feedburner:feedFlare href="http://www.dailyrotation.com/index.php?feed=http%3A%2F%2Ffeeds.feedburner.com%2Fradiouchile" src="http://www.dailyrotation.com/rss-dr2.gif">Subscribe with Daily Rotation</feedburner:feedFlare><item>
+		<title>Recolectores de basura continuarán en paro por mejoras salariales</title>
+		<link>http://feedproxy.google.com/~r/radiouchile/~3/OhA-wIMWUWY/</link>
+		<comments>http://radio.uchile.cl/noticias/225382/#comments</comments>
+		<pubDate>Tue, 30 Jul 2013 01:46:26 +0000</pubDate>
+		<dc:creator>Oriana Miranda</dc:creator>
+				<category><![CDATA[Noticias]]></category>
+		<category><![CDATA[alcaldes]]></category>
+		<category><![CDATA[basura]]></category>
+		<category><![CDATA[municipalidades]]></category>
+		<category><![CDATA[recolectores]]></category>
+
+		<guid isPermaLink="false">http://radio.uchile.cl/?p=225382</guid>
+		<description><![CDATA[12 mil kilos de residuos sólidos domiciliareios no fueron retirados durante la primera jornada de paro de la a Federación Nacional de Recolectores de Basura, que anunció continuará sus movilizaciones independiente de los resultados de la negociación con el Miinisterio del Trabajo y la Asociación Chilena de Municipalidades.]]></description>
+				<content:encoded><![CDATA[<p>La Federación Nacional de Recolectores de Basura, que agrupa a 34 mil trabajadores vinculados con el tema de la basura, ha informado que continuaría las movilizaciones durante este martes, independiente de los resultados de la negociación con el Ministerio del Trabajo y Previsión Social y con la Asociación Chilena de Municipalidades.</p>
+<p>La demanda central de los recolectores de basura es que sus ingresos sean homologados con los sueldos de funcionarios públicos que tienen los recolectores de las municipalidades de Santiago y de Providencia.</p>
+<p>Los trabajadores recolectores han recibido una serie de promesas desde el año 2003, cuando comenzaron a negociar su ingreso. La Asociación Chilena de Municipalidades ha comprometido aumentos salariales, pero éstos quedan sin efecto cuando se actualizan nuevas licitaciones, según el presidente de la Federación Nacional de Recolectores de Basura, Armando Soto.</p>
+<p>“Todos los alcaldes se comprometieron a ir mejorando paulatinamente los salarios de los recolectores de cada comuna, pero desgraciadamente eso nunca funcionó ya que cada cuatro o cinco años hay nuevas licitaciones, llegan nuevas empresas y con ello nosotros lejos de mejorar nuestra condición la empeoramos”, denunció.</p>
+<p>El dirigente ha dicho que los recolectores de la comuna de Santiago ganan cerca de 800 mil pesos, lo que representa el doble de lo que ganan el resto de los recolectores que laboran en el sector privado.</p>
+<p>Como resultado de esta movilización, durante el primer día de paro, los camiones de la basura dejaron de retirar cerca de 12 mil kilos de residuos sólidos domiciliarios.</p>
+<p>Puesto que el retiro de estos residuos podría tardar más de un día, la secretaria regional ministerial (SEREMI) de Salud, Rosa Oyarce, ha solicitado a la comunidad que no saque basura a la calle.</p>
+<p>“Lo más probable es que va a venir un animal, la va a romper, va a desparramar esa basura, voy a tener que volverla a recoger y vuelta a envasar y a generar problemas sanitarios de olores, moscas, ratones, etc.”, explicó.</p>
+<p>A las 21 horas de este lunes, las 3 partes involucradas en este tema sostenían una reunión iniciada a las 18 horas.</p>
+<img src="http://feeds.feedburner.com/~r/radiouchile/~4/OhA-wIMWUWY" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://radio.uchile.cl/noticias/225382/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://radio.uchile.cl/noticias/225382/</feedburner:origLink></item>
+		<item>
+		<title>CDE no se querellará en contra de Julio Pereira por caso Johnson’s</title>
+		<link>http://feedproxy.google.com/~r/radiouchile/~3/l7OSSLE0-rQ/</link>
+		<comments>http://radio.uchile.cl/noticias/225373/#comments</comments>
+		<pubDate>Tue, 30 Jul 2013 01:18:39 +0000</pubDate>
+		<dc:creator>Claudio Medrano</dc:creator>
+				<category><![CDATA[Noticias]]></category>
+		<category><![CDATA[caso johnson's]]></category>
+		<category><![CDATA[cde]]></category>
+		<category><![CDATA[julio pereira]]></category>
+		<category><![CDATA[sii]]></category>
+
+		<guid isPermaLink="false">http://radio.uchile.cl/?p=225373</guid>
+		<description><![CDATA[Comité Penal del CDE analizaría querellarse contra Julio Pereira por caso Johnson's. Sería el pleno del organismo el encargado de determinar si procede o no interponer la acción legal contra el ex director de Servicio de Impuestos Internos. Coincidente con este trascendido, el presidente Sebastián Piñera se reunió con miembros del Consejo. Desde la presidencia del organismo fiscalizador, Sergio Urrejola, negó estar al tanto de esta posible querella.]]></description>
+				<content:encoded><![CDATA[<p>El trascendido de que el Comité Penal del Consejo de Defensa del Estado (CDE) estaría evaluando querellarse contra Julio Pereira por la condonación de 59 mil millones de pesos en multas e intereses a Johnson´s, generó inmediatas reacciones en diversos ámbitos de la sociedad.</p>
+<p>La noticia divulgada en diferentes portales informativos confirmaría la existencia de una corriente de miembros del Comité Penal que estarían a favor de presentar una acción judicial en contra del ex director de Servicio de Impuestos Internos (SII) y el ex director jurídico de la entidad, Mario Vila, basados en la figura de negociación incompatible por conflicto de intereses en ambos ex funcionarios públicos.</p>
+<p>El delito sería una negociación incompatible, debido a que ambos fueron asesores financieros de la empresa de retail a través de la consultora Price Waterhouse.</p>
+<p>Desde La Moneda, la ministra vocera de gobierno, Cecilia Pérez señaló que hay que esperar que el pleno del Consejo de pronuncie en la materia, pero que como Pereira ya no es funcionario de gobierno, en caso de que proceda la querella deberá asistir a juicio como cualquier ciudadano.</p>
+<p>Ernesto Silva (UDI) parlamentario y uno de los férreos defensores públicos de Pereira, acusa de querer ensuciar la figura de Pereira al dar por supuesta una información que no ha sido corroborada por el propio CDE “Hay que ser muy serios y terminar con los rumores, aquí no ha existido ningún pronunciamiento concreto del CDE”, aseguró.</p>
+<p>Fuad Chaín, diputado demócrata cristiano, ve con buenos ojos la posibilidad de querella del CDE contra el ex funcionario público “Sería una acción lógica del CDE, aquí hubo pérdida de patrimonio fiscal y con una participación directa del encargado del servicio Julio Pereira”, agregó.</p>
+<p>Para Juan Apablaza, presidente de la Asociación de Fiscalizadores de Impuestos Internos, el hecho de que se llegara a concretar la participación del organismo, sería una clara señal del Estado en la materia “Es primera vez que dentro de los medios se establece un comentario del CDE, es un avance importante, si se hace parte de la querella hay un trasfondo más fuerte porque es el Estado el que se hace parte”, sostuvo.</p>
+<p>Cabe consignar que en el caso de que el Comité Penal del CDE adhiere a presentar esta querella por incompatibilidad de funciones, esta decisión tendría que pasar al CDE como tal, quienes deben avalar la acción, siendo el organismo en pleno los querellantes.</p>
+<p>En horas de la tarde, el presidente de la entidad fiscalizadora, Sergio Urrejola, negó que el Consejo esté analizando la posibilidad de anteponer una querella. Las declaraciones emitidas después de la reunión que él y varios consejeros sostuvieron en la Moneda con el presidente Sebastián Piñera, confirma que al menos en la sesión de mañana no se analizará el tema.</p>
+<p>&#8220;El consejo tiene que actuar con responsabilidad y para iniciar una acción tanto civil como penal tiene que hacerlo con los antecedentes que le reportan y que recibe y siempre que tenga alguna efectividad el presentar acciones. No se puede hacer para satisfacer el ego público&#8221;.</p>
+<p>Urrejola agregó que &#8220;Falta ese sumario de la Contraloría, está el informe que llegó, están los antecedentes que han entregado en la Cámara, los que están en la Fiscalía y todo esos son antecedentes que el consejo los está estudiando&#8221;.</p>
+<img src="http://feeds.feedburner.com/~r/radiouchile/~4/l7OSSLE0-rQ" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://radio.uchile.cl/noticias/225373/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		<feedburner:origLink>http://radio.uchile.cl/noticias/225373/</feedburner:origLink></item>
+		<item>
+		<title>Comisión de Constitución del Senado comienza debate por voto chileno en el extranjero</title>
+		<link>http://feedproxy.google.com/~r/radiouchile/~3/FZAhEAJJWbc/</link>
+		<comments>http://radio.uchile.cl/noticias/225367/#comments</comments>
+		<pubDate>Tue, 30 Jul 2013 01:03:49 +0000</pubDate>
+		<dc:creator>Oriana Miranda</dc:creator>
+				<category><![CDATA[Noticias]]></category>
+		<category><![CDATA[chilenos en el extrabjero]]></category>
+		<category><![CDATA[comisión de constitución]]></category>
+		<category><![CDATA[constitución]]></category>
+		<category><![CDATA[elecciones presidenciales]]></category>
+		<category><![CDATA[haz tu voto volar]]></category>
+		<category><![CDATA[hernan larrain]]></category>
+		<category><![CDATA[isabel allende]]></category>
+		<category><![CDATA[patricio walker]]></category>
+		<category><![CDATA[soledad alvear]]></category>
+		<category><![CDATA[valeria lübbert]]></category>
+
+		<guid isPermaLink="false">http://radio.uchile.cl/?p=225367</guid>
+		<description><![CDATA[La Comisión de Constitución del Senado inició la discusión sobre la propuesta de reforma constitucional que permite el voto a ciudadanos chilenos residentes en el extranjero. La exigencia o no de requisitos como la permanencia en Chile de al menos cinco meses en los últimos ocho años será materia de debate entre los senadores, en una reforma que podría permitir a los chilenos en el exterior participar de las elecciones presidenciales del año 2017.]]></description>
+				<content:encoded><![CDATA[<p>La comisión de Constitución del Senado discutió este lunes el proyecto de reforma constitucional que garantiza el derecho a voto para los ciudadanos chilenos residentes en el extranjero.</p>
+<p>La propuesta presentada por los senadores Isabel Allende, Soledad Alvear y Patricio Walker pretende que los chilenos en el exterior puedan ejercer su derecho a voto en plebiscitos, elecciones y también en primarias, con el único requisito de inscribirse previamente en los respectivos consulados.</p>
+<p>El objetivo de los parlamentarios es despachar la reforma constitucional durante el mes de agosto. Es por ello que el senador Patricio Walker solicita el apoyo de la derecha, que durante las últimas décadas se ha opuesto a que los chilenos fuera del país puedan votar.</p>
+<p>“Ojalá que después de 23 años de frustración esta vez los parlamentarios del oficialismo apoyen al Presidente de la República, que el 21 de mayo se mostró partidario del voto chileno en el extranjero con el solo requisito de inscribirse en el Consulado. Obras son amores, vamos a ver cómo votan y si lo que ha dicho el Presidente tiene o no apoyo”, expresa.</p>
+<p>El senador UDI Hernán Larraín, integrante de la Comisión de Constitución, “no descarta nada” y asegura que desde el oficialismo están abiertos a llegar a un acuerdo.</p>
+<p>En ese sentido, explica que “este es un tema que si lo conversamos con la debida cautela y calma, es posible llegar a algún acuerdo. Hemos tenido una buena reunión y espero que en la próxima podamos avanzar en un acuerdo sobre esta materia”.</p>
+<p>Para Valeria Lübbert, chilena residente en Estados Unidos y coordinadora jurídica del equipo <b>“Haz tu voto volar”</b>, “evidentemente, el voto de los chilenos en el exterior pone en duda el liderazgo del Presidente Sebastián Piñera, esto demuestra que tiene un liderazgo débil frente a su coalición y asimismo deja muy mal parada a la derecha en un tema que es clave para el fortalecimiento de la democracia en Chile”.</p>
+<p>Por ello, emplaza al Presidente a cumplir su promesa de campaña y otorgar derecho a voto a los chilenos en el extranjero sin condiciones, ya que “la Constitución reconoce a los ciudadanos chilenos por el solo hecho de ser chilenos, sea que estos vivan dentro o fuera del territorio nacional. Por ende, cualquier otra exigencia adicional es discriminatoria, específicamente las condiciones que se han puesto en discusión, como son estas de ir a Chile en un periodo de cinco años por más de ocho meses, que apuntan al final a la capacidad económica que tienen los chilenos que están en el extranjero”.</p>
+<p>La abogada explica que los chilenos en el extranjero agrupados en <b>“Haz tu voto volar”</b> exigen como mínimo poder participar de la elección de presidentes y advierte que la discusión sobre las elecciones parlamentarias y municipales es materia de otro debate, contenido en las reformas al sistema electoral.</p>
+<p>Pese a que espera que la propuesta de reforma constitucional sea aprobada de manera expedita, Patricio Walker descarta que los chilenos en el exterior puedan votar en las elecciones de este 17 de noviembre. Con ello, tendrían que esperar hasta las elecciones del 2017 para poder ejercer ese derecho.</p>
+<p>La Comisión de Constitución del Senado continuará discutiendo sobre este tema el próximo lunes.<b> </b></p>
+<img src="http://feeds.feedburner.com/~r/radiouchile/~4/FZAhEAJJWbc" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://radio.uchile.cl/noticias/225367/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		<feedburner:origLink>http://radio.uchile.cl/noticias/225367/</feedburner:origLink></item>
+		<item>
+		<title>Transparencia sobre financiamiento de los partidos políticos sigue al debe</title>
+		<link>http://feedproxy.google.com/~r/radiouchile/~3/NSuoS5XB_eU/</link>
+		<comments>http://radio.uchile.cl/noticias/225305/#comments</comments>
+		<pubDate>Mon, 29 Jul 2013 23:31:35 +0000</pubDate>
+		<dc:creator>Cristián Zúñiga</dc:creator>
+				<category><![CDATA[Noticias]]></category>
+		<category><![CDATA[transparencia]]></category>
+
+		<guid isPermaLink="false">http://radio.uchile.cl/?p=225305</guid>
+		<description><![CDATA[Un estudio elaborado por Chile Transparente reveló que menos del 40 por ciento de la información relacionada con el funcionamiento y estructura interna de los partidos políticos está disponible en sus sitios electrónicos. Esta cifra cae drásticamente cuando se trata de documentos relativos a balances anuales y financiamiento, ítem en el que ninguna colectividad publica estos antecedentes.]]></description>
+				<content:encoded><![CDATA[<p>Declaración de principios, facultades y estructura interna, estatutos y dirigencia es información que, en general, está disponible en los sitios electrónicos de los partidos políticos.</p>
+<p>Sin embargo, el promedio de transparencia activa se reduce notoriamente, a un 38,5 por ciento, debido a que ninguna colectividad publica sus balances financieros anuales e información relativa a montos y fuentes de financiamiento.</p>
+<p>Así lo develó el estudio “Transparencia en los Partidos Políticos: revisión de experiencia internacional y propuestas de estándares”, elaborado por Chile Transparente.</p>
+<p>El senador UDI Hernán Larraín, presidente de la comisión Bicameral Pro Transparencia y Probidad del Congreso, señaló que la investigación da cuenta de una materia pendiente de este Gobierno: incluir, en el proyecto de ley de partidos políticos, el financiamiento público de los mismos.</p>
+<p>En este sentido, el senador gremialista señaló que &#8220;yo pienso que el Gobierno no ha querido avanzar por razones que él tendrá que explicar, si yo tuviera que dar una interpretación, es que más que por no creer en la idea es porque no cree que sea una medida popular, que sería rechazada, si hoy la política es muy reprobada entonces con mayor razón nadie va a querer que haya financiamiento público. Ese raciocinio me parece explicable, pero es de corto plazo para el país en el largo plazo es mejor tener el financiamiento público de sus actividades&#8221;.</p>
+<p>Argumento que, a la luz de las cifras y decenas de estudios de opinión, pareciera tener bastante sustento. Los partidos políticos son, hace años, las instituciones más reprobadas y con mayor desconfianza en nuestro país.</p>
+<p>Realidad a la que no escapa Latinoamérica, según subrayó César Astudillo, académico de la Universidad Nacional Autónoma de México, quien indicó que, independiente de la preponderancia que tenga el sector privado, el financiamiento público debe asegurar transparencia.</p>
+<p>En esa línea, el académico de la UNAM de México indicó que &#8220;pocos países se libran de este descrédito, esta poca confianza, esta poca credibilidad que tienen los partidos políticos frente a sus ciudadanos, pero necesariamente es un tema que hay que analizar. Si aquí se está analizando ese tema del financiamiento público es la Transparencia, es decir, si vamos a contribuir a los partidos políticos con dinero público, que haya un escrutinio estricto en qué, cómo y dónde se gasta ese dinero&#8221;.</p>
+<p>El mensaje presidencial que modifica la ley de partidos políticos, junto a los proyectos de probidad pública; del lobby y el que norma las declaraciones de patrimonio e interés, entre otros, es parte de lo que se ha denominado como “agenda pro transparencia”.</p>
+<p>Un trabajo legislativo que, de acuerdo un informe filtrado por el Ministerio Secretaría General de la Presidencia ha tenido un tiempo de tramitación promedio de 2 años y 2 meses, pese a tener 24 urgencias invocadas, según puntualiza el documento.</p>
+<p>El diputado DC Patricio Vallespín, vicepresidente de la comisión Bicameral Pro Transparencia, calificó este estudio de la Segpres como “intencionado”, por lo que pidió mayor cautela al Gobierno.</p>
+<p>Por esto, el diputado de la Democracia Cristiana afirmó que &#8220;la urgencia todos saben que la pone el Ejecutivo, ellos han puesto y han sacado urgencia a estos proyectos, por tanto su prioridad o su acuerdo al interior de su propio conglomerado parece que no lo han tenido y por eso que las cambian. Yo diría aquí hay responsabilidades mutuas, pero quien lleva la batuta en la urgencia es el Ejecutivo, no es el Congreso, nosotros hace seis meses como comisión bicameral le entregamos una propuesta con la priorización para que dieran urgencia a los proyectos que antes hemos señalado y aun no lo han hecho&#8221;.</p>
+<p>Esta comisión Bicameral se juntó, este lunes, con los presidentes del Senado, Jorge Pizarro, y la Cámara, Edmundo Eluchans, para analizar los proyectos rotulados como “pro transparencia y probidad”.</p>
+<p>El grupo parlamentario se volverá a reunir el próximo lunes 19 de agosto, para acelerar la tramitación legislativa.</p>
+<img src="http://feeds.feedburner.com/~r/radiouchile/~4/NSuoS5XB_eU" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://radio.uchile.cl/noticias/225305/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://radio.uchile.cl/noticias/225305/</feedburner:origLink></item>
+		<item>
+		<title>PS postularía a ex líder secundario en distrito en que compite Giorgio Jackson</title>
+		<link>http://feedproxy.google.com/~r/radiouchile/~3/A4zvzqC68hI/</link>
+		<comments>http://radio.uchile.cl/noticias/225273/#comments</comments>
+		<pubDate>Mon, 29 Jul 2013 23:17:38 +0000</pubDate>
+		<dc:creator>Cristián Zúñiga</dc:creator>
+				<category><![CDATA[Noticias]]></category>
+		<category><![CDATA[césar valenzuela]]></category>
+		<category><![CDATA[giorgio jackson]]></category>
+		<category><![CDATA[partido socialista]]></category>
+		<category><![CDATA[revolución democrática]]></category>
+
+		<guid isPermaLink="false">http://radio.uchile.cl/?p=225273</guid>
+		<description><![CDATA[César Valenzuela está siendo sondeado por el Partido Socialista para competir por un cupo a la Cámara Baja en Santiago Centro, sitio donde competirá con Giorgio Jackson. La propuesta del también ex líder estudiantil no es vista con molestia al interior de Revolución Democrática, movimiento liderado por Jackson”.  ]]></description>
+				<content:encoded><![CDATA[<p>Pese a la intención de algunos miembros del pacto Nueva Mayoría de no levantar un candidato a diputado en Santiago Centro para favorecer la elección del líder estudiantil Giorgio Jackson, el Partido Socialista desconoce la petición de apoyo y sondea candidatear al también ex líder estudiantil del movimiento “pingüino” 2006, César Valenzuela.</p>
+<p>Atribuyendo la decisión a limitar la posibilidad de doblaje de la dupla RN-UDI que compite por la zona (Felipe Kast –Evópoli apoyado por RN- y Mónica Zalaquett –UDI-), el presidente de la tienda socialista, Osvaldo Andrade afirmó que jamás recibió una insinuación desde el comando de Michelle Bachelet de apoyar a Jackson, por lo que luego de que los PPD decidieran no levantar nombre por Santiago Centro, el socialismo evalúa a Valenzuela y otras posibilidades en el distrito.</p>
+<p>La noticia fue recibida con tranquilidad por Revolución Democrática, Miguel Crispi coordinador del movimiento sostuvo que ésta era una posibilidad que manejaban, ya que la Nueva Mayoría tiene todo el derecho a competir por donde quiera.</p>
+<p>En este sentido, el dirigente de Revolución Democrática señaló que &#8220;nosotros estuvimos hasta el 1 de mayo disponibles para una Primaria con el Pacto de la Nueva Mayoría, no fuimos nosotros quienes decidieron no hacer Primarias Oficiales Parlamentarias, pero no hay que respirar por la herida, nosotros en ese momento definimos inscribir una candidatura como independiente, estamos juntando las firmas, entonces no podríamos integrar el pacto Nueva Mayoría, sin embargo, no le vamos a pedir al pacto Nueva Mayoría que se omita de competir porque ese es un derecho que todos los ciudadanos y los partidos tienen de colocar sus candidatos, de competir y ahí veremos por quién votará la ciudadanía en el distrito de Santiago&#8221;.</p>
+<p>Será la gente quien deba decidir a quién quiere elegir, continuó Crispi, agregando que Revolución Democrática ofrece una alternativa a quienes estén por los cambios profundos en el país.</p>
+<p>Respecto de la decisión de adhesión presidencial del movimiento, la decisión será tomada durante la segunda semana de septiembre, donde el movimiento en pleno decidirá si su apoyo es a la candidatura de Michelle Bachelet, Marcel Claude o bien se declara libertad de acción.</p>
+<p>En lo parlamentario, el sábado recién pasado se decidió a qué candidatos se apoyarán en estas elecciones, confirmó Crispi: &#8220;Entre esas candidaturas parlamentarias que vamos a apoyar están: Carlos Montes, Camila Vallejo, Karol Cariola, Alejandro Guillier, Iván Fuentes, Gabriel Boric y Eduardo Vergara de distintos partidos políticos, que representan amplitud que nosotros creemos que deben tener las nuevas formas que cambien la política en Chile. En el tema presidencial, este proceso se hizo con todos los territorios y comisiones en un tiempo de un mes y medio para la segunda semana de septiembre vamos a tomar la decisión&#8221;.</p>
+<p>Cuatro fueron las bases solicitadas por el movimiento para apoyar candidaturas: apoyo a reforma en educación pública, fin al binominal, apoyo a Asamblea Constituyente y un compromiso de realizar prácticas participativas durante el ejercicio parlamentario, condiciones que a juicio del Coordinador de RV posibilitarían un cambio en el Parlamento.</p>
+<p>En cuanto a la candidatura de César Valenzuela, el ex líder &#8220;pingüino&#8221; confirmó haber conversado con el PS, la decisión final se tomaría durante los próximos días.</p>
+<img src="http://feeds.feedburner.com/~r/radiouchile/~4/A4zvzqC68hI" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://radio.uchile.cl/noticias/225273/feed/</wfw:commentRss>
+		<slash:comments>7</slash:comments>
+		<feedburner:origLink>http://radio.uchile.cl/noticias/225273/</feedburner:origLink></item>
+		<item>
+		<title>Obra de teatro emociona con reflexiones sobre el “Duelo”</title>
+		<link>http://feedproxy.google.com/~r/radiouchile/~3/aKKs5tCNGLo/</link>
+		<comments>http://radio.uchile.cl/noticias/225320/#comments</comments>
+		<pubDate>Mon, 29 Jul 2013 22:47:29 +0000</pubDate>
+		<dc:creator>Damaris Torres</dc:creator>
+				<category><![CDATA[Noticias]]></category>
+		<category><![CDATA[Duelo]]></category>
+		<category><![CDATA[Juan Pablo Miranda]]></category>
+		<category><![CDATA[teatro]]></category>
+		<category><![CDATA[teatro del puente]]></category>
+
+		<guid isPermaLink="false">http://radio.uchile.cl/?p=225320</guid>
+		<description><![CDATA[El montaje escrito y dirigido por el actor Juan Pablo Miranda, habla sobre la pérdida de un ser querido. El montaje se presentará hasta el 10 de agosto en el Teatro del Puente.]]></description>
+				<content:encoded><![CDATA[<p>“Hay distintos tipos de pérdidas”, inició la conversación el dramaturgo Juan Pablo Miranda sobre su opera prima teatral. El montaje que lleva por nombre<a href="http://www.teatrodelpuente.cl/espectaculos/duelo/" target="_blank"><strong> “Duelo”</strong></a> reflexiona sobre la culpa, la pérdida y el destino en una sociedad “que no es capaz de decirse las cosas a la cara”, insiste el actor.</p>
+<p>Son tres escenas que transcurren en un costoso café del centro de la ciudad, donde se reúnen dos compañeros de trabajo, Nelson y Natalia, a reconstruir los acontecimientos que terminaron con la muerte del hijo de ésta última tras un accidente ciclista.</p>
+<p>A través de diálogos fuertes y emotivos se cuestiona la manera con que la sociedad obliga a comportarse en aquellas situaciones, y la diversidad de conceptos de familia que existen actualmente. Así asegura el director del montaje, Juan Pablo Miranda, quien explicó que &#8220;hay nuevas formas de familias donde las madres tienen que trabajar porque no tienen una figura paterna que las ayude, entonces los hijos crecen con las abuelas, es decir que la maternidad no es sólo de una forma, por ejemplo a esta madre le tocó dedicarse al trabajo para que a su hijo no le faltara nada, pero finalmente le terminó faltando ella&#8221;.</p>
+<p>Según el actor &#8220;en la obra hay una madre con duelo en dos sentidos: primero, en el sentido más lógico que es la muerte del hijo; y segundo, en la deuda de esta mujer que siente que no se alcanzó a configurar como madre&#8221;.</p>
+<div id="attachment_225333" class="wp-caption aligncenter" style="width: 455px"><a href="http://radio.uchile.cl/wp-content/uploads/2013/07/djp6.jpg?afdd81"><img class=" wp-image-225333     " alt="Obra Duelo" src="http://radio.uchile.cl/wp-content/uploads/2013/07/djp6.jpg?afdd81" width="445" height="333" /></a><p class="wp-caption-text">Obra Duelo</p></div>
+<p><strong>Reconstruir la historia</strong></p>
+<p>En “Duelo” también se pone de manifiesto “la enajenación o arribismo con que el resto de las personas actúan ante estos acontecimientos tan adversos”, aseguró la protagonista del montaje junto a Sebastián de la Cuesta, Carolina Jullian.</p>
+<p>“En relación a ello, esta madre busca encontrarse con su propio dolor y no reflejarse en los otros”, explicó la actriz. Y agregó que &#8220;eso es lo que busca este personaje, poder encontrarse con sus propias imágenes, con su propio dolor, tocarlo en carne propia y no reflejarse en los otros. Eso es lo que sucede en el país, pues como ser humano e individuo cuesta mucho indagar en nuestro propio dolor&#8221;.</p>
+<p>Cada una de las instancias de reunión de estos compañeros de labores es musicalizada por la cellista Ángela Acuña, quien “es un personaje más de la obra”, dijo Miranda. La intérprete está siempre en el café amenizando la estadía de los consumidores. Según el director “la música en vivo hace que la puesta en escena entera adquiere vitalidad”.</p>
+<p>“Duelo” se presentará hasta el 10 de agosto, con funciones los días jueves a las 20:30 horas, y los viernes y sábado a las 22 horas en el <a href="http://www.teatrodelpuente.cl/" target="_blank"><strong>Teatro del Puente</strong></a>, ubicado entre los puentes Pio Nono y Purísima. La entrada es de $5000 general y $3000 estudiantes y tercera edad.</p>
+<p><iframe src="http://player.vimeo.com/video/69278130" height="281" width="500" allowfullscreen="" frameborder="0"></iframe></p>
+<p><a href="http://vimeo.com/69278130">Duelo</a> from <a href="http://vimeo.com/user3841187">Teatro_del_Puente</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+<img src="http://feeds.feedburner.com/~r/radiouchile/~4/aKKs5tCNGLo" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://radio.uchile.cl/noticias/225320/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://radio.uchile.cl/noticias/225320/</feedburner:origLink></item>
+		<item>
+		<title>Río Cruces: Contaminación persiste pese a fallo condenatorio a celulosa</title>
+		<link>http://feedproxy.google.com/~r/radiouchile/~3/-SS1c2cwFXM/</link>
+		<comments>http://radio.uchile.cl/noticias/225322/#comments</comments>
+		<pubDate>Mon, 29 Jul 2013 22:08:39 +0000</pubDate>
+		<dc:creator>Juan San Cristóbal</dc:creator>
+				<category><![CDATA[Noticias]]></category>
+		<category><![CDATA[celulosa arauco]]></category>
+		<category><![CDATA[cisnes cuello negro]]></category>
+		<category><![CDATA[humedal]]></category>
+		<category><![CDATA[río cruces]]></category>
+
+		<guid isPermaLink="false">http://radio.uchile.cl/?p=225322</guid>
+		<description><![CDATA[Luego del dictamen de la justicia que establece responsabilidad de Celulosa Arauco en el daño ambiental al río Cruces, en Valdivia, distintos actores subrayan los desafíos de la nueva institucionalidad ambiental. Mejorar la evaluación de impacto y aumentar la fiscalización son dos temas que requieren una optimización, para evitar nuevos desastres ecológicos.]]></description>
+				<content:encoded><![CDATA[<p>En 2004, la población de cisnes de cuello negro del río Cruces experimentó una drástica reducción, pasando de 5 mil 091 a sólo 533 ejemplares. Este hecho derivó en la denuncia por contaminación a un Santuario de la Naturaleza, cuyo fallo se conoció la semana pasada.</p>
+<p>Este es el primer caso que determina ilícitos en la contaminación de un humedal, proceso que se extendió por casi nueve años. Si bien se destaca el rol del Consejo de Defensa del Estado, investigadores esperan un mejor despliegue de la institucionalidad ambiental.</p>
+<p>Daniel Boroschek, médico veterinario y representante del grupo Acción por los Cisnes, exige que el monitoreo determinado por la justicia debe ser externalizado, ya que un ente dependiente de Arauco, la empresa inculpada, no asegura eficacia en su labor.</p>
+<p>“Estas acciones de monitoreo que plantea la jueza no deberían ser llevadas a cabo por la empresa, sino solamente financiadas, y realizadas por una institución que le dé seguridad al Estado, a la empresa y la ciudadanía, de tal manera que no pueda ser manejado por alguna entidad”, indicó.</p>
+<p>Las críticas apuntan a la autorización que permite la operatividad de la planta de celulosa en una zona de protección del ecosistema. Sara Larraín, directora de Chile Sustentable, subrayó que el Sistema de Evaluación de Impacto Ambiental (SEIA) no cuenta con la información e independencia que garantice la protección del medioambiente.</p>
+<p>La ambientalista destacó que “aquí hay un tema crítico, a pesar de las reformas a la institucionalidad ambiental, todos los dedos apuntan a que el SEIA no es independiente, no está funcionando a cabalidad con información seria e independencia técnica para no dejarse influenciar por sectores empresariales o políticos, para aminorar su declaración y evaluación de daños”.</p>
+<p>Sara Larraín advierte la aprobación de un ducto en Caleta Mehuín para que la celulosa derive sus desechos al mar, aun cuando esto significa una amenaza para la pesca artesanal: “La empresa tiene que encontrar una salida, pero no contaminar otra comunidad, u otro cuerpo de agua que sería la bahía Mehuín. Eso no es aceptable, la empresa tiene que asumir todos los costos de su proceso, y tratar sus aguas, establecer un circuito cerrado, donde reciclen su agua contaminada”.</p>
+<p>Enrique Jaramillo, docente de la Universidad Austral que encabezó las pericias en el río Cruces, también alerta sobre este ducto, ya que su mínima extensión deriva en que los residuos lleguen a la costa, y advierte que Arauco aún bota sus desechos en el humedal.</p>
+<p>El investigador subrayó que el ducto “está autorizado pero no se ha construido, o sea que la planta sigue vertiendo sus desechos industriales en el humedal del Río Cruces. Nosotros hemos hecho comentarios al ducto, ya que su longitud queda dentro de la zona de rompiente de las olas en período de mal tiempo. Si están saliendo elementos químicos en periodo de mal tiempo, es obvio que esos elementos se van a devolver hacia la costa”.</p>
+<p>A esto se suma la investigación de Conaf, que certifica una ostensible baja en la población de cisnes de cuello negro, especie en redujo su población en un 74 por ciento desde 2004, año de inicio de operaciones de la celulosa en la región de los Ríos.</p>
+<img src="http://feeds.feedburner.com/~r/radiouchile/~4/-SS1c2cwFXM" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://radio.uchile.cl/noticias/225322/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		<feedburner:origLink>http://radio.uchile.cl/noticias/225322/</feedburner:origLink></item>
+		<item>
+		<title>Oposición y oficialismo “conformes” con propuesta de salario mínimo de $210 mil</title>
+		<link>http://feedproxy.google.com/~r/radiouchile/~3/fQ-_mFeEjoY/</link>
+		<comments>http://radio.uchile.cl/noticias/225312/#comments</comments>
+		<pubDate>Mon, 29 Jul 2013 21:53:06 +0000</pubDate>
+		<dc:creator>Juan San Cristóbal</dc:creator>
+				<category><![CDATA[Noticias]]></category>
+		<category><![CDATA[economía]]></category>
+		<category><![CDATA[política]]></category>
+		<category><![CDATA[proyecto de ley]]></category>
+		<category><![CDATA[salario mínimo]]></category>
+		<category><![CDATA[sebastián piñera]]></category>
+
+		<guid isPermaLink="false">http://radio.uchile.cl/?p=225312</guid>
+		<description><![CDATA[El Presidente anunció el ingreso de un nuevo proyecto de ley de reajuste del salario mínimo, el que eleva la cifra de los actuales 193 mil a 210 mil pesos. El mandatario, junto con pedir “responsabilidad” al Congreso, señaló que, de mantenerse el nivel de incremento anual promedio de este Gobierno, Chile tendrá un sueldo base de 250 mil pesos al año 2015. Desde la oposición destacaron que el Ejecutivo haya dejado la intransigencia de lado.]]></description>
+				<content:encoded><![CDATA[<p>Este martes ingresará al Congreso un nuevo proyecto de ley de reajuste del salario mínimo, discusión que, recordemos, se inició en marzo con un primer mensaje presidencial de 205 mil pesos.</p>
+<p>Esta vez, el Ejecutivo enviará un texto que incrementa el sueldo base de los actuales 193 mil hasta los 210 mil pesos, lo que representa un ajuste nominal de un 8,8 por ciento y real de 7,9 puntos porcentuales, según destacó el Presidente Sebastián Piñera.</p>
+<p>El mandatario aseguró que, de mantenerse el incremento anual promedio de la actual administración, el denominado “salario ético” podría ser una realidad en 2015.</p>
+<p>“De mantenerse este ritmo de ajuste nominal podremos alcanzar la cifra de 250 mil pesos mensuales el año 2015. De esta manera, estamos haciendo un enorme esfuerzo para mejorar no solamente el salario mínimo, sino que también para mejorar la calidad de vida de los sectores más vulnerables de nuestro país a través de un programa denominado Ingreso Ético Familiar, que apunta a derrotar la pobreza extrema”, expresó.</p>
+<p>El anuncio del Gobierno no sorprendió, ya que, en horas previas, al término del comité político, los presidentes de Renovación Nacional, Carlos Larraín, y la UDI, Patricio Melero, informaron de su petición formal y conjunta de elevar el ingreso mínimo a 210 mil pesos.</p>
+<p>El proyecto incluirá un reajuste del 8,8 por ciento para el subsidio único familiar y también para el primer tramo de asignación.</p>
+<p>La diputada del PPD Ximena Vidal, miembro de la comisión de Trabajo de la Cámara, señaló que el Gobierno, “al fin”, dejó la intransigencia de lado y escuchó a la oposición.</p>
+<p>Postura similar a la manifestada por el diputado DC Pablo Lorenzini, integrante de la comisión de Hacienda, quien sostuvo que el Ejecutivo tardó demasiado en aumentar el sueldo mínimo.</p>
+<p>“De 207 a 210 mil pesos no provoca un impacto. Ya en un minuto se advirtió el respaldo de la UDI, que no aprobó los 205, y después el respaldo de Renovación Nacional, después de las primarias. También se tenía claro desde el punto de vista parlamentario un respaldo a 210 y no a 207 y por lo tanto en esas condiciones yo sí creo que se exacerbó un poquitito más allá de lo necesario el resguardo, el país está bien”, afirmó.</p>
+<p>Lorenzini adelantó que el proyecto genera acuerdo en la Cámara y el Senado, tanto de la oposición como del oficialismo, por lo que “no habría impedimentos para su rápida aprobación”, subrayó.</p>
+<p>Oscar Olivos, presidente de la Central Autónoma de Trabajadores (CAT), indicó que es materia pendiente legislar en torno a una institucionalidad permanente que eleve el salario base, independiente de los gobiernos de turno.</p>
+<p>“Hay que pensar en un nuevo parámetro que permita desarrollar un salario mínimo que se ajuste a la realidad del siglo XXI y que terminemos con este show que sale todos los años sobre el salario mínimo, que si sube mucho va a caer el empleo, eso es mentira”, manifestó.</p>
+<p>El senador UDI Hernán Larraín se mostró “muy conforme”, según declaró, con el proyecto que ingresará, este martes, al Parlamento.</p>
+<img src="http://feeds.feedburner.com/~r/radiouchile/~4/fQ-_mFeEjoY" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://radio.uchile.cl/noticias/225312/feed/</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+		<feedburner:origLink>http://radio.uchile.cl/noticias/225312/</feedburner:origLink></item>
+		<item>
+		<title>“El niño caracol”, la obra de teatro infantil que se presenta cada semana en el Teatro Alcalá</title>
+		<link>http://feedproxy.google.com/~r/radiouchile/~3/xRjSVbqedJI/</link>
+		<comments>http://radio.uchile.cl/noticias/225300/#comments</comments>
+		<pubDate>Mon, 29 Jul 2013 21:37:47 +0000</pubDate>
+		<dc:creator>Rodrigo Alarcón</dc:creator>
+				<category><![CDATA[Noticias]]></category>
+		<category><![CDATA[el niño caracol]]></category>
+		<category><![CDATA[puerto de sueños]]></category>
+		<category><![CDATA[teatro alcalá]]></category>
+		<category><![CDATA[teatro infantil]]></category>
+
+		<guid isPermaLink="false">http://radio.uchile.cl/?p=225300</guid>
+		<description><![CDATA[La historia del príncipe Jalib es llevada a escena por la compañía Puerto de Sueños en la sala de Bellavista. Las funciones se presentan todos los sábados hasta fines de agosto.]]></description>
+				<content:encoded><![CDATA[<p>La historia de Jalib, el pequeño príncipe de la India que se pierde en un bosque encantado en el cual se encuentra con una tortuga y un caracol, es la que relata <i>El niño caracol</i>, obra que se presenta todos los sábados en el Teatro Alcalá.</p>
+<p>La puesta en escena está a cargo de la compañía Puerto de Sueños y está pensada especialmente para un público infantil, combinando texto, música, baile, coloridos vestuarios y coreografías.</p>
+<p>La historia fue escrita por Julio Goycoolea y el elenco está integrado por Lorena Arriagada, Daniela García, Danilo Cabello, Tania Frez y Javier Goycoolea, quienes actúan bajo la dirección de Nelson Goycoolea.</p>
+<p>El mismo director es el fundador de la compañía, cuyo trabajo se ha centrado en el teatro infantil a través de obras como <i>Chiloé, mar de leyenda</i>, <i>Cuento que ya no hay cuentos</i>, <i>El gigante egoísta</i>, <i>Un rey para el rey y La última temporada, </i>entre otras.</p>
+<p>La compañía realiza más de un centenar de funciones al año, las que han sido vistas por más de 40 mil estudiantes de enseñanza básica y media.</p>
+<p><i>El niño caracol</i> se presenta todos los sábados a las 17 horas, hasta fines de agosto, en el Teatro Alcalá (Bellavista 97, Recoleta). Las entradas tienen valores de cuatro mil pesos para adultos y dos mil pesos para niños.</p>
+<img src="http://feeds.feedburner.com/~r/radiouchile/~4/xRjSVbqedJI" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://radio.uchile.cl/noticias/225300/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://radio.uchile.cl/noticias/225300/</feedburner:origLink></item>
+		<item>
+		<title>Actores, músicos y cineastas se someten a un cuestionario en nuevo libro de Ediciones Radio Universidad de Chile</title>
+		<link>http://feedproxy.google.com/~r/radiouchile/~3/ajy1WlqqoRk/</link>
+		<comments>http://radio.uchile.cl/noticias/225289/#comments</comments>
+		<pubDate>Mon, 29 Jul 2013 21:03:15 +0000</pubDate>
+		<dc:creator>Rodrigo Alarcón</dc:creator>
+				<category><![CDATA[Noticias]]></category>
+		<category><![CDATA[cuestionario sin fin]]></category>
+		<category><![CDATA[ediciones radio universidad de chile]]></category>
+		<category><![CDATA[rafael ruiz moscatelli]]></category>
+		<category><![CDATA[sala master]]></category>
+
+		<guid isPermaLink="false">http://radio.uchile.cl/?p=225289</guid>
+		<description><![CDATA[Este martes se presenta "Cuestionario sin fin", de Rafael Ruiz Moscatelli, en el que 22 figuras de distintos ámbitos son sometidos a un conjunto de preguntas. El autor entregó detalles de la publicación y explicó sus motivos para crearla.]]></description>
+				<content:encoded><![CDATA[<p>La actriz Delfina Guzmán, el cineasta Ignacio agüero, el académico Javier Pineda, el músico Julio Numhauser y los escritores Raúl Zurita y Ramón Díaz Eterovic son algunos de los 22 convocados por Rafael Ruiz Moscatelli en su nuevo libro, <i>Cuestionario sin fin</i>, que será presentado este martes en la Sala Master de Radio Universidad de Chile.</p>
+<p>El volumen, publicado por Ediciones Radio Universidad de Chile, presenta un cuestionario con 21 interrogantes como “¿para qué le gustaría ser invisible?”, “si no pagaran, ¿usted trabajaría?”, “¿qué es para usted el más allá?” o qué preguntas le haría a personajes como Nelson Mandela, Violeta Parra, Fidel Castro, Elvis Presley o Diego Maradona. Así, cada uno de los convocados debe contestar sobre los mismos asuntos y entregar su propia respuesta.</p>
+<p>Rafael Ruiz Moscatelli dijo que seleccionó a los participantes considerando que fueran personas que no se autocensuraran al responder y entregó algunos detalles de cómo elaboró el libro: “Yo creo que un cuestionario es algo que se responde por escrito. Me acuerdo que desde pequeño, y en algunos eventos represivos en los que me tocó ser interrogado, también me entregaban cosas por escrito. La diferencia entre contestar por escrito y contestar oralmente es muy grande. Por ejemplo, este cuestionario lo trabajé durante mucho tiempo, pero además se lo entregué a cada una de estas personas y no les di tiempo, les dije que me contestaran cuando pudieran y quisieran”, señaló <a href="http://radio.uchile.cl/programas/semaforo/patricio-lopez-dialoga-con-el-escritor-rafael-ruiz-moscatelli-sobre-su-ultimo-libro-cuestionario-sin-fin-con-el-periodista-roberto-meza-analiza-la-situacion-economica-en-china-y-sus/" target="_blank"><strong>en el programa Semáforo de Radio Universidad de Chile.</strong></a></p>
+<p>Rafael Ruiz Moscatelli es ingeniero y doctor en Filosofía y ha publicado cuentos y novelas, además de columnas y artículos en distintos medios, como la Revista Análisis, los diarios La Época, La Tercera y La Nación y nuestra emisora.</p>
+<p>Sin embargo, explicó que el <i>Cuestionario sin fín</i> no tiene un afán periodístico, sino que busca explorar en la falta de certezas y enfrentar las dudas que cada persona siempre tiene: “Uno tiene definiciones. Yo tengo identidad política, tengo gustos, preferencias, etcétera, sin embargo, dentro de esas definiciones también tengo dudas y tengo curiosidad. Si no hay curiosidad, no hay vida. Tengo ganas de ir entendiendo de cosas que antes no entendí. Si la vida es larga -como es en algunos casos- uno se da cuenta que hay ciertas certezas que después se transforman en una incerteza enorme, pero a su vez, eso es conocimiento. Entonces a la duda no hay que temerle, hay que enfrentarla y buscar el origen de esa duda”, afirmó.</p>
+<p><i>Cuestionario sin fin</i> será presentado este martes a las 19 horas en Sala Master de Radio Universidad de Chile (Miguel Claro 509, Providencia), con la participación de Rafael Ruiz Moscatelli, el director de Radio Universidad de Chile, Juan Pablo Cárdenas, y Jaime Valenzuela, fundador del colectivo de escritores Talleres del Mar.</p>
+<img src="http://feeds.feedburner.com/~r/radiouchile/~4/ajy1WlqqoRk" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://radio.uchile.cl/noticias/225289/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://radio.uchile.cl/noticias/225289/</feedburner:origLink></item>
+		<item>
+		<title>Director de INE ofrece disculpas públicas por Censo 2012 y adelanta nuevas cifras para diciembre</title>
+		<link>http://feedproxy.google.com/~r/radiouchile/~3/FusTJgH7FF8/</link>
+		<comments>http://radio.uchile.cl/noticias/225282/#comments</comments>
+		<pubDate>Mon, 29 Jul 2013 20:46:38 +0000</pubDate>
+		<dc:creator>Cristián Zúñiga</dc:creator>
+				<category><![CDATA[Noticias]]></category>
+		<category><![CDATA[cámara de diputados]]></category>
+		<category><![CDATA[censo 2012]]></category>
+		<category><![CDATA[ine]]></category>
+
+		<guid isPermaLink="false">http://radio.uchile.cl/?p=225282</guid>
+		<description><![CDATA[Este lunes, el director del Instituto Nacional de Estadísticas (INE), Juan Eduardo Coeymans, luego de ser citado a la comisión investigadora de la instancia de la Cámara Baja, se refirió al trabajo desempeñado en los últimos tres meses en la institución y ofreció disculpas a la ciudadanía por los cuestionamientos al organismo y al Censo en particular.]]></description>
+				<content:encoded><![CDATA[<p>Este lunes, el director del Instituto Nacional de Estadísticas (INE), Juan Eduardo Coeymans, luego de ser citado a la comisión investigadora de la instancia de la Cámara Baja, se refirió al trabajo desempeñado en los últimos tres meses en la institución y ofreció disculpas a la ciudadanía por los cuestionamientos al organismo y al Censo en particular.</p>
+<p>De esta manera, el director del INE dijo &#8220;quiero aprovechar de pedir disculpas a la población por lo que ocurrió&#8221;. Asimismo, Eduardo Coeymans indicó que &#8220;hay que sacar lecciones de lo que ocurrió&#8221;, pero que es necesario &#8220;mirar hacia adelante&#8221;.</p>
+<p>En tanto, el director subrogante sostuvo que &#8220;cuando yo llegué iniciamos el proceso de revisión y debiéramos tener claro todo en septiembre del 2013. El informe de la comisión externa estará en agosto y el informe ejecutivo a final de agosto pero es probable que se atrase unas dos semanas&#8221;.</p>
+<p>El jefe del INE aseguró en la comisión investigadora, que el informe que elabore la comisión externa revisora del Censo será &#8220;pública&#8221; y agregó que &#8220;yo no voy a tapar nada y esa es la orden del Presidente Sebastián Piñera&#8221;.</p>
+<p>Respecto del proceso, el director sostuvo que una de las principales debilidades fue &#8220;no haber hecho un censo piloto&#8221;, previo a la realización del procedimiento.</p>
+<img src="http://feeds.feedburner.com/~r/radiouchile/~4/FusTJgH7FF8" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://radio.uchile.cl/noticias/225282/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://radio.uchile.cl/noticias/225282/</feedburner:origLink></item>
+		<item>
+		<title>Fallecen tres efectivos de la Armada en zona de Laguna Verde en Valparaíso</title>
+		<link>http://feedproxy.google.com/~r/radiouchile/~3/85i_8vJq6Qs/</link>
+		<comments>http://radio.uchile.cl/noticias/225276/#comments</comments>
+		<pubDate>Mon, 29 Jul 2013 20:14:32 +0000</pubDate>
+		<dc:creator>Cristián Zúñiga</dc:creator>
+				<category><![CDATA[Noticias]]></category>
+		<category><![CDATA[armada de chile]]></category>
+		<category><![CDATA[explosión]]></category>
+
+		<guid isPermaLink="false">http://radio.uchile.cl/?p=225276</guid>
+		<description><![CDATA[Dos funcionarios de la Armada fallecieron y otro está desaparecido luego de una detonación durante un ejercicio militar en el sector de Laguna Verde, en la región de Valparaíso. Por medio de un comunicado, la institución confirmó la noticia. “A las 12:45 horas de hoy, lunes 29 de julio, mientras se efectuaba una práctica de...]]></description>
+				<content:encoded><![CDATA[<p>Dos funcionarios de la Armada fallecieron y otro está desaparecido luego de una detonación durante un ejercicio militar en el sector de Laguna Verde, en la región de Valparaíso.</p>
+<p>Por medio de un comunicado, la institución confirmó la noticia. “A las 12:45 horas de hoy, lunes 29 de julio, mientras se efectuaba una práctica de demoliciones bajo el agua con explosivos en el sector de Caleta Hornillos se produjo un accidente con resultado de muerte”, indicó la institución.</p>
+<p>Los fallecidos son el Teniente Segundo IM  Miguel Casas–Cordero Menéndez y el Sargento Primero IM Marcos Llancavil Arce, ambos de dotación del Comando de Fuerzas Especiales de la Armada.</p>
+<p>A causa del accidente estuvo desaparecido por algunas horas el Cabo Primero IM José Luis Valenzuela Valderrama, quien también fue encontrado muerto.</p>
+<p>Cabe señalar que la institución había dispusto una serie de medios aeronavales, marítimos y terrestres que apoyaron las labores de búsqueda del Cabo Valenzuela.</p>
+<p>A causa del accidente falleció en el lugar el Sargento Llancavil, mientras que el Teniente Casas-Cordero fue trasladado hacia el Hospital “Carlos Van Buren” falleciendo en el camino al centro asistencial.</p>
+<p>Hasta el lugar concurrieron ambulancias y representantes del alto mando institucional para encabezar las diligencias que puedan determinar cómo sucedió el fatal accidente.</p>
+<img src="http://feeds.feedburner.com/~r/radiouchile/~4/85i_8vJq6Qs" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://radio.uchile.cl/noticias/225276/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://radio.uchile.cl/noticias/225276/</feedburner:origLink></item>
 		<item>
 		<title>Descriterio sobre ruedas</title>
-		<link>http://radio.uchile.cl/opiniones/225270/</link>
+		<link>http://feedproxy.google.com/~r/radiouchile/~3/fc8FBpPoZyU/</link>
 		<comments>http://radio.uchile.cl/opiniones/225270/#comments</comments>
 		<pubDate>Mon, 29 Jul 2013 17:56:35 +0000</pubDate>
 		<dc:creator>Claudio Medrano</dc:creator>
@@ -45,13 +368,13 @@ Estamos sumergidos en un sistema en el cual la falta de educación es la princip
 <p>Espero que esta columna realmente les haya dejado una estela de incomodidad, porque si ese fue el resultado quiere decir que usted es el que camina mientras chatea, el que recibe el whatsapp mientras maneja, el que pasa a llevar el bastón de una persona ciega y el que probablemente lo último que vayan a ver sus ojos antes de meter los pies en su cajón sea su celular.</p>
 <p>Si quiere respeto y atención, respete y ponga atención.</p>
 <p>Y también aprenda a cerrar la boca cuando le corresponde.</p>
-]]></content:encoded>
+<img src="http://feeds.feedburner.com/~r/radiouchile/~4/fc8FBpPoZyU" height="1" width="1"/>]]></content:encoded>
 			<wfw:commentRss>http://radio.uchile.cl/opiniones/225270/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
-		</item>
+		<feedburner:origLink>http://radio.uchile.cl/opiniones/225270/</feedburner:origLink></item>
 		<item>
 		<title>Alianza acuerda pedir salario mínimo de $210 mil al gobierno</title>
-		<link>http://radio.uchile.cl/noticias/225261/</link>
+		<link>http://feedproxy.google.com/~r/radiouchile/~3/OZeMuWeb1ZQ/</link>
 		<comments>http://radio.uchile.cl/noticias/225261/#comments</comments>
 		<pubDate>Mon, 29 Jul 2013 17:31:18 +0000</pubDate>
 		<dc:creator>Claudio Medrano</dc:creator>
@@ -73,13 +396,13 @@ Estamos sumergidos en un sistema en el cual la falta de educación es la princip
 <p>Recordemos que el gobierno intentó adelantar la discusión del Salario Mínimo, al ingresar un proyecto de ley que elevaba la cifra a los 205 mil pesos, cifra que finalmente fue rechazada por el Congreso en el mes de mayo.</p>
 <p>De esta forma, se envió otra iniciativa que aumentaba el sueldo mínimo a 207 mil pesos, que tampoco contó con el apoyo necesario en el parlamento.</p>
 <p>De esta forma se cumple con uno de los deseos de Renovación Nacional, que desde hace unos cuantos meses venía exigiendo al gobierno elevar la cifra a los 210 mil pesos.</p>
-]]></content:encoded>
+<img src="http://feeds.feedburner.com/~r/radiouchile/~4/OZeMuWeb1ZQ" height="1" width="1"/>]]></content:encoded>
 			<wfw:commentRss>http://radio.uchile.cl/noticias/225261/feed/</wfw:commentRss>
 		<slash:comments>1</slash:comments>
-		</item>
+		<feedburner:origLink>http://radio.uchile.cl/noticias/225261/</feedburner:origLink></item>
 		<item>
 		<title>Se extiende hasta el 19 de agosto plazo de inscripción en la PSU</title>
-		<link>http://radio.uchile.cl/noticias/225250/</link>
+		<link>http://feedproxy.google.com/~r/radiouchile/~3/9lOdx6qNEH4/</link>
 		<comments>http://radio.uchile.cl/noticias/225250/#comments</comments>
 		<pubDate>Mon, 29 Jul 2013 17:29:29 +0000</pubDate>
 		<dc:creator>Cristián Zúñiga</dc:creator>
@@ -96,13 +419,13 @@ Estamos sumergidos en un sistema en el cual la falta de educación es la princip
 <p>Los interesados en participar del proceso de admisión 2014 deben registrarse para la prueba, que se aplicará el 2 y 3 de diciembre, a través del Portal del Postulante del <a href="http://www.demre.cl/">sitio web del Demre</a>, donde deberán completar los datos necesarios para su inscripción, como por ejemplo, prueba electiva, sede de rendición, y datos de contacto y otros.</p>
 <p>La inscripción tiene un valor de 26 mil 720, que se puede cancelar a través de un cupón de pago en cajas del Banco de Chile o mediante sistema en línea para tarjetas de crédito bancarias.</p>
 <p>Además, los estudiantes de Cuarto medio de colegios municipales y particular subvencionados pueden inscribirse de forma gratuita utilizando la beca Junaeb para la PSU.</p>
-]]></content:encoded>
+<img src="http://feeds.feedburner.com/~r/radiouchile/~4/9lOdx6qNEH4" height="1" width="1"/>]]></content:encoded>
 			<wfw:commentRss>http://radio.uchile.cl/noticias/225250/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
-		</item>
+		<feedburner:origLink>http://radio.uchile.cl/noticias/225250/</feedburner:origLink></item>
 		<item>
 		<title>Evelyn Matthei nombra a Lily Pérez como vocera y RN no descarta levantar candidato propio</title>
-		<link>http://radio.uchile.cl/noticias/225257/</link>
+		<link>http://feedproxy.google.com/~r/radiouchile/~3/kzvWxYIQ12I/</link>
 		<comments>http://radio.uchile.cl/noticias/225257/#comments</comments>
 		<pubDate>Mon, 29 Jul 2013 17:05:46 +0000</pubDate>
 		<dc:creator>Claudio Medrano</dc:creator>
@@ -119,13 +442,13 @@ Estamos sumergidos en un sistema en el cual la falta de educación es la princip
 <p>&#8220;Efectivamente, habíamos tenido conversaciones con Catalina Parot, estaban sumamente avanzadas, pero hoy día en la mañana ella me avisó que, finalmente, decidió ser candidata a diputada, y eso desgraciadamente hace incompatible que ella sea vocera&#8221;, señaló la candidata.</p>
 <p>Evelyn Matthei agregó que &#8220;habíamos conversado bastante, pero finalmente optó por ser candidata a diputada y está en todo su derecho&#8221;.</p>
 <p>Por su parte, el presidente del Partido Socialista, Osvaldo Andrade, señaló que &#8220;Evelyn Matthei es una buena candidata y tiene atributos de los cuales hay que preocuparse porque esto no es una carrera corrida, pese al gran respaldo ciudadano que tiene Michelle Bachelet&#8221;.</p>
-]]></content:encoded>
+<img src="http://feeds.feedburner.com/~r/radiouchile/~4/kzvWxYIQ12I" height="1" width="1"/>]]></content:encoded>
 			<wfw:commentRss>http://radio.uchile.cl/noticias/225257/feed/</wfw:commentRss>
-		<slash:comments>3</slash:comments>
-		</item>
+		<slash:comments>5</slash:comments>
+		<feedburner:origLink>http://radio.uchile.cl/noticias/225257/</feedburner:origLink></item>
 		<item>
-		<title>&#8220;Sobre la cuerda floja&#8221; vuelve a cartelera con sólo seis funciones</title>
-		<link>http://radio.uchile.cl/noticias/225243/</link>
+		<title>“Sobre la cuerda floja” vuelve a cartelera con sólo seis funciones</title>
+		<link>http://feedproxy.google.com/~r/radiouchile/~3/AFih3nd_ZdQ/</link>
 		<comments>http://radio.uchile.cl/noticias/225243/#comments</comments>
 		<pubDate>Mon, 29 Jul 2013 16:51:05 +0000</pubDate>
 		<dc:creator>Damaris Torres</dc:creator>
@@ -146,13 +469,13 @@ Estamos sumergidos en un sistema en el cual la falta de educación es la princip
 <div id="attachment_225245" class="wp-caption aligncenter" style="width: 640px"><a href="http://radio.uchile.cl/wp-content/uploads/2013/07/SOBRELACUERDAFLOJA2.jpg?afdd81"><img class="size-full wp-image-225245" alt="SOBRELACUERDAFLOJA2" src="http://radio.uchile.cl/wp-content/uploads/2013/07/SOBRELACUERDAFLOJA2.jpg?afdd81" width="630" height="315" /></a><p class="wp-caption-text">Obra &#8220;Sobre la cuerda floja&#8221;</p></div>
 <p>&nbsp;</p>
 </div>
-]]></content:encoded>
+<img src="http://feeds.feedburner.com/~r/radiouchile/~4/AFih3nd_ZdQ" height="1" width="1"/>]]></content:encoded>
 			<wfw:commentRss>http://radio.uchile.cl/noticias/225243/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
-		</item>
+		<feedburner:origLink>http://radio.uchile.cl/noticias/225243/</feedburner:origLink></item>
 		<item>
 		<title>12 mil toneladas de basura no se recogerán por paro de Recolectores</title>
-		<link>http://radio.uchile.cl/noticias/225247/</link>
+		<link>http://feedproxy.google.com/~r/radiouchile/~3/BDsppaM1a2E/</link>
 		<comments>http://radio.uchile.cl/noticias/225247/#comments</comments>
 		<pubDate>Mon, 29 Jul 2013 16:41:53 +0000</pubDate>
 		<dc:creator>Cristián Zúñiga</dc:creator>
@@ -171,13 +494,13 @@ Estamos sumergidos en un sistema en el cual la falta de educación es la princip
 <p>Principalmente, esperan que el Gobierno haga de interlocutor y facilite aumentos salariales y garantice mejores condiciones laborales, como por ejemplo, que las jornadas laborales no superen las 12 horas, como sí ocurre hasta ahora en algunos casos.</p>
 <p>Soto explicó que el movimiento está dirigido por las federaciones, por lo que no se espera una respuesta por parte de las empresas que concesionan los servicios de limpieza.</p>
 <p>El 22 de mayo pasado, se solicitó al ministerio del Trabajo que dirigía Evelyn Matthei a la fecha, que se instalara una mesa de trabajo. Ante la falta de respuesta los trabajadores decidieron movilizarse porque no se puede “trabajar en estas condiciones y ganando estos salarios de hambre”. El Estado, solidariamente, debe solucionar el problema, finalizó el dirigente.</p>
-]]></content:encoded>
+<img src="http://feeds.feedburner.com/~r/radiouchile/~4/BDsppaM1a2E" height="1" width="1"/>]]></content:encoded>
 			<wfw:commentRss>http://radio.uchile.cl/noticias/225247/feed/</wfw:commentRss>
-		<slash:comments>2</slash:comments>
-		</item>
+		<slash:comments>10</slash:comments>
+		<feedburner:origLink>http://radio.uchile.cl/noticias/225247/</feedburner:origLink></item>
 		<item>
 		<title>Músicos sinfónicos interpretan famosos boleros junto a Carmen Prieto</title>
-		<link>http://radio.uchile.cl/noticias/225229/</link>
+		<link>http://feedproxy.google.com/~r/radiouchile/~3/4FrGtzWM6ec/</link>
 		<comments>http://radio.uchile.cl/noticias/225229/#comments</comments>
 		<pubDate>Mon, 29 Jul 2013 15:56:06 +0000</pubDate>
 		<dc:creator>Damaris Torres</dc:creator>
@@ -198,13 +521,13 @@ Estamos sumergidos en un sistema en el cual la falta de educación es la princip
 <p>Para González, la música romántica, y especialmente el género del bolero, le es muy familiar ya que solía escucharla cuando niño en su casa. Especial nostalgia siente por Los Panchos y Los Tres Caballeros, importantes grupos que difundieron esta música por el mundo. Según González “la propuesta del conjunto es evocar la época de los años ’50, cuando se hicieron famosos los boleros, a nivel sonoro y visual, para eso nos vestimos con zapatos de charol y chaquetas blancas”.</p>
 <p>Acerca de las expectativas que tienen para este concierto el clarinetista de la Sinfónica de Chile afirma: “A la gente le gusta escuchar esta música porque marcó un tiempo y, por otra parte, temas como el amor y desamor nunca pasarán de moda. Quienes vengan se envolverán en una atmósfera romántica y estas canciones les van a llegar profundamente”,</p>
 <p>Entradas público general $ 3.000; Tercera Edad y Estudiantes $ 2.000 en boletería del teatro (Providencia 043, Metro Baquedano) y a través de ticketek.cl. + info:www.ceac.uchile.cl</p>
-]]></content:encoded>
+<img src="http://feeds.feedburner.com/~r/radiouchile/~4/4FrGtzWM6ec" height="1" width="1"/>]]></content:encoded>
 			<wfw:commentRss>http://radio.uchile.cl/noticias/225229/feed/</wfw:commentRss>
 		<slash:comments>1</slash:comments>
-		</item>
+		<feedburner:origLink>http://radio.uchile.cl/noticias/225229/</feedburner:origLink></item>
 		<item>
 		<title>Primera “Cumbre Latinoamericana de Innovación” con énfasis en emprendimiento</title>
-		<link>http://radio.uchile.cl/noticias/225227/</link>
+		<link>http://feedproxy.google.com/~r/radiouchile/~3/7tl8eI7c524/</link>
 		<comments>http://radio.uchile.cl/noticias/225227/#comments</comments>
 		<pubDate>Mon, 29 Jul 2013 15:49:51 +0000</pubDate>
 		<dc:creator>Cristián Zúñiga</dc:creator>
@@ -221,13 +544,13 @@ Estamos sumergidos en un sistema en el cual la falta de educación es la princip
 <p>Posicionar a Chile como polo de innovación y emprendimiento en Latinoamérica.</p>
 <p>Desarrollar una agenda de innovación para Latinoamérica y consolidarlo en un documento de ideas y objetivos estructurados que apoyen a la región a construir el momento único que Latinoamérica está viviendo.</p>
 <p>Esta cumbre se enmarca en el “Año de la Innovación” anunciado por el Presidente Sebastián Piñera para 2013, que busca incentivar la creatividad de los chilenos, enfatizar la importancia de la innovación como herramienta para el desarrollo del país y valida el esfuerzo que ha desarrollado Chile, en los últimos años, para convertirse en el polo de innovación y emprendimiento de la región.</p>
-]]></content:encoded>
+<img src="http://feeds.feedburner.com/~r/radiouchile/~4/7tl8eI7c524" height="1" width="1"/>]]></content:encoded>
 			<wfw:commentRss>http://radio.uchile.cl/noticias/225227/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
-		</item>
+		<feedburner:origLink>http://radio.uchile.cl/noticias/225227/</feedburner:origLink></item>
 		<item>
 		<title>Se abre convocatoria para 1º Encuentro Audiovisual de Valparaíso</title>
-		<link>http://radio.uchile.cl/noticias/225223/</link>
+		<link>http://feedproxy.google.com/~r/radiouchile/~3/7cox4QD7Vgg/</link>
 		<comments>http://radio.uchile.cl/noticias/225223/#comments</comments>
 		<pubDate>Mon, 29 Jul 2013 15:42:28 +0000</pubDate>
 		<dc:creator>Damaris Torres</dc:creator>
@@ -246,13 +569,13 @@ Estamos sumergidos en un sistema en el cual la falta de educación es la princip
 <p>Y ¿quiénes pueden participar del Encuentro Audiovisual de Valparaíso? Es abierto a realizadores audiovisuales con proyectos ya sean documental, ficción o animación, en estado de desarrollo o terminado, largometrajes y también cortometrajes. Las postulaciones para participar se recibirán hasta el 16 de agosto. Se deberán enviar los datos que se especifican en las bases del certamen.</p>
 <p>Finalmente, para la directora de EAV, esta iniciativa es primordial en un momento importante para el cine chileno, el cual está lleno de reconocimientos internacionales. Al respecto, María Paz Eberhard señala que: &#8221;el cine chileno está muy bien evaluado en el extranjero, por lo tanto sus casas productoras están comenzado a ser de interés internacional; sin embargo faltan instancias de formación y de guía para nuestros productores, aprender hacer tratos internacionales de forma correcta y saber donde dirigirse y que conviene una vez que quieran salir a vender sus películas. En ese sentido creo que la industria chilena existe afuera en los festivales o mercados internacionales pero no dentro del país&#8221;<i><b>.</b></i></p>
 <p>La postulación cierra este 16 de agosto. <a href="http://encuentroaudiovisualdevalparaiso.wordpress.com/2013/07/17/bases-de-postulacion-eav-2013/" target="_blank"><strong>Revisa las bases acá.</strong></a></p>
-]]></content:encoded>
+<img src="http://feeds.feedburner.com/~r/radiouchile/~4/7cox4QD7Vgg" height="1" width="1"/>]]></content:encoded>
 			<wfw:commentRss>http://radio.uchile.cl/noticias/225223/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
-		</item>
+		<feedburner:origLink>http://radio.uchile.cl/noticias/225223/</feedburner:origLink></item>
 		<item>
 		<title>Ralentización China: Efectos en Chile y el mundo</title>
-		<link>http://radio.uchile.cl/noticias/225213/</link>
+		<link>http://feedproxy.google.com/~r/radiouchile/~3/PIfk2WeeXxk/</link>
 		<comments>http://radio.uchile.cl/noticias/225213/#comments</comments>
 		<pubDate>Mon, 29 Jul 2013 15:06:02 +0000</pubDate>
 		<dc:creator>Claudio Medrano</dc:creator>
@@ -276,13 +599,13 @@ Estamos sumergidos en un sistema en el cual la falta de educación es la princip
 <p>De acuerdo a los analistas, también en China, como en EE.UU. y Europa, gran parte del crecimiento de los últimos años fue impulsado por una banca sobre apalancada que generó la gran burbuja inmobiliaria china que muestra un stock de unas 60 millones de viviendas sin ocupar, pueblos fantasmas e infraestructura a medio terminar. Pero como hoy está sufriendo el proceso inverso de desapalancamiento, en paralelo a su contracción económica, las autoridades chinas tienen la posibilidad de transitar paulatinamente hacia un nuevo umbral de equilibrio en un nivel de actividad más moderado. El pinchazo de la burbuja y las presiones a su banca son signos de una nueva fase en la que China no volverá a crecer a los dos dígitos de las últimas tres décadas, mientras que el mundo deberá adecuarse a sus nuevos equilibrios.</p>
 <p>Con dicho marco de persistente alto desempleo en Europa y EE.UU,, sumado a la cada vez más validada crítica al discurso sobre el libre comercio en las elites de naciones desarrolladas, la alta deuda pública, la volatilidad del mercado de las divisas a raíz de la guerra entre naciones exportadoras por debilitar sus monedas con propósitos competitivos, así como el fin del dominio del dólar como única moneda de intercambio mundial, hacen prever el avance de un neo proteccionismo que puede poner complejas e invisibles vallas a un país que, como Chile, fundamenta su desarrollo en una estrategia exportadora.</p>
 <p><a href="http://radio.uchile.cl/wp-content/uploads/2013/07/grafico.jpg?afdd81"><img class="alignnone  wp-image-225215" alt="grafico" src="http://radio.uchile.cl/wp-content/uploads/2013/07/grafico.jpg?afdd81" width="737" height="476" /></a></p>
-]]></content:encoded>
+<img src="http://feeds.feedburner.com/~r/radiouchile/~4/PIfk2WeeXxk" height="1" width="1"/>]]></content:encoded>
 			<wfw:commentRss>http://radio.uchile.cl/noticias/225213/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-		</item>
+		<slash:comments>3</slash:comments>
+		<feedburner:origLink>http://radio.uchile.cl/noticias/225213/</feedburner:origLink></item>
 		<item>
 		<title>Recolectores de Basura explican alcances de paro nacional indefinido</title>
-		<link>http://radio.uchile.cl/ruch_tv_videos/225209/</link>
+		<link>http://feedproxy.google.com/~r/radiouchile/~3/LDGFB_tBwmw/</link>
 		<comments>http://radio.uchile.cl/ruch_tv_videos/225209/#comments</comments>
 		<pubDate>Mon, 29 Jul 2013 14:36:47 +0000</pubDate>
 		<dc:creator>Claudio Medrano</dc:creator>
@@ -291,13 +614,13 @@ Estamos sumergidos en un sistema en el cual la falta de educación es la princip
 
 		<guid isPermaLink="false">http://radio.uchile.cl/?p=225209</guid>
 		<description><![CDATA[http://www.youtube.com/watch?v=uzDUFQ4MA7s]]></description>
-				<content:encoded><![CDATA[http://www.youtube.com/watch?v=uzDUFQ4MA7s]]></content:encoded>
+				<content:encoded><![CDATA[http://www.youtube.com/watch?v=uzDUFQ4MA7s<img src="http://feeds.feedburner.com/~r/radiouchile/~4/LDGFB_tBwmw" height="1" width="1"/>]]></content:encoded>
 			<wfw:commentRss>http://radio.uchile.cl/ruch_tv_videos/225209/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
-		</item>
+		<feedburner:origLink>http://radio.uchile.cl/ruch_tv_videos/225209/</feedburner:origLink></item>
 		<item>
 		<title>Los partidarios de Mursi buscan una demostración de fuerza</title>
-		<link>http://radio.uchile.cl/noticias/225203/</link>
+		<link>http://feedproxy.google.com/~r/radiouchile/~3/Rk-VLc6lMRo/</link>
 		<comments>http://radio.uchile.cl/noticias/225203/#comments</comments>
 		<pubDate>Mon, 29 Jul 2013 14:21:47 +0000</pubDate>
 		<dc:creator>Claudio Medrano</dc:creator>
@@ -318,13 +641,13 @@ Estamos sumergidos en un sistema en el cual la falta de educación es la princip
 <p>A pesar de estas reservas, los militantes anti-Mursi siguen apoyando en su gran mayoría al ejército egipcio y al general Sisi. Pero algunas asociaciones denuncian la deriva autoritaria del nuevo régimen. Entre otras, el Movimiento 6 de Abril, que nació durante la revolución contra Mubarak.</p>
 <p>“Lo que el general Sissi hizo al decir que quería luchar contra el terrorismo fue tratar de encontrar un pretexto para amordazar toda oposición. No solamente la de los Hermanos musulmanes, sino también la de todos aquellos opositores que quieran cuestionarlo”, dijo a RFI su portavoz, Chérif Arhoubi</p>
 <p>Después del derrocamiento de Mursi, los militares establecieron un presidente civil de transición, Adli Mansur, y una hoja de ruta política que prevé la revisión de la Constitución y la celebración de elecciones legislativas a principios de 2014 y, a continuación, presidenciales. Una delegación de la Unión Africana llegó a El Cairo, donde permanecerá hasta el 5 de agosto para informarse sobre la situación en el país.</p>
-]]></content:encoded>
+<img src="http://feeds.feedburner.com/~r/radiouchile/~4/Rk-VLc6lMRo" height="1" width="1"/>]]></content:encoded>
 			<wfw:commentRss>http://radio.uchile.cl/noticias/225203/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
-		</item>
+		<feedburner:origLink>http://radio.uchile.cl/noticias/225203/</feedburner:origLink></item>
 		<item>
 		<title>Kristel Kobrich a la final de los 1500 metros en el mundial de Barcelona</title>
-		<link>http://radio.uchile.cl/noticias/225186/</link>
+		<link>http://feedproxy.google.com/~r/radiouchile/~3/BhkYFpq3CBU/</link>
 		<comments>http://radio.uchile.cl/noticias/225186/#comments</comments>
 		<pubDate>Mon, 29 Jul 2013 14:09:43 +0000</pubDate>
 		<dc:creator>Claudio Medrano</dc:creator>
@@ -340,13 +663,13 @@ Estamos sumergidos en un sistema en el cual la falta de educación es la princip
 <p>La nadadora nacida en Santiago, apodada la ‘alemana’, fue la segunda de su serie eliminatoria, que ganó la también vencedora de las eliminatorias globales.</p>
 <p>Kobrich, de 27 años, pugnará por entrar en el podio en la final que tendrá lugar el martes en las piscina montada en el Palau Sant Jordi de Barcelona para este Campeonato.</p>
 <p>Oro en los Juegos Panamericanos de Guadalajara-2011 en 800 libres y campeona de los 1500 metros libres en los Juegos Sudamericanos de Medellín-2010 y Buenos Aires-2006, Kobrich aspira a ampliar su palamrés en una cita planetaria.</p>
-]]></content:encoded>
+<img src="http://feeds.feedburner.com/~r/radiouchile/~4/BhkYFpq3CBU" height="1" width="1"/>]]></content:encoded>
 			<wfw:commentRss>http://radio.uchile.cl/noticias/225186/feed/</wfw:commentRss>
 		<slash:comments>1</slash:comments>
-		</item>
+		<feedburner:origLink>http://radio.uchile.cl/noticias/225186/</feedburner:origLink></item>
 		<item>
 		<title>Manifestación en el Congreso por votación de Ley de Obtentores de semillas</title>
-		<link>http://radio.uchile.cl/noticias/225187/</link>
+		<link>http://feedproxy.google.com/~r/radiouchile/~3/pUJwperokAA/</link>
 		<comments>http://radio.uchile.cl/noticias/225187/#comments</comments>
 		<pubDate>Mon, 29 Jul 2013 14:09:32 +0000</pubDate>
 		<dc:creator>Cristián Zúñiga</dc:creator>
@@ -363,13 +686,13 @@ Estamos sumergidos en un sistema en el cual la falta de educación es la princip
 <p>Según el biólogo, si esta iniciativa legal prospera, ocurrirá lo mismo que con las farmacias, que de numerosas quedaron concentradas finalmente en sólo tres grandes cadenas.</p>
 <p>“Van a ver dos o tres grandes actores que venderán las semillas a un precio mucho más caro, adueñándose de ellas para siempre y quitándonos la soberanía alimentaria, la libertad de elegir”, advirtió.</p>
 <p>A juicio de Santandreu, el debate está muy polarizado por lo que es necesario que la ciudadanía se informe al respecto y ejerza presión para que el proyecto no prospere.</p>
-]]></content:encoded>
+<img src="http://feeds.feedburner.com/~r/radiouchile/~4/pUJwperokAA" height="1" width="1"/>]]></content:encoded>
 			<wfw:commentRss>http://radio.uchile.cl/noticias/225187/feed/</wfw:commentRss>
-		<slash:comments>5</slash:comments>
-		</item>
+		<slash:comments>8</slash:comments>
+		<feedburner:origLink>http://radio.uchile.cl/noticias/225187/</feedburner:origLink></item>
 		<item>
 		<title>Fallece Christian Benitez delantero de la selección ecuatoriana de fútbol</title>
-		<link>http://radio.uchile.cl/noticias/225182/</link>
+		<link>http://feedproxy.google.com/~r/radiouchile/~3/56ate7s5ZK4/</link>
 		<comments>http://radio.uchile.cl/noticias/225182/#comments</comments>
 		<pubDate>Mon, 29 Jul 2013 14:00:40 +0000</pubDate>
 		<dc:creator>Claudio Medrano</dc:creator>
@@ -383,13 +706,13 @@ Estamos sumergidos en un sistema en el cual la falta de educación es la princip
 		<description><![CDATA[El delantero ecuatoriano Christian Benítez, de 27 años de edad, falleció este lunes debido a un paro cardiaco, informó su club, el El Jaish SC de Qatar. Benítez, campeón con el América de México apenas el pasado mes de mayo en el Torneo Clausura 2013, perdió la vida en Qatar, donde cumpliría su primera temporada...]]></description>
 				<content:encoded><![CDATA[<p>El delantero ecuatoriano Christian Benítez, de 27 años de edad, falleció este lunes debido a un paro cardiaco, informó su club, el El Jaish SC de Qatar.</p>
 <p>Benítez, campeón con el América de México apenas el pasado mes de mayo en el Torneo Clausura 2013, perdió la vida en Qatar, donde cumpliría su primera temporada con el equipo local.</p>
-]]></content:encoded>
+<img src="http://feeds.feedburner.com/~r/radiouchile/~4/56ate7s5ZK4" height="1" width="1"/>]]></content:encoded>
 			<wfw:commentRss>http://radio.uchile.cl/noticias/225182/feed/</wfw:commentRss>
-		<slash:comments>15</slash:comments>
-		</item>
+		<slash:comments>21</slash:comments>
+		<feedburner:origLink>http://radio.uchile.cl/noticias/225182/</feedburner:origLink></item>
 		<item>
 		<title>Recolectores de basura paralizan en medio de temores por crisis sanitaria</title>
-		<link>http://radio.uchile.cl/noticias/225177/</link>
+		<link>http://feedproxy.google.com/~r/radiouchile/~3/8wdAqTv_08o/</link>
 		<comments>http://radio.uchile.cl/noticias/225177/#comments</comments>
 		<pubDate>Mon, 29 Jul 2013 13:53:26 +0000</pubDate>
 		<dc:creator>Claudio Medrano</dc:creator>
@@ -409,13 +732,13 @@ Estamos sumergidos en un sistema en el cual la falta de educación es la princip
 <p>Unos 34 mil trabajadores paralizarán las actividades en el país, donde las regiones Metropolitana, Coquimbo, O&#8217;Higgins, Maule y Biobío serán las más afectadas. El paro no se depondrá hasta conseguir acuerdo, sostuvieron.</p>
 <p>Ante un eventual acuerdo, Soto estimó que la situación en Santiago podría regularizarse en unos 3 o 4 días, debido a que diariamente deben recoger unas 12 mil toneladas.</p>
 <p>Los vertederos de Santa Marta, Rinconada de Maipú y Tiltil ya se encuentran bloqueados.</p>
-]]></content:encoded>
+<img src="http://feeds.feedburner.com/~r/radiouchile/~4/8wdAqTv_08o" height="1" width="1"/>]]></content:encoded>
 			<wfw:commentRss>http://radio.uchile.cl/noticias/225177/feed/</wfw:commentRss>
 		<slash:comments>1</slash:comments>
-		</item>
+		<feedburner:origLink>http://radio.uchile.cl/noticias/225177/</feedburner:origLink></item>
 		<item>
 		<title>Profanación</title>
-		<link>http://radio.uchile.cl/opiniones/225163/</link>
+		<link>http://feedproxy.google.com/~r/radiouchile/~3/J6sl8gBzaKY/</link>
 		<comments>http://radio.uchile.cl/opiniones/225163/#comments</comments>
 		<pubDate>Mon, 29 Jul 2013 11:42:32 +0000</pubDate>
 		<dc:creator>Claudio Medrano</dc:creator>
@@ -431,13 +754,13 @@ Estamos sumergidos en un sistema en el cual la falta de educación es la princip
 <p>Las nuevas miradas sobre cuestiones valóricas siempre han generado controversia. Y, tradicionalmente, la sociedad chilena las ha asumido cuando en el mundo la soledad de su postura parecía aberrante. Fue lo que ocurrió con el divorcio. Ahora no será diferente. Pero la historia deja algunas enseñanzas que sería bueno no olvidar. Aquellos que hoy se quejan, con razón, de la profanación de la catedral, han sido quienes constantemente se han negado a dialogar sobre hechos que incluso la ciencia les demostraba su equivocación. Y no es necesario retroceder hasta Galileo.</p>
 <p>Sin embargo, la situación actual pone en tela de juicio la propia institucionalidad de la nación. ¿Por qué el Estado chileno tiene que resolver acerca de una decisión que corresponde a la libertad individual? ¿Por qué las personas que no profesan el credo católico o cristiano deben aceptar normas acerca de su cuerpo que no comparten? Son interrogantes lícitas que no debieran descartarse con el simple y débil expediente de que abordan ámbitos que están más allá de nuestra decisión. ¿Quién les ha dado el poder para sostener tal cosa?</p>
 <p>Es el mismo argumento que se utilizó para terminar con las creencias de los aborígenes que habitaban América. Sobre los sagrados templos de incas, aztecas, mayas y otras culturas, fueron construidas las catedrales católicas que representaban el sentir de los conquistadores. La intolerancia no debe aceptarse, venga de donde venga.</p>
-]]></content:encoded>
+<img src="http://feeds.feedburner.com/~r/radiouchile/~4/J6sl8gBzaKY" height="1" width="1"/>]]></content:encoded>
 			<wfw:commentRss>http://radio.uchile.cl/opiniones/225163/feed/</wfw:commentRss>
 		<slash:comments>3</slash:comments>
-		</item>
+		<feedburner:origLink>http://radio.uchile.cl/opiniones/225163/</feedburner:origLink></item>
 		<item>
 		<title>Carta Abierta a Marcel Claude</title>
-		<link>http://radio.uchile.cl/cartas-al-director/225160/</link>
+		<link>http://feedproxy.google.com/~r/radiouchile/~3/hA70BzQ0HVw/</link>
 		<comments>http://radio.uchile.cl/cartas-al-director/225160/#comments</comments>
 		<pubDate>Mon, 29 Jul 2013 10:49:14 +0000</pubDate>
 		<dc:creator>Claudio Medrano</dc:creator>
@@ -453,343 +776,14 @@ Estamos sumergidos en un sistema en el cual la falta de educación es la princip
 <p>¿Hasta qué punto es legítimo glorificar números que indican “altos estándares” de educación y salud, sin analizarlos sistemáticamente? ¿Es digno de seguir políticas públicas que benefician a unos y perjudican a otros? Espero que después de lo expresado pueda reflexionar y reconsiderar sus dichos. De lo contrario encontraría, a lo menos, voluble que un candidato que quiera establecer un Estado de “derechos” en Chile, apoye a un Estado que sólo se ha destacado por aprobar leyes racistas, violar derechos humanos, e incumplir resoluciones internacionales.</p>
 <p>Tarik Lama Gálvez<br />
 Egresado de Derecho &#8211; Universidad de Chile</p>
-]]></content:encoded>
+<img src="http://feeds.feedburner.com/~r/radiouchile/~4/hA70BzQ0HVw" height="1" width="1"/>]]></content:encoded>
 			<wfw:commentRss>http://radio.uchile.cl/cartas-al-director/225160/feed/</wfw:commentRss>
-		<slash:comments>8</slash:comments>
-		</item>
-		<item>
-		<title>¿Pueblo de borregos?</title>
-		<link>http://radio.uchile.cl/cartas-al-director/225156/</link>
-		<comments>http://radio.uchile.cl/cartas-al-director/225156/#comments</comments>
-		<pubDate>Mon, 29 Jul 2013 10:43:06 +0000</pubDate>
-		<dc:creator>Claudio Medrano</dc:creator>
-				<category><![CDATA[Cartas al Director]]></category>
-
-		<guid isPermaLink="false">http://radio.uchile.cl/?p=225156</guid>
-		<description><![CDATA[Estimado Director: Pueblo de borregos es la expresión que alguna vez utilizó el general Charles de Gaulle para referirse a la mansedumbre política de sus compatriotas en periodos importantes de la historia de Francia. El general De Gaulle, jefe de la resistencia ante el ocupante nazi y la figura más emblemática de su país después...]]></description>
-				<content:encoded><![CDATA[<p>Estimado Director:</p>
-<p>Pueblo de borregos es la expresión que alguna vez utilizó el general Charles de Gaulle para referirse a la mansedumbre política de sus compatriotas en periodos importantes de la historia de Francia. El general De Gaulle, jefe de la resistencia ante el ocupante nazi y la figura más emblemática de su país después de Napoleón Bonaparte, tenía bastante razón . De los 40 millones de habitantes que tenía el país en 1939, solo una muy pequeña minoría combatió a las tropas alemanas y su cruel Gestapo, pues una buena parte de los franceses se acomodaron con el régimen colaboracionista de Pétain y una parte de ellos ayudó activamente a los nazis.</p>
-<p>En muchas ocasiones he pensado que esa despectiva expresión podía ser aplicada al comportamiento de nuestra población y en particular al de algunas de sus capas sociales . Así, es innegable que el golpe contó con la simpatía abierta de importantes sectores de la clase media, envenenados de anticomunismo, y esto es tan verdadero que, con raras excepciones, los dirigentes de un gran partido de clase media como la democracia cristiana de Aylwin y de Frei Montalva aplaudió entusiastamente el golpe. Fue necesario esperar casi diez años para las primeras manifestaciones masivas de descontento de estos sectores que permanecieron silenciosos y beatos y soportaron todo , todo… salvo que los bancos los privasen de sus ahorros. Y mientras tanto el peso de la represión de los golpistas se había seguido ensañando sobre los pobladores más modestos y los poco numerosos verdaderos opositores.</p>
-<p>Hay que reconocer que el comportamiento de unas amplias capas de nuestra población en el periodo posdictadura no nos lleva a cambiar de opinión, pues con la excepción de la valerosa actitud de los estudiantes, los chilenos que ayer se acomodaron de la presencia de Pinochet hoy se acomodan de la dictadura del consumo y de la tarjeta de crédito en el marco de la misma constitución autoritaria.</p>
-<p>Y sin embargo, nosotros somos los herederos de un pueblo que resistió durante tres siglos a los españoles y de unos patriotas que tempranamente nos ofrecieron con sus combates la posibilidad de ser libres y dignos. Algún día tendremos que hacernos cargo de esa herencia.</p>
-<p>José Cañas C.</p>
-]]></content:encoded>
-			<wfw:commentRss>http://radio.uchile.cl/cartas-al-director/225156/feed/</wfw:commentRss>
-		<slash:comments>1</slash:comments>
-		</item>
-		<item>
-		<title>La &#8220;UC&#8221; se hace respetar en el debut y derrota cómodamente a Ñublense</title>
-		<link>http://radio.uchile.cl/noticias/225145/</link>
-		<comments>http://radio.uchile.cl/noticias/225145/#comments</comments>
-		<pubDate>Mon, 29 Jul 2013 00:32:40 +0000</pubDate>
-		<dc:creator>Rodrigo Alarcón</dc:creator>
-				<category><![CDATA[Noticias]]></category>
-		<category><![CDATA[audax italiano]]></category>
-		<category><![CDATA[colo colo]]></category>
-		<category><![CDATA[fútbol chileno]]></category>
-		<category><![CDATA[ñuiblense]]></category>
-		<category><![CDATA[torneo de apertura]]></category>
-		<category><![CDATA[universidad católica]]></category>
-
-		<guid isPermaLink="false">http://radio.uchile.cl/?p=225145</guid>
-		<description><![CDATA[El elenco cruzado se impuso por 3-0 a Ñublense como local y es sublíder por debajo de Audax Italiano, que le propinó un implacable 4-0 a Colo Colo en La Florida.]]></description>
-				<content:encoded><![CDATA[<style type="text/css"><!--
-P { margin-bottom: 0.21cm; }
---></style>
-<p align="JUSTIFY">Siete partidos suma Universidad Católica en el segundo semestre luego de vencer por 3-0 este domingo a Ñublense, por la primera fecha del torneo de Apertura.</p>
-<p align="JUSTIFY">Ante cerca de once mil espectadores en San Carlos de Apoquindo, el equipo de Martín Lasarte estiró la racha que había expuesto en Copa Chile y se impuso sin complicaciones sobre el cuadro chillanejo.</p>
-<p align="JUSTIFY">José Luis Muñoz (15&#8242;), Alfonso Parot (45&#8242;) y Michael Ríos (89&#8242;) estructuraron la victoria de la UC, que queda como sublíder en la tabla de posiciones.</p>
-<p align="JUSTIFY">La primera ubicación es para Audax Italiano, que batió por 4-0 a Colo Colo en el debut de Gustavo Benítez por el campeonato nacional.</p>
-<p align="JUSTIFY">Pese a perder a Mauricio Arias por expulsión en el minuto 26, la escuadra audina no tuvo piedad con los albos y ganó con goles de Bryan Carrasco (48&#8242; y 81&#8242;), Felipe Mora (75&#8242;) y Cristián Canuhé (79&#8242;). la visita sufrió además la expulsión de Lucas Dominguez en el minuto 78.</p>
-<p align="JUSTIFY">Otro equipo que debutó con un triunfo fue O&#8217;Higgins, que fue hasta el Tierra de Campeones para vencer a Iquique por la cuenta mínima, con un gol de Pablo Calandria en el minuto 75.</p>
-<p align="JUSTIFY">Finalmente, Cobreloa sumó sus primeros abrazos en el torno con el 2-0 que obtuvo como local en Antofagasta frente a Universidad de Concepción. Jonathan Chaves (23&#8242;) y Gastón Lezcano (63&#8242;) marcaron para los naranjas, que se ubican cuartos en la tabla de posiciones por diferencia de gol.</p>
-]]></content:encoded>
-			<wfw:commentRss>http://radio.uchile.cl/noticias/225145/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-		</item>
-		<item>
-		<title>Ambientalistas: Se debe reevaluar permiso ambiental para planta de Celulosa Arauco</title>
-		<link>http://radio.uchile.cl/noticias/225115/</link>
-		<comments>http://radio.uchile.cl/noticias/225115/#comments</comments>
-		<pubDate>Mon, 29 Jul 2013 00:11:20 +0000</pubDate>
-		<dc:creator>Rodrigo Alarcón</dc:creator>
-				<category><![CDATA[Noticias]]></category>
-		<category><![CDATA[acción por los cisnes]]></category>
-		<category><![CDATA[celulosa arauco]]></category>
-		<category><![CDATA[medio ambiente]]></category>
-		<category><![CDATA[olca]]></category>
-		<category><![CDATA[río cruces]]></category>
-		<category><![CDATA[terram]]></category>
-		<category><![CDATA[valdivia]]></category>
-
-		<guid isPermaLink="false">http://radio.uchile.cl/?p=225115</guid>
-		<description><![CDATA[Distintas organizaciones valoraron el fallo que condenó a la empresa por el daño ambiental que su Planta Valdivia generó en el Río Cruces, pero lamentaron que éste haya tardado casi diez años y sostuvieron que la resolución pone en entredicho la autorización con la que cuenta la compañía para operar en la zona. ]]></description>
-				<content:encoded><![CDATA[<p>Satisfacción fue lo primero que expresaron las organizaciones ambientalistas luego que se conociera el fallo del Primer Juzgado Civil de Valdivia, que condenó a Celulosa Arauco por el daño ambiental que su Planta Valdivia generó en el Santuario de la Naturaleza del Río Cruces.</p>
-<p>Luego de casi diez años de investigación, la sentencia de la jueza Gloria Hidalgo, respecto de la demanda que presentó el Consejo de Defensa del Estado (CDE), determinó que la única causa del impacto ambiental es el vertimiento ilícito de residuos en el caudal del río.</p>
-<p>Ante esto, el tribunal determinó que la empresa deberá realizar, a su costo, una serie de acciones para intentar restablecer las condiciones ambientales que existían en el Santuario de la Naturaleza antes de la contaminación, ocurrida a fines de 2004.</p>
-<p>Esto fue celebrado por José Araya, vocero de Acción por los Cisnes, quien recalcó que la sentencia atribuye exclusivamente la responsabilidad a la compañía, pero lamentó que la sentencia haya demorado casi una década: “El tiempo que ha pasado es bastante. Ahora, desde un punto de vista de lo que ha sido la discusión de la política ambiental chilena, sabíamos desde el principio que este era un caso muy complejo para tratar de buscar una resolución política y desde el punto de vista ambiental también. Además, por las mismas complejidades del caso, tuvimos una contraparte como Celulosa Arauco que siempre fue negando, ocultando y entorpeciendo la investigación. Eso hizo que tuviéramos un proceso muy largo para llegar recién a esta primera instancia”, afirmó.</p>
-<p>En todo caso, el dirigente se mostró abierto a una eventual conciliación judicial entre el CDE y la compañía: “Se tienen que cautelar ciertos principios que son básicos. Uno ya es parte de este fallo judicial, que es el reconocimiento de que hay un responsable, un autor del daño ambiental, que es Celulosa Arauco. Si una conciliación cautela eso y establece líneas de reparación que sean razonables, en el sentido de que efectivamente permitan avanzar hacia una restauración completa del humedal, para volver a lo que era antes de la contaminación y para que vuelva a cumplir las funciones sociales, económicas y culturales que cumplía, efectivamente la conciliación con esos criterios puede ser absolutamente posible”, señaló.</p>
-<p>José Araya dijo esperar que la actitud de la empresa cambie luego de esta primera sentencia, lo que ya se anticiparía en las propuestas que ésta presentó antes que se conociera el fallo, algunas de las cuales fueron acogidas por el tribunal.</p>
-<p>Los cuestionamientos por la demora fueron compartidos por otras organizaciones, como el Observatorio Latinoamericano de Conflictos Ambientales (OLCA). Su director, Lucio Cuenca, explicó que la sentencia es “emblemática” porque atribuye la responsabilidad del daño sobre la empresa: “Se ha aplicado este mecanismo fundamentalmente por el CDE, pero en la mayoría de los casos los juicios no han llegado a su finalización, sino que el CDE ha sido proclive a establecer negociaciones antes de que exista un fallo. Por lo tanto, nunca se ha logrado determinar totalmente la responsabilidad y las medidas que se desprenden de este fallo por una acción por daño ambiental. Eso es lo emblemático de este caso”, indicó.</p>
-<p>Más allá fue la directora ejecutiva de la Fundación Terram, Flavia Liberona, quien consideró que “lo que hay que hacer es nuevamente evaluar esta planta y ver si procede o no que tenga un permiso ambiental para funcionar en esa zona, porque más allá de todas las acciones ‘reparatorias’ que se puedan hacer, hay un tema de fondo: nada dice que la planta no vuelva a fallar y no vuelva a verter desechos tóxicos”.</p>
-<p>“Lo que corresponde es evaluar. Al ser condenada la empresa y probarse que hay daño ambiental, se abre la interrogante. La pregunta es si la planta puede seguir funcionando en ese lugar o no”, indicó.</p>
-<p>Se espera que el grupo Acción por los Cisnes entregue un análisis técnico más detallado al CDE para que lo considere en las próximas acciones, sobre todo si es que la empresa decide apelar a la determinación, lo cual aún no ha sido comunicado oficialmente.</p>
-]]></content:encoded>
-			<wfw:commentRss>http://radio.uchile.cl/noticias/225115/feed/</wfw:commentRss>
-		<slash:comments>1</slash:comments>
-		</item>
-		<item>
-		<title>Diferencias entre partidos vuelven a dejar en entredicho reforma al binominal</title>
-		<link>http://radio.uchile.cl/noticias/225139/</link>
-		<comments>http://radio.uchile.cl/noticias/225139/#comments</comments>
-		<pubDate>Mon, 29 Jul 2013 00:10:39 +0000</pubDate>
-		<dc:creator>Rodrigo Alarcón</dc:creator>
-				<category><![CDATA[Noticias]]></category>
-		<category><![CDATA[cámara de diputados]]></category>
-		<category><![CDATA[democracia]]></category>
-		<category><![CDATA[nueva mayoría]]></category>
-		<category><![CDATA[ppd]]></category>
-		<category><![CDATA[rn]]></category>
-		<category><![CDATA[senado]]></category>
-		<category><![CDATA[sistema binominal]]></category>
-
-		<guid isPermaLink="false">http://radio.uchile.cl/?p=225139</guid>
-		<description><![CDATA[El PPD emplazó a RN a definir si respaldará el acuerdo al que había llegado con la Nueva Mayoría, pero en el partido oficialista respondieron que los parlamentarios opositores se quedan en el eslogan. Las reformas serán vistas esta semana en el Parlamento.]]></description>
-				<content:encoded><![CDATA[<style type="text/css"><!--
-P { margin-bottom: 0.21cm; }
---></style>
-<p align="JUSTIFY">Reformar el binominal es un tema que acompaña el debate político desde hace años. Modificar el actual sistema de representación política del país es uno de los grandes temas que, elección tras elección, genera opiniones y contraposiciones incluso al interior de los grandes conglomerados.</p>
-<p>El acuerdo que hace semanas anunciara parte del mundo de la Nueva Mayoría y Renovación Nacional irrumpió en el debate como la posibilidad “transversal” de poder aplicar cambios mayores a una cuestionada manera de elegir a nuestros representantes.</p>
-<p>Acto seguido, el Ejecutivo, en respuesta a un acuerdo que uno de sus partidos aliados firmara sin su conocimiento, presentó una nueva modificación, esta vez acompañada por el gremialismo.</p>
-<p>En ese escenario, parlamentarios PPD instaron a sus pares de RN a la aprobación del documento firmado y, además, a pensar en posibilitar la votación de los chilenos en el extranjero. El diputado Jorge Tarud dijo que “hemos emplazado a RN para que su Consejo se pronuncie de manera definitiva para terminar con el binominal. También es importante que en la próxima elección puedan votar todos nuestros compatriotas que viven en el exterior”.</p>
-<p>Enrique Accorsi afirmó que el sistema proporcional que proponen como reemplazo al actual binominal no es una reforma leve, sino un cambio profundo para el que se necesita acuerdo en todos los sectores: “Llamamos a que se cumpla el acuerdo, que esto esté ratificado, pero como todos los proyectos que entran al Congreso, tanto los senadores como los diputados tenemos derecho a poner indicaciones. Lo que queremos realmente no es un sistema que modifique el binominal un poquito, queremos un sistema proporcional: que en un distrito se presente una cantidad de candidatos a senador o diputado y sea la gente la que los elija”, indicó.</p>
-<p>Desde RN sienten que este tipo de llamados públicos no ayudan a la concreción de los objetivos. Para el jefe de bancada del partido, el diputado Pedro Browne, es importante discutir bien cuál será el modo de reemplazo pensando en la mejor alternativa, situación con la que están de acuerdo una gran mayoría de los parlamentarios del partido.</p>
-<p>“Se necesita llegar a un buen acuerdo, porque este es el sistema que nos va a regir por muchos periodos eleccionarios más. Es importante que lo hagamos con el tiempo y la calma que se necesita para sacarlo adelante. Eso no quiere decir que se vaya trancar, pero estas interpelaciones que realiza la oposición a veces a mí me sacan sonrisas, porque son muy buenos para usar el eslogan del cambio al binominal, pero al momento de avanzar en proyectos concretos, uno ve cómo se empiezan a diluir esos esfuerzos. Les pido que no nos diluyamos en eso”, cuestionó.</p>
-<p>Browne además le recordó a sus pares opositores que ellos tampoco han logrado obtener una única opinión al interior de sus filas, por lo tanto el “llamado al orden” es algo de lo que se deben hacer cargo todos los sectores, puntualizó.</p>
-<p>Cabe recordar que el propio senador y líder PPD, Jaime Quintana, presentó un tercer proyecto de modificación junto a su compañero de partido Ricardo Lagos Weber. Ante esto, sus parlamentarios expresaron que esperan este documento no prospere.</p>
-<p>Respecto de la discusión, el próximo miércoles la comisión de Constitución, Legislación, Justicia y Reglamento del Senado continuará analizando las reformas presentadas en materia de integración y elección de la Cámara de Diputados y del Senado, mientras que el voto en el extranjero será analizado durante este lunes.</p>
-]]></content:encoded>
-			<wfw:commentRss>http://radio.uchile.cl/noticias/225139/feed/</wfw:commentRss>
-		<slash:comments>1</slash:comments>
-		</item>
-		<item>
-		<title>Definición de plantillas parlamentarias complica al pacto Nueva Mayoría</title>
-		<link>http://radio.uchile.cl/noticias/225136/</link>
-		<comments>http://radio.uchile.cl/noticias/225136/#comments</comments>
-		<pubDate>Sun, 28 Jul 2013 23:40:45 +0000</pubDate>
-		<dc:creator>Rodrigo Alarcón</dc:creator>
-				<category><![CDATA[Noticias]]></category>
-		<category><![CDATA[dc]]></category>
-		<category><![CDATA[elecciones parlamentarias]]></category>
-		<category><![CDATA[elecciones presidenciales]]></category>
-		<category><![CDATA[nueva mayoría]]></category>
-		<category><![CDATA[ppd]]></category>
-		<category><![CDATA[prsd]]></category>
-		<category><![CDATA[ps]]></category>
-
-		<guid isPermaLink="false">http://radio.uchile.cl/?p=225136</guid>
-		<description><![CDATA[Luego que se informara que la lista senatorial se zanjará sin primarias surgieron nuevas diferencias en la alianza opositora. 
-Tampoco hay consenso sobre el rol que jugará Michelle Bachelet en el proceso.]]></description>
-				<content:encoded><![CDATA[<p>Los nombres para completar la lista parlamentaria de la Nueva Mayoría siguen siendo discutidos al interior del pacto. Luego que el viernes se confirmara que “por falta de tiempo” no se desarrollarán primarias para la elección de cargos senatoriales, las reuniones venideras se centrarán en escoger, vía acuerdo, los representantes en cada caso.</p>
-<p align="JUSTIFY">Si bien se disputarán once elecciones primarias distritales para zanjar algunos de los nombres que faltan llenar en la lista de candidatos al hemiciclo, los candidatos a senadores serán definidos por los líderes partidarios, quienes el próximo martes continúan las reuniones.</p>
-<p align="JUSTIFY">Osvaldo Andrade, líder socialista, señaló luego del último encuentro que faltaba tiempo para implementar este mecanismo, medida que fue criticada por el vicepresidente de la tienda, Alfonso de Urresti, quien cuestionó la falta de voluntades políticas de algunos sectores que terminaron por truncar esta posibilidad: “A veces hay mezquindades y temores de determinadas personas a llevar adelante estas primarias, pero hay que avanzar e identificar quiénes no tuvieron esa voluntad. Al menos yo, puedo decir que en el PS y, particularmente nosotros en la región de Los Ríos, se hizo el impulso para poder salir adelante y concretar estas primarias”, dijo.</p>
-<p align="JUSTIFY">Sin embargo, desde la Democracia Cristiana prefieren no dramatizar el asunto. Víctor Maldonado, secretario general de la falange, señaló que muchas veces es mejor garantizar un acuerdo entre líderes antes que forzar a primarias que no incluirían a todas las voces: “No me parece particularmente grave, porque la oposición tiene que conseguir que todo el espectro de fuerzas políticas esté representado. Cuando los cupos son pocos, eso es prácticamente imposible si se hicieran primarias. Pongo un ejemplo, el PC: por primarias, un partido que tiene el seis por ciento de los votos nunca tendría candidatos a senador. Sin embargo, puede aspirar al legítimo derecho a tener un representante en alguna parte. Eso solo se puede conseguir por negociaciones”, explicó.</p>
-<p align="JUSTIFY">En tanto, el secretario general del PPD, Gonzalo Navarrete, asegura que ya no es momento de opinar en la materia, pues la falta de tiempo hace precisar un acuerdo entre las mesas: “En senadores no hay tiempo para hacer una primaria voluntaria efectiva, entonces a esta altura ya no es un tema opinable. Claramente, la obligación es llegar a acuerdo porque no tenemos tiempo para hacer primarias”, afirmó.</p>
-<p align="JUSTIFY">Sería la votación obtenida por cada partido en las últimas municipales la que daría el nombre del representante, vía por la que las pretensiones radicales de alcanzar un cupo senatorial en la región de Los Ríos quedaría desestimada en favor de la ya confirmada alternativa comunista, quienes cuentan con amplia votación en la zona, según aseguran fuentes al interior del mismo PC.</p>
-<p align="JUSTIFY">En ese escenario, José Antonio Gómez podría quedarse sin el cupo solicitado para la Cámara Alta, pese a que desde el radicalismo insisten en poder llegar a un convenio que les otorgue posibilidad de lucha.</p>
-<p align="JUSTIFY">En cuanto a los diputados, once serán los distritos donde el próximo 4 de agosto se elegirá al representante del pacto vía primarias, algunas parciales (para definir sólo un cupo en la plantilla) y otras totales.</p>
-<p align="JUSTIFY">El rol de la candidata Michelle Bachelet en la definición de la listas es otro aspecto que genera disputas al interior del pacto. Las palabras de Javiera Blanco, vocera de campaña, asegurando que sería Bachelet quien visaría a los candidatos, no demoraron en ser fuertemente criticadas.</p>
-<p align="JUSTIFY">Para Gonzalo Navarrete (PPD) no es necesaria su participación, pues los acuerdos ya están casi cerrados, mientras que los diputados Jorge Tarud (PPD), Juan Luis Castro (PS) y Pablo Lorenzini (DC) concuerdan que esas decisiones le corresponden a cada partido.</p>
-<p align="JUSTIFY">Este último incluso señaló que durante el consejo de este lunes –en el que se discutirán, entre otras, cosas los acuerdos parlamentarios- presentará ante el partido su visión de que no hay derecho a veto de nadie.</p>
-]]></content:encoded>
-			<wfw:commentRss>http://radio.uchile.cl/noticias/225136/feed/</wfw:commentRss>
-		<slash:comments>10</slash:comments>
-		</item>
-		<item>
-		<title>¿Qué es lo que deja la visita del Papa Francisco a Brasil?</title>
-		<link>http://radio.uchile.cl/noticias/225130/</link>
-		<comments>http://radio.uchile.cl/noticias/225130/#comments</comments>
-		<pubDate>Sun, 28 Jul 2013 23:18:31 +0000</pubDate>
-		<dc:creator>Rodrigo Alarcón</dc:creator>
-				<category><![CDATA[Noticias]]></category>
-		<category><![CDATA[brasil]]></category>
-		<category><![CDATA[dilma rouseff]]></category>
-		<category><![CDATA[iglesia católica]]></category>
-		<category><![CDATA[jornada mundial de la juventud]]></category>
-		<category><![CDATA[papa francisco]]></category>
-		<category><![CDATA[rio de janeiro]]></category>
-
-		<guid isPermaLink="false">http://radio.uchile.cl/?p=225130</guid>
-		<description><![CDATA[Con un claro llamado a participar activamente de la Iglesia, el Sumo Pontífice despidió a los jóvenes que por una semana se reunieron en la Jornada Mundial de la Juventud en Río de Janeiro. Expertos creen que la invitación de Dilma Rousseff a ciertos mandatarios es una señal sobre sus afinidades en el continente.]]></description>
-				<content:encoded><![CDATA[<style type="text/css"><!--
-P { margin-bottom: 0.21cm; }
---></style>
-<p align="JUSTIFY">“Vayan sin miedo para servir”. Esas fueron las palabras con las que el Papa Francisco despidió a los jóvenes asistentes a la Jornada Mundial de la Juventud de Río de Janeiro 2013.</p>
-<p align="JUSTIFY">En el que fue su primer viaje al extranjero como Sumo Pontífice, Jorge Mario Bergoglio invitó a compartir la energía y alegría de la juventud, para poder llevar a cada país las palabras del Evangelio. Así lo señaló durante su homilía en la misa de envío, realizada en una atiborrada playa de Copacabana: “Queridos hermanos y hermanas, queridos jóvenes, vayan y hagan discípulos a todos los pueblos. Con estas palabras, Jesús se dirige a cada uno de ustedes diciendo qué bonito ha sido participar en la Jornada Mundial de la Juventud”, señaló.</p>
-<p align="JUSTIFY">El mensaje entregado por el Papa Francisco muestra el nuevo acento que la Iglesia Católica quiere dar en su apostolado, según señaló Andrés Moro, vicario de la Pastoral Social y de los Trabajadores: “Lo interesante del Papa Francisco, primero, es que está hablando desde una realidad que conoce muy bien, que es la realidad latinoamericana, de un mundo de pobreza pero también de fe y esperanza. En segundo lugar, también habla con una libertad de espíritu muy grande, para presentar una propuesta de fe que claramente siempre está unida al tema de la solidaridad y lo social”, dijo.</p>
-<p align="JUSTIFY">Para el sacerdote, esta línea cercana y dispuesta de Francisco se ha podido comprobar desde el primer momento, discurso que cree impulsará a la juventud a acercarse e identificarse nuevamente con su Iglesia.</p>
-<p align="JUSTIFY">En tanto, Gilberto Aranda, académico del Instituto de Estudios Internacionales de la Universidad de Chile, coincide en este cambio de mirada, desde donde la Iglesia se está mostrando más abierta a reconocer y trabajar en algunas de sus falencias: “El Papa Francisco se ha esmerado en mostrar que este giro va y que la Iglesia Católica está en un momento de revisión y cambio profundo de sus estructuras políticas, no teológicas, que están muy bien arraigadas. Son maneras de tratar algunas cuestiones que son importantes para toda la sociedad y no solo para los católicos. Me refiero al tema de la corrupción y de la pederastia. Respecto de este último, el anterior papado también hizo importantes avances”, indicó.</p>
-<p align="JUSTIFY">El analista internacional cree que ahora hay que centrarse en cómo este discurso va a ser puesto en práctica.</p>
-<p align="JUSTIFY">Respecto del momento social que acompañó toda la visita de la máxima autoridad de la Iglesia Católica, Aranda explicó que el comportamiento de la gente puede ser un reflejo de qué es lo que pasará en las próximas citas mundiales que la nación sudamericana tiene programadas: “Las manifestaciones podrían haber mantenido la participación masiva que tuvieron y no fue así. En parte se explica por el catolicismo, pero también porque hay una parte muy importante de la población que, estando de acuerdo con estas demandas y participando de ellas, también tiene una valoración de algunas cuestiones específicas. El Mundial de fútbol tiene también muchos seguidores en Brasil y, si bien se van a mantener las manifestaciones y demandas, pienso que se va a llevar a cabo”, explicó.</p>
-<p align="JUSTIFY">La presencia de algunos mandatarios en la clausura de las jornadas de Río, como la de la presidenta de Argentina, Cristina Fernández, y su homólogo boliviano, Evo Morales, indican que Brasil claramente se muestra más cercano con algunos países, principalmente sus aliados energéticos, sostuvo Gilberto Aranda, quien si bien cree que esta “selectiva invitación” no debe ser entendida como “tensión”, sí debe leerse como un llamado de atención que hacen los brasileños a políticas tales como la Alianza del Pacífico.</p>
-]]></content:encoded>
-			<wfw:commentRss>http://radio.uchile.cl/noticias/225130/feed/</wfw:commentRss>
-		<slash:comments>3</slash:comments>
-		</item>
-		<item>
-		<title>Jóvenes y esperanzas postergadas</title>
-		<link>http://radio.uchile.cl/columnas/225123/</link>
-		<comments>http://radio.uchile.cl/columnas/225123/#comments</comments>
-		<pubDate>Sun, 28 Jul 2013 21:01:54 +0000</pubDate>
-		<dc:creator>Juan Pablo Cárdenas</dc:creator>
-				<category><![CDATA[Columnas]]></category>
-
-		<guid isPermaLink="false">http://radio.uchile.cl/?p=225123</guid>
-		<description><![CDATA[Los momentos de cambio más brillantes y profundos de la historia son protagonizados por los jóvenes que asumen la convicción que su compromiso debe ser con el presente antes que con el porvenir. Las grandes revoluciones, tales como la emancipación de América, fueron consumadas por el arrojo y el riesgo que asumieron las nuevas generaciones....]]></description>
-				<content:encoded><![CDATA[<p>Los momentos de cambio más brillantes y profundos de la historia son protagonizados por los jóvenes que asumen la convicción que su compromiso debe ser con el presente antes que con el porvenir. Las grandes revoluciones, tales como la emancipación de América, fueron consumadas por el arrojo y el riesgo que asumieron las nuevas generaciones. De esta forma, los héroes que hoy reconocemos de esas gestas fueron esos jóvenes resueltos a romper con la institucionalidad que cuestionaron y salir al campo de batalla a infringirle definitiva derrota a quienes defendían el orden establecido.</p>
-<p>La revolución francesa, el levantamiento bolchevique y el emblemático triunfo de Fidel Castro en Cuba tuvieron como luchadores a una juventud indignada que se movilizó en las calles y, por cierto, llegó hasta tomar las armas para combatir la soberbia de los poderosos y emprender los cambios que ellos mismos se plantearon. Como se sabe, los partidos políticos tradicionales no son nunca la vanguardia de las grandes transformaciones y su rol histórico más bien ha sido defender el orden constituido que superarlo. Justamente, cuando los grandes movimientos rebeldes derivan en partidos es cuando sus conductores empiezan a  oponerse a las nuevas exigencias sociales y, por supuesto, a degradarse espiritualmente. De esta forma es que muchos de los militantes de las justas causas devienen en simples operadores del sistema instaurado, poniéndose al servicio de la clientela política de quienes deciden perpetuarse en la dirección de las instituciones públicas, como de sus mismas colectividades.</p>
-<p>En la explosión del Movimiento de los “Pingüinos”, sus líderes no fueron capaces de sostener mucho tiempo su descontento y movilización. Acaso por su extrema juventud y candidez, fueron efectivamente engañados por una clase política que les ofreció muy pobres soluciones y promesas, ejerciendo, además, una parafernalia publicista y mediática que llevó a oficialistas y opositores, tomados de sus manos, a celebrar una conciliación que creyeron sellada con los dirigentes secundarios. Sin embargo, el ejemplo de los estudiantes colegiales encendió la conciencia y la protesta que siguió expresándose en las nuevas generaciones, como en aquellos universitarios que hasta hoy no cesan de realizar multitudinarias protestas callejeras ampliamente respaldadas por la población.</p>
-<p>La frustración que provocaron las demandas burladas convenció a los jóvenes que los cambios no podrían ser posibles dentro del marco institucional heredado de la Dictadura y el sistema económico y social sacralizado por los gobiernos y los parlamentarios del pos pinochetismo.  De esta forma es que una nueva Constitución, la Asamblea Constituyente y un sistema electoral proporcional son hoy las nuevas banderas de lucha de un país que ya está harto de la concentración de la riqueza, los salarios de hambre y la inicua explotación extranjera de nuestros yacimientos y servicios básicos. De la usura que modela nuestros sistema financiero y previsional. Del escandaloso lucro que persiguen las administradoras de salud y los establecimientos educacionales privatizados.</p>
-<p>Pero el actual año electoral ha tentado a no pocos dirigentes juveniles a enrolarse como candidatos de aquellos partidos y referentes que en 23 años no han podido o no han querido emprender las reformas políticas y económicas prometidas por una Transición que justamente se encuentra abortada en sus principales expectativas. Los quorum calificados que se imponen como trampa en el Parlamento para impedir los cambios han servido de excusa para quienes siempre los proclaman durante las campañas electorales, para luego dejarlos siempre pendientes. La peregrina idea de que si logra doblar ala Derecha en la elección de diputados y senadores podría obtenerse una mayoría en el Congreso Nacional para emprender los cambios, de verdad se frustra todo el tiempo con un implacable sistema binominal que, justamente, tiene el propósito de asegurar la elección de un parlamentario a cada bando, aunque la mayoría se imponga con una fuerte diferencia de votos. Por otro lado, ya es notorio  que, entre los que postulan los cambios, hay diferencias sustantivas respecto de qué mecanismo seguir para darnos una nueva Constitución y qué perfil tendría ésta,  si en cuanto al propio tema del sistema electoral ya existen cuatro proyectos distintos en el Poder Legislativo para refórmalo y ninguno de ellos por sustituirlo realmente.</p>
-<p>No sabemos qué razonamiento puede haber convencido a varios y promisorios líderes universitarios en dejarse tentar por algunos partidos políticos para incorporarlos a sus plantillas electorales. Como tampoco es fácil entender la resolución de otros por levantar opciones propias dentro de un sistema electoral que, ya se sabe, sólo permite integrar el poder legislativo con quienes obtengan las dos primeras preferencias ciudadanas. Ciertamente, lo que anima estas opciones es la idea de que, aun perdiendo, esta participación electoral pudiera darle más visibilidad a estos jóvenes que ya fueron capaces de desplazar a la clase política en credibilidad y solvencia ideológica.</p>
-<p>Por cierto que no se nos escapa la explicación que algunos dan en cuanto a que desde dentro del Congreso Nacional o del nuevo gobierno los jóvenes que resultaran elegidos podrían acicatear los cambios. Cuestión que se nos hace también muy ingenuo después de los largos años de mal comportamiento de las cúpulas políticas, la práctica de las nefastas órdenes de partido, su desdén sistemático a la opinión de las bases, como a la voz de las nuevas generaciones. Aferrados, como siguen, a los cargos y granjerías del poder, para lo cual la institucionalidad vigente, justamente, ha demostrado ser su mejor instrumento. Las arduas negociaciones parlamentarias de estos días dan cuenta que ni por los votos que pudieran sumarle a sus desprestigiados referentes, los viejos caudillos están dispuestos a ser desplazados por los jóvenes. De allí el fracaso rotundo de la Ley de Primarias por ellos mismos aprobada, pero que dejaron de practicar en la definición de las listas de sus candidatos.</p>
-<p>Tal resolución puede ser incauta, aunque muchas veces sabemos que sincera o simplemente equivocada según nuestro punto de vista y observación del proceso político chileno de las últimas décadas. Por lo mismo que más absurdo que esto nos parece la competencia de un despliegue insólito de candidatos presidenciales y múltiples y aisladas listas parlamentarias que lo único que lograrán, dispersos y desunidos, es que los integrantes de la clase política tradicional sigan repitiéndose el plato en el gobierno o el parlamento. Toda vez que son éstos los que tienen los más onerosos recursos propagandísticos, controlan la televisión y la prensa, oficiando como ahijados de quienes controlan el poder económico tan bien resguardado por la Constitución y las leyes que se agenciaron durante la Dictadura y que han seguido promulgándose después. Según el propio reconocimiento de los empresarios y dirigentes patronales en cuanto a que las tareas de lobby hacia el Ejecutivo, el Parlamento y municipios les exige destinar todavía más recursos económicos que sus ya millonarias erogaciones a los candidatos.</p>
-<p>Tal situación podría llevarnos al desánimo total si no fuera porque la misma historia nos indica que los procesos de cambio toman tiempo en madurar, aunque los desenlacen suelan ser rápidos y explosivos. Por ahora sólo podemos compadecernos de aquella megalomanía que expresan tantos contendientes por sobre sus convicciones. Esa idea tan ilusa y vacua de que los que hicieron poco o nada por cambiar las cosas cuando tuvieron la oportunidad puedan ahora realmente proponérselo. O la candidez de quienes creen que es posible cambiar “desde dentro” un sistema tramposo y autoritario por otro democrático y participativo, sin que los jóvenes no asuman plenamente que es en su movilización y fuerza donde es posible abrir las puestas del cambio,  y no apoltronándose en las instituciones que ya no funcionan.</p>
-<p>Fuerza, naturalmente, que no tiene porqué ser sinónimo de violencia. En un tiempo, por lo demás, que la resistencia pacífica es lo que más intimida a quienes, además de la riqueza del país controlan las armas que finalmente son convocadas a intervenir en su defensa. Tal como hace 40 años y en otros episodios bochornosos de nuestra existencia nacional.</p>
-]]></content:encoded>
-			<wfw:commentRss>http://radio.uchile.cl/columnas/225123/feed/</wfw:commentRss>
-		<slash:comments>4</slash:comments>
-		</item>
-		<item>
-		<title>Secundarios presentarán sus propuestas a candidatos presidenciales</title>
-		<link>http://radio.uchile.cl/noticias/225119/</link>
-		<comments>http://radio.uchile.cl/noticias/225119/#comments</comments>
-		<pubDate>Sun, 28 Jul 2013 20:59:34 +0000</pubDate>
-		<dc:creator>Rodrigo Alarcón</dc:creator>
-				<category><![CDATA[Noticias]]></category>
-		<category><![CDATA[cones]]></category>
-		<category><![CDATA[educación]]></category>
-		<category><![CDATA[elecciones presidenciales]]></category>
-		<category><![CDATA[estudiantes secundarios]]></category>
-		<category><![CDATA[moisés paredes]]></category>
-
-		<guid isPermaLink="false">http://radio.uchile.cl/?p=225119</guid>
-		<description><![CDATA[El vocero de la Coordinadora de Estudiantes Secundarios, Moisés Paredes, dijo que se reunirán con distintos postulantes para exponer sus planteamientos sobre educación y agregó que las próximas movilizaciones se planificarán junto a otras organizaciones sociales.]]></description>
-				<content:encoded><![CDATA[<p>El presidente de la Coordinadora Nacional de Estudiantes Secundarios (Cones), Moisés Paredes, anunció que los alumnos planean nuevas movilizaciones para este segundo semestre, además de la elaboración de un documento que presentarán a todos los candidatos presidenciales.</p>
-<p>Ello luego de la realización de un pleno este sábado, hasta donde llegaron distintos dirigentes de regiones.</p>
-<p>Paredes destacó que la decisión de no zanjar fechas para las movilizaciones responde a que pretenden conversarlas con otros movimientos sociales: “Creemos que es un retroceso volver a convocar tan solo a marchas estudiantiles, sino que hoy tenemos que marcar la unidad como movimiento social y por eso decidimos no imponer una fecha. En el pleno salieron un par de fechas tentativas, pero esta semana esperamos tener reuniones con los actores sociales, no tan solo estudiantiles sino también con organizaciones de trabajadores, para convocar a una movilización social y reivindicar no solo las demandas educativas sino que el pliego social”, dijo.</p>
-<p>En cuanto a la propuesta para candidatos presidenciales, Paredes explicó que ésta surgiría luego de un encuentro de secundarios durante el mes de agosto que duraría tres días: “Una vez terminada esa propuesta programática, donde se van a abordar las políticas públicas necesarias para un próximo gobierno, vamos a tener reuniones con los distintos candidatos para tener acercamientos e instalar dentro del debate temas como desmunicipalización, fin al financiamiento compartido, cambios al sistema de financiamiento de la educación pública, la democratización, el fortalecimiento de la educación técnico profesional y también la creación de una nueva institucionalidad que va de la mano con un cambio constitucional”, indicó.</p>
-<p>El dirigente estudiantil sostuvo además que, luego del pleno del sábado, no existe el acuerdo de reiniciar las tomas como movilización coordinada a lo largo del territorio.</p>
-<p>La otra gran organización de secundarios, la Asamblea Coordinadora de Estudiantes Secundarios (ACES), tendrá su propio pleno el próximo 10 de agosto y allí se espera que elaboren su propuesta de movilizaciones.</p>
-]]></content:encoded>
-			<wfw:commentRss>http://radio.uchile.cl/noticias/225119/feed/</wfw:commentRss>
-		<slash:comments>3</slash:comments>
-		</item>
-		<item>
-		<title>Histórico: Cristián Valenzuela retiene título mundial de maratón en Lyon</title>
-		<link>http://radio.uchile.cl/noticias/225105/</link>
-		<comments>http://radio.uchile.cl/noticias/225105/#comments</comments>
-		<pubDate>Sun, 28 Jul 2013 18:44:02 +0000</pubDate>
-		<dc:creator>Rodrigo Alarcón</dc:creator>
-				<category><![CDATA[Noticias]]></category>
-		<category><![CDATA[atletismo paralímpico]]></category>
-		<category><![CDATA[cristián valenzuela]]></category>
-		<category><![CDATA[mundial de lyon]]></category>
-
-		<guid isPermaLink="false">http://radio.uchile.cl/?p=225105</guid>
-		<description><![CDATA[El atleta paralímpico se impuso en la exigente prueba y revalidó la corona que ya había obtenido hace cuatro años en Nueva Zelanda. "Más que correr sólo por mí, yo corro por el movimiento paralímpico", afirmó.]]></description>
-				<content:encoded><![CDATA[<p>El atleta chileno Cristian Valenzuela obtuvo este domingo el bicampeonato mundial de maratón en Lyon.</p>
-<p>El deportista se impuso en el maratón de la serie T-11 que se disputó en el marco del Campeonato Mundial de Atletismo Paralímpico, conservando de esta manera el título que había logrado hace cuatro años en Christchurch, Nueva Zelanda.</p>
-<p>Guiado por Rodrigo Mellado y Lucas Jaramillo, el chileno logró una marca de 2:44.33, seguido por el japonés Shinya Wada (2.45.34) y el portugués Joaquim Machado (2:45.50).</p>
-<p>&#8220;Ningún país quería ir a la punta, porque significa desviarte de la carrera. Nadie quería ir a la cabeza, pero la carrera se definió en los últimos 15 kilómetros, donde ya íbamos cuatro en la punta: Rusia, España, Japón y nosotros y Japón se decidió a correr fuerte. Gracias a Dios, nosotros pudimos aguantar el ritmo, íbamos muertos”, declaró el atleta luego de su victoria.</p>
-<p>Valenzuela señaló que intentó “disfrutar” de la competencia, “algo que no hago muy a menudo en la maratón, pero fui disfrutando la carrera hasta que pude hacerlo. No me eché el peso del campeón mundial al hombro porque creo que eso igual afecta mentalmente&#8221;.</p>
-<p>“Sabía que todos mis competidores me temían un poco porque había sido el campeón del mundo en Christchurch, pero entré a correr como uno más de ellos con el hambre de ganar y con la confianza en el trabajo que habíamos tenido&#8221;, añadió.</p>
-<p>Finalmente, el deportista hizo un llamado a impulsar el deporte paralímpico: &#8220;Más que correr sólo por mí, yo corro por el movimiento paralímpico. Creo que hay camino que abrir y creo que mis triunfos ayudan a empujar. El movimiento paralímpico en Chile tiene muy buenos exponentes y nos podemos parar en un Mundial y en un Panamericano de la mejor forma&#8221;, aseguró.</p>
-<p>El título de este domingo se suma al oro que obtuvo en los cinco mil metros de Londres 2012 y las medallas de plata que logró en diez mil metros en Christchurch y en 1.500 y cinco mil metros en Lyon.</p>
-]]></content:encoded>
-			<wfw:commentRss>http://radio.uchile.cl/noticias/225105/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-		</item>
-		<item>
-		<title>Ollanta Humala cumple dos años en el poder en medio de protestas</title>
-		<link>http://radio.uchile.cl/noticias/225102/</link>
-		<comments>http://radio.uchile.cl/noticias/225102/#comments</comments>
-		<pubDate>Sun, 28 Jul 2013 18:12:14 +0000</pubDate>
-		<dc:creator>Rodrigo Alarcón</dc:creator>
-				<category><![CDATA[Noticias]]></category>
-		<category><![CDATA[ollanta humala]]></category>
-		<category><![CDATA[perú]]></category>
-		<category><![CDATA[protestas]]></category>
-
-		<guid isPermaLink="false">http://radio.uchile.cl/?p=225102</guid>
-		<description><![CDATA[Alrededor de cinco mil personas marcharon este fin de semana en Lima para protestar contra el presidente Ollanta Humala, quien este domingo inicia su tercer año de mandato. Universitarios, trabajadores y militantes de partidos opositores se manifestaron en el centro de la capital y fueron reprimidos por la policía, que actuó con bombas lacrimógenas cuando...]]></description>
-				<content:encoded><![CDATA[<p>Alrededor de cinco mil personas marcharon este fin de semana en Lima para protestar contra el presidente Ollanta Humala, quien este domingo inicia su tercer año de mandato.</p>
-<p>Universitarios, trabajadores y militantes de partidos opositores se manifestaron en el centro de la capital y fueron reprimidos por la policía, que actuó con bombas lacrimógenas cuando grupos de personas intentaron acercarse al Congreso.</p>
-<p>Humala inicia este domingo su tercer año en el poder en medio de críticas que indican que el auge económico que vive el país no se traspasa a todos los sectores de la población. “Requerimos soluciones frente a un Gobierno que no atiende los reclamos del pueblo. El Presidente tiene que hacerse una autocrítica, debe escuchar al pueblo, a las calles&#8221;, dijo a agencia Mario Huamán, presidente del sindicato de trabajadores CGTP, que convocaba a la marcha.</p>
-<p>Los manifestantes pidieron derogar la reciente reforma laboral para el sector público, aumentar los sueldos de los médicos, impulsar mejoras a la educación y salud, entre otras demandas, además de cuestionar al Parlamento.</p>
-]]></content:encoded>
-			<wfw:commentRss>http://radio.uchile.cl/noticias/225102/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-		</item>
-		<item>
-		<title>En campaña: Matthei visita Valparaíso y MEO presenta ejes fundamentales de su programa</title>
-		<link>http://radio.uchile.cl/noticias/225098/</link>
-		<comments>http://radio.uchile.cl/noticias/225098/#comments</comments>
-		<pubDate>Sun, 28 Jul 2013 18:03:22 +0000</pubDate>
-		<dc:creator>Rodrigo Alarcón</dc:creator>
-				<category><![CDATA[Noticias]]></category>
-		<category><![CDATA[elecciones presidenciales]]></category>
-		<category><![CDATA[evelyn matthei]]></category>
-		<category><![CDATA[marco enríquez ominami]]></category>
-		<category><![CDATA[pro]]></category>
-		<category><![CDATA[rn]]></category>
-		<category><![CDATA[udi]]></category>
-
-		<guid isPermaLink="false">http://radio.uchile.cl/?p=225098</guid>
-		<description><![CDATA[La actual candidata de la UDI a La Moneda, Evelyn Matthei, continuó este domingo con sus actividades de campaña y se reunió con adherentes de la región de Valparaíso en la Caleta Portales. Allí estuvo acompañada por el senador Francisco Chahuán, la alcaldesa de Viña del Mar, Virginia Reginato, y el edil de Valparaíso, Jorge...]]></description>
-				<content:encoded><![CDATA[<p>La actual candidata de la UDI a La Moneda, Evelyn Matthei, continuó este domingo con sus actividades de campaña y se reunió con adherentes de la región de Valparaíso en la Caleta Portales.</p>
-<p>Allí estuvo acompañada por el senador Francisco Chahuán, la alcaldesa de Viña del Mar, Virginia Reginato, y el edil de Valparaíso, Jorge Castro.</p>
-<p>Pese a los reparos que ha mostrado algunos militantes de Renovación Nacional sobre su figura, la ex ministra de Trabajo manifestó su confianza en que el Consejo General de ese partido la proclame como única candidata del oficialismo para las próximas presidenciales.</p>
-<p>En tanto, el abanderado del PRO, Marco Enríquez-Ominami, presentó los cuatro ejes fundamentales de su programa de gobierno: educación, salud, sistema previsional y mayor democracia, acompañado por 30 expertos programáticos que lideran sus respectivas áreas</p>
-<p>Según el candidato, sus planteamientos en cada uno de esos ámbitos fueron elaboradas luego de recibir cerca de once mil propuestas desde la ciudadanía.</p>
-<p>Con ellas, dijo Marco Enríquez-Ominami, pretende avanzar en la “humanización” de la sociedad chilena.</p>
-]]></content:encoded>
-			<wfw:commentRss>http://radio.uchile.cl/noticias/225098/feed/</wfw:commentRss>
-		<slash:comments>2</slash:comments>
-		</item>
-		<item>
-		<title>Laurence Golborne confirma postulación al Senado por Santiago Oriente</title>
-		<link>http://radio.uchile.cl/noticias/225090/</link>
-		<comments>http://radio.uchile.cl/noticias/225090/#comments</comments>
-		<pubDate>Sun, 28 Jul 2013 16:49:50 +0000</pubDate>
-		<dc:creator>Rodrigo Alarcón</dc:creator>
-				<category><![CDATA[Noticias]]></category>
-		<category><![CDATA[elecciones parlamentarias]]></category>
-		<category><![CDATA[evelyn matthei]]></category>
-		<category><![CDATA[josé antonio kast]]></category>
-		<category><![CDATA[laurence golborne]]></category>
-		<category><![CDATA[udi]]></category>
-
-		<guid isPermaLink="false">http://radio.uchile.cl/?p=225090</guid>
-		<description><![CDATA[El ex abanderado presidencial ratificó que competirá por un cupo en la Cámara Alta con Manuel José Ossandon (RN), Carlos Montes (PS) y Soledad Alvear (DC). "Me comprometo a trabajar por la unidad de nuestro sector", afirmó.]]></description>
-				<content:encoded><![CDATA[<p>El ex abanderado presidencial Laurence Golborne confirmó este domingo su disposición a competir como senador por Santiago Poniente, luego que José Antonio Kast (UDI) declinara su postulación a su favor.</p>
-<p>En compañía de diversos parlamentarios y figuras de la UDI, el ex secretario de Estado agradeció el gesto del parlamentario e hizo un fuerte llamado a la unidad de la coalición gobernante: “Me comprometo a trabajar firmemente por la unidad de nuestro sector no solo en esta campaña. Si cuento con el respaldo de la ciudadanía, espero contribuir a un verdadero sector de centroderecha unido y que trabaja en conjunto para proyectar nuestras ideas en el futuro”, dijo.</p>
-<p>“Creo que nadie, en nuestra ciudadanía, pide que haya elecciones protegidas para nadie ni tampoco vetos para ningún candidato. Dejemos que la ciudadanía hable, debemos trabajar con ese espíritu y pensando siempre en la unidad de la Alianza”, añadió.</p>
-<p>Golrbone manifestó que espera que esta aceptación no genere roces con Renovación Nacional, especialmente ad portas de su próximo consejo general.</p>
-<p>En tanto, José Antonio Kast declaró que “es un gran desafío no solamente para Laurence, sino que para toda la Alianza. Hoy tenemos duplas competitivas en Santiago Oriente y Santiago Poniente y esperamos que pongan toda la energía para que también tengamos, en la campaña presidencial, el éxito que todos esperamos el 17 de noviembre”.</p>
-<p>“La idea es que la candidata presidencial tenga ecuanimidad con todos los candidatos y que éstos se sumen a la campaña de Evelyn Matthei, quien va a hacer una gran campaña. Le puso una energía enorme a lo que estaba ocurriendo en el sistema político chileno y creo que vamos a terminar con éxito”, afirmó.</p>
-<p>En entrevista a La Tercera, Golborne había señalado que la bajada de Pablo Longueira “y la nominación de Evelyn Matthei como candidata de unidad hacen necesario que todos quienes hemos participado de este proceso nos pongamos a disposición de un proyecto común y dejemos atrás nuestras diferencias&#8221;.</p>
-<p>El ex ministro de Obras Públicas añadió que la decisión se zanjó luego de una conversación con el gremialismo: &#8220;Conversamos sobre los problemas que se presentaron y sobre cómo los enfrentaríamos a futuro en forma unida y con respaldo a esta candidatura senatorial (…) lo he planteado como una condición explícita y se me han dado las garantías de que ese respaldo político existe y llegará hasta el final&#8221;.</p>
-]]></content:encoded>
-			<wfw:commentRss>http://radio.uchile.cl/noticias/225090/feed/</wfw:commentRss>
-		<slash:comments>15</slash:comments>
-		</item>
-	</channel>
-</rss>
-
-<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+		<slash:comments>18</slash:comments>
+		<feedburner:origLink>http://radio.uchile.cl/cartas-al-director/225160/</feedburner:origLink></item>
+	<media:rating>nonadult</media:rating></channel>
+</rss><!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
 
 Page Caching using disk: enhanced
-Object Caching 1849/1970 objects using apc
+Object Caching 1826/1898 objects using apc
 
- Served from: radio.uchile.cl @ 2013-07-29 15:44:03 by W3 Total Cache -->
+ Served from: radio.uchile.cl @ 2013-07-29 23:19:38 by W3 Total Cache -->

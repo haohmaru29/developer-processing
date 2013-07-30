@@ -163,7 +163,17 @@ class Builder {
       
      
       
-      
+    void loadIceberg(float politica, float economia, float espectaculo, 
+        float deporte, float internacional, float cultura, float otro) {        
+        triangle(225+(offTrianX), 350, 275+(offTrianX), politica, 325+(offTrianX), 350);    // triangulo 01
+        triangle(325+(offTrianX), 350, 375+(offTrianX), economia, 425+(offTrianX), 350);    // triangulo 02  
+        triangle(425+(offTrianX), 350, 475+(offTrianX), espectaculo, 525+(offTrianX), 350);    // triangulo 03
+        triangle(525+(offTrianX), 350, 575+(offTrianX), deporte, 625+(offTrianX), 350);    // triangulo 04
+        triangle(625+(offTrianX), 350, 675+(offTrianX), internacional, 725+(offTrianX), 350);    // triangulo 05
+        triangle(725+(offTrianX), 350, 775+(offTrianX), cultura, 825+(offTrianX), 350);    // triangulo 06
+        triangle(825+(offTrianX), 350, 875+(offTrianX), otro, 925+(offTrianX), 350);    // triangulo 07
+  
+    }     
       
       
       
@@ -187,7 +197,6 @@ class Builder {
       for (int i = 0; i < medios.length; i++) {
         XML name = medios[i].getChild("name");
         XML id = medios[i].getChild("id");
-        //int catId = int(id.getContent());
         String catName = name.getContent();    
         ListBoxItem lbi = l.addItem(catName +"", i);
         lbi.setColorBackground(0xffff0000);    

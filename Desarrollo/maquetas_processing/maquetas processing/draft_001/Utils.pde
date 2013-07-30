@@ -3,8 +3,7 @@ class Utils {
   void logger(String message) {
       println(message);
   }
-    
-  
+      
   boolean saveRss(XML[] xmlNode, XML[] time, XML[] categorias) {
     boolean reponse = false;
     XML minute = time[0].getChild("minute");
@@ -26,7 +25,6 @@ class Utils {
             month.setContent(month()+"" );
             year.setContent(year()+"");   
             logger("Actualizando rss");
-            //saveToFileStringsFromXMl(xmlNode);
             saveToFileStringsFromXMl(xmlNode, categorias);                    
             reponse = true;    
         } else {
@@ -57,17 +55,16 @@ class Utils {
                }
                
            } else {
-                 logger("Debo actualizar rss");
-                 //saveToFileStringsFromXMl(xmlNode);
-                 saveToFileStringsFromXMl(xmlNode, categorias);
-                 logger("Fin actualizacion rss");   
-                 logger("Actualizando datos time XML");
-                 minute.setContent(minute()+ "");
-                 hour.setContent(hour()+ "");
-                 day.setContent(day()+ "");  
-                 month.setContent(month()+ "" );
-                 year.setContent(year()+ "");
-                 reponse = true;
+               logger("Debo actualizar rss");
+               saveToFileStringsFromXMl(xmlNode, categorias);
+               logger("Fin actualizacion rss");   
+               logger("Actualizando datos time XML");
+               minute.setContent(minute()+ "");
+               hour.setContent(hour()+ "");
+               day.setContent(day()+ "");  
+               month.setContent(month()+ "" );
+               year.setContent(year()+ "");
+               reponse = true;
            }
         }
     }
@@ -98,7 +95,6 @@ class Utils {
   
   void saveToFileStringsFromXMl(XML[] xmlNode, XML[] categorias) {
       String[] xmlStr = null;
-      //XML[] files=null;
       XML url = null, name = null, cateName=null, cateWords=null, fileRss=null,fileRss2=null;     
       for(int x=0; x<xmlNode.length; x++) {
           url = xmlNode[x].getChild("url");
@@ -119,14 +115,11 @@ class Utils {
                   for(int i=0; i<xmlStr.length; i++) {
                       String[] m = match(xmlStr[i], word);
                       if(m!= null) {
-                          //logger("---> " + xmlStr[i] + " ----> " + word);
-                          //println("Size = " + m.length);
                           perteneceAcategoria = true;                              
                       }
                       if(perteneceAcategoria==true) break;
                       
-                  }
-                  
+                  }                 
                   if(perteneceAcategoria== true)  break;
                   
               }
@@ -147,11 +140,12 @@ class Utils {
       return false;
   }
   
-  HashMap<String,Integer> matching(XML[] categorias, XML[] rss) {
+  HashMap<String,Integer> matching(XML[] categorias, XML[] rss, String rssName) {
       HashMap hash = new HashMap();
       XML[] files = null;
       XML catWords = null, catName=null, data=null;
       String[] strings = null;
+      logger("RSS NAME: " + rssName);
       for(int x=0; x<categorias.length; x++) {
           catWords = categorias[x].getChild("words");
           catName = categorias[x].getChild("name");
@@ -161,49 +155,41 @@ class Utils {
           int links = 0;
           for(int k=0; k< words.length; k++) {
               for(int i=0; i<files.length; i++) {
-                 data = files[i].getChild("rss");                 
+                 data = files[i].getChild("rss");    
                  if(catName.getContent() != null) {
                      if(data!=null) {
-                       logger("RSS CATEGORIAS -> " + data.getContent());
-                       strings = loadStrings("data/rss/" + catName.getContent() + "/" + data.getContent());                                
-                       for(int j = 0; j<strings.length; j++) {
-                          String[] m = match(strings[j], words[k] );                     
-                          if (m != null){
-                            links = links+1;
-                          }
+                       if((rssName.replace(" ", "_")+".xml").equals(data.getContent()) ) {
+                           logger("RSS CATEGORIAS -> " + data.getContent());
+                           strings = loadStrings("data/rss/" + catName.getContent() + "/" + data.getContent());                                
+                           for(int j = 0; j<strings.length; j++) {
+                              String[] m = match(strings[j], words[k] );                     
+                              if (m != null){
+                                links = links+1;
+                              }
+                           }
                        }
                      }
                  }
               }  
           }
-          links = 350 -links;
+          links = 350 -(links*8);
           hash.put(catName.getContent(), links );          
       }
       
       return hash;
-  }
+  }  
   
-  HashMap<String,String> matchingPerfiles(XML[] categorias, XML[] perfil, String perfilName, String rssName) {
-      HashMap hash = new HashMap();
+  float[] matchingPerfilesPorCategoria(XML[] categorias, XML[] perfil, String perfilName, String rssName) {      
+      float[] valoresMapeados = new float[categorias.length];
       XML wordsBeligerante = null,wordsComplaciente = null,wordsAmbiguo = null,wordsOptimista = null, catName = null, namePerfil=null, data=null, rss=null, words=null, wordsSelected=null;
       String[] strings = null, sacoPalabras=null;
+      int[] palabrasPorCategoria = new int[categorias.length];
       int beligerante=350, complaciente=350, ambiguo=350, optimista=350, total=350;
-      logger("Se inicia busqueda de palabras");
-      /*
-      for(int x=0; x<categorias.length; x++) {
-          catName = categorias[x].getChild("name");
-          logger("--> " + categoriaName + " ---> " + catName.getContent() );
-          if(categoriaName.equals(catName.getContent())) {
-              files =  cetegorias[x].getChild("files");
-              break;
-          }
-      }
-      */
+      
       for(int x=0; x<perfil.length; x++) {
           namePerfil = perfil[x].getChild("name");
-          logger("--> " + perfilName + " ---> " + namePerfil.getContent() );
           if(perfilName.equals(namePerfil.getContent())) {
-              logger("Encontrado");
+              logger("Perfil Encontrado");
               words = perfil[x].getChild("words");
               break;
           }
@@ -214,6 +200,7 @@ class Utils {
         for(int x=0; x<categorias.length; x++) { //ITERO LAS CATEGORIAS
             total = 350;
             catName = categorias[x].getChild("name");
+            palabrasPorCategoria[x] = 0;
             XML[] files =  categorias[x].getChild("files").getChildren("rss");
             for(int y=0; y<files.length; y++) { //ITERO LOS RSS     
                 if((rssName.replace(" ", "_") + ".xml").equals(files[y].getContent())) {    
@@ -221,86 +208,27 @@ class Utils {
                     strings = loadStrings("data/rss/" + catName.getContent() + "/" + files[y].getContent()); //Cargo Strings para comparar              
                     for(int k = 0; k<strings.length; k++) { //ITERO EL CONTENIDO DEL ARRAY DE STRINGS                    
                        for(int f=0; f< sacoPalabras.length; f++) { //ITERO LAS PALABRAS DEL PERFIL SELECCIONADO         
-                              //logger(strings[k] + " --> " + sacoPalabras[f].trim() );   
-                              String[] aBeligerante = match(strings[k], sacoPalabras[f].trim() );
-                              if (aBeligerante != null) {
-                                 logger("Encontrado ...... ");
-                                 ambiguo = ambiguo + 1;
-                                 complaciente = complaciente+1;
-                                 break;
-                              }
+                            String[] palabrasEncontradas = match(strings[k], sacoPalabras[f].trim() );
+                            if (palabrasEncontradas != null) {
+                               palabrasPorCategoria[x] = palabrasPorCategoria[x]+palabrasEncontradas.length;
+                            }
                        }
                     }
                 }
              }
-             String r = beligerante + "," + complaciente + "," + ambiguo + "," + optimista;
-             logger(catName.getContent() + " --> " + r);
-             hash.put(catName.getContent().trim(), r );       
-             beligerante=350; 
-             complaciente=350;
-             ambiguo=350;
-             optimista=350;
-             total=350;
         }
+       for(int t=0; t<palabrasPorCategoria.length; t++) {
+         println("total Econtrados:"+palabrasPorCategoria[t]);
+         if(palabrasPorCategoria[t] <= 400) { 
+             valoresMapeados[t] = map(palabrasPorCategoria[t], 0, 400, 350, 700);
+         } else {
+           valoresMapeados[t] = map(palabrasPorCategoria[t], 0, 900, 350, 750);
+         }              
+       }
       } else {
-        logger("Perfil no encontrado :::::> " + perfilName);
+        logger("Perfil no encontrado :::::D " + perfilName);
       }
       
-      /*
-      for(int x=0; x<categorias.length; x++) { //ITERO LAS CATEGORIAS
-        catName = categorias[x].getChild("name");
-        logger("CATEGORIA :" + catName.getContent());
-        wordsBeligerante = perfil[0].getChild("words");
-        wordsComplaciente = perfil[1].getChild("words");
-        wordsAmbiguo = perfil[2].getChild("words");
-        wordsOptimista = perfil[3].getChild("words");
-        
-        String[] array = wordsBeligerante.getContent().split(",");
-        String[] arrayComplaciente = wordsComplaciente.getContent().split(",");
-        String[] arrayAmbiguo = wordsAmbiguo.getContent().split(",");
-        String[] arrayOptimista = wordsOptimista.getContent().split(",");
-        
-        for(int j=0; j<rss.length; j++) { //ITERO LOS RSS
-           data = rss[j].getChild("name");  
-           logger("en RSS: " + data.getContent() );
-           strings = loadStrings("data/rss/" + data.getContent() + ".xml");
-           for(int k = 0; k<strings.length; k++) { //ITERO EL CONTENIDO DEL RSS                    
-               for(int f=0; f< array.length; f++) { //ITERO LAS PALABRAS DE LOS PERFILES 
-                  String[] aBeligerante = match(strings[k], array[f].trim() );
-                  if (aBeligerante != null){     
-                    beligerante = beligerante + 1;
-                  }
-               }
-               for(int f=0; f< arrayComplaciente.length; f++) { //ITERO LAS PALABRAS DE LOS PERFILES 
-                  String[] aComplaciente = match(strings[k], arrayComplaciente[f].trim() );
-                  if (aComplaciente != null){     
-                    complaciente = complaciente + 1;
-                  }
-              }
-              for(int f=0; f< arrayAmbiguo.length; f++) { //ITERO LAS PALABRAS DE LOS PERFILES 
-                  String[] aAmbiguo = match(strings[k], arrayAmbiguo[f].trim() );
-                  if (aAmbiguo != null){     
-                    ambiguo = ambiguo + 1;
-                  }
-              }
-              for(int f=0; f< arrayOptimista.length; f++) { //ITERO LAS PALABRAS DE LOS PERFILES 
-                  String[] aOptimista = match(strings[k], arrayOptimista[f].trim() );
-                  if (aOptimista != null){     
-                    optimista = optimista + 1;
-                  }
-              }  
-           }
-        }
-        String r = beligerante + "," + complaciente + "," + ambiguo + "," + optimista;
-        logger(catName.getContent() + " --> " + r);
-        hash.put(catName.getContent().trim(), r );       
-        beligerante=350; 
-        complaciente=350;
-        ambiguo=350;
-        optimista=350;
-        total=0;
-      }
-      */
-      return hash;
+      return valoresMapeados;
   }
 }
