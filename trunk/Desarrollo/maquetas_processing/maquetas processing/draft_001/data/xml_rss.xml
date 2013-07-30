@@ -225,7 +225,7 @@
   </rss>
   <time>
     <!-- false no tiene conexion a internet; true si tiene conexion a internet -->
-    <internet>true</internet>
+    <internet>false</internet>
     <day>29</day>
     <month>7</month>
     <year>2013</year>
