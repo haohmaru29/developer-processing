@@ -165,7 +165,7 @@ class Utils {
                  }
               }  
           }
-          links = int(map(links, 0, 100, 350, 90));
+          links = int(map(links, 0, 100, 350, 150));
           hash.put(catName.getContent(), links );          
       }
       
@@ -189,20 +189,22 @@ class Utils {
       
       if(words != null ) {
         sacoPalabras = words.getContent().split(",");
+        logger("Cantidad de palabras en saco= " + sacoPalabras.length);
         for(int x=0; x<categorias.length; x++) { //ITERO LAS CATEGORIAS
             total = 350;
             catName = categorias[x].getChild("name");
             palabrasPorCategoria[x] = 0;
             XML[] files =  categorias[x].getChildren("files/rss");
+            logger("ARCHIVOS: " + files.length);
             for(int y=0; y<files.length; y++) { //ITERO LOS RSS     
                 if((rssName.replace(" ", "_") + ".xml").equals(files[y].getContent())) {    
-                    //logger("Cargando... " + "data/rss/" + catName.getContent() + "/" + files[y].getContent() );       
+                    logger("Cargando... " + "data/rss/" + catName.getContent() + "/" + files[y].getContent() );       
                     strings = loadStrings("data/rss/" + catName.getContent() + "/" + files[y].getContent()); //Cargo Strings para comparar              
                     for(int k = 0; k<strings.length; k++) { //ITERO EL CONTENIDO DEL ARRAY DE STRINGS                    
                        for(int f=0; f< sacoPalabras.length; f++) { //ITERO LAS PALABRAS DEL PERFIL SELECCIONADO         
                             String[] palabrasEncontradas = match(strings[k], sacoPalabras[f].trim() );
                             if (palabrasEncontradas != null) {
-                               //logger("Palabra encontrada: " + sacoPalabras[f]);
+                               logger("Palabra encontrada: " + sacoPalabras[f] + ", la siguiente cantidad de veces: " + palabrasEncontradas.length);
                                palabrasPorCategoria[x] = palabrasPorCategoria[x]+palabrasEncontradas.length;
                             }
                        }
@@ -211,11 +213,11 @@ class Utils {
              }
         }
        for(int t=0; t<palabrasPorCategoria.length; t++) {
-         println("total Perfiles Econtrados por categoria [" + catName.getContent() + "]"+palabrasPorCategoria[t]);
+         //println("total Perfiles Econtrados por categoria [" + catName.getContent() + "]"+palabrasPorCategoria[t]);
          if(palabrasPorCategoria[t] <= 400) { 
-             valoresMapeados[t] = map(palabrasPorCategoria[t], 0, 400, 350, 700);
+             valoresMapeados[t] = map(palabrasPorCategoria[t], 0, 400, 350, 650);
          } else {
-           valoresMapeados[t] = map(palabrasPorCategoria[t], 0, 900, 350, 750);
+           valoresMapeados[t] = map(palabrasPorCategoria[t], 0, 900, 350, 700);
          }              
        }
       } else {
