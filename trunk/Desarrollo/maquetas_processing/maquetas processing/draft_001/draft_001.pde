@@ -1,7 +1,3 @@
-import controlP5.*;
-ControlP5 cp5;
-ControlP5 cp5Medio;
-ControlP5 cp5Perfil;
 int offTrianX = 25;    // Con esto desplazo todos los triangulo en 25 pix en eje X para dejarlos centrados en canvas
 PFont f;
 XML tags,name;
@@ -23,10 +19,10 @@ Utils util = null;
 ListBox  g3,g1,g2; 
 Builder build;
 
+float[] cualidades = null;
 
-//PerfilListener perfilListener;
-
-
+import controlP5.*;
+ControlP5 cp5, cp5Medio, cp5Perfil;
 HashMap<String,Integer> hashCategorias = null;
 HashMap<String,String> hashPerfiles=null;
 String menuInicialSelected = "";
@@ -53,6 +49,7 @@ void setup() {
   /*BUSCA MATCH*/
   //XML[] categorias, XML[] rss
   /*SE CARGA MAPA CON LOS CONTADORES DE CATEGORIAS*/
+  /*
   hashCategorias = util.matching(categorias, rss);
   politicas= (hashCategorias.get("Política")==null)?350:hashCategorias.get("Política");
   economias= (hashCategorias.get("Economía")==null)?350:hashCategorias.get("Economía");
@@ -61,6 +58,7 @@ void setup() {
   internacionals= (hashCategorias.get("Internacional")==null)?350:hashCategorias.get("Internacional");
   culturas= (hashCategorias.get("Cultura")==null)?350:hashCategorias.get("Cultura");
   otros= (hashCategorias.get("Otros")==null)?350:hashCategorias.get("Otros");
+  */
   /*
   politica = new Mount(225+(offTrianX), 350, 275+(offTrianX), politicas, 325+(offTrianX), 350);
   economia = new Mount(325+(offTrianX), 350, 375+(offTrianX), economias, 425+(offTrianX), 350);
@@ -70,40 +68,16 @@ void setup() {
   cultura = new Mount(725+(offTrianX), 350, 775+(offTrianX), culturas, 825+(offTrianX), 350);
   otro = new Mount(825+(offTrianX), 350, 875+(offTrianX), otros, 925+(offTrianX), 350);
   */
-   ice1 = new Iceberg(
-    225+(offTrianX), 350, 
-    325+(offTrianX), 350, 
-    295+(offTrianX), 350, //LINEA A MODIFICAR
-    255+(offTrianX), 350, 
-    245+(offTrianX), 350);
-  ice2 = new Iceberg(325+(offTrianX), 350, 425+(offTrianX), 350, 375+(offTrianX), 350, 355+(offTrianX),  350, 345+(offTrianX), 350);
-  ice3 = new Iceberg(425+(offTrianX), 350, 525+(offTrianX), 350, 475+(offTrianX), 350, 455+(offTrianX), 350, 445+(offTrianX), 350);
-  ice4 = new Iceberg(525+(offTrianX), 350, 625+(offTrianX), 350, 575+(offTrianX), 350, 555+(offTrianX), 350, 545+(offTrianX), 350);
-  ice5 = new Iceberg(625+(offTrianX), 350, 725+(offTrianX), 350, 675+(offTrianX), 350, 655+(offTrianX), 350, 645+(offTrianX), 350);
-  ice6 = new Iceberg(725+(offTrianX), 350, 825+(offTrianX), 350, 775+(offTrianX), 350, 755+(offTrianX), 350, 745+(offTrianX), 350);
-  ice7 = new Iceberg(825+(offTrianX), 350, 925+(offTrianX), 350, 875+(offTrianX), 350, 855+(offTrianX), 350, 845+(offTrianX), 350);
-  
-
-  /*
-  ice1s= (hashCategorias.get("Política")==null)?350:hashCategorias.get("Política");
-  ice2s= (hashCategorias.get("Economía")==null)y ad?350:hashCategorias.get("Economía");
-  ice3s= (hashCategorias.get("Espectáculos")==null)?350:hashCategorias.get("Espectáculos");
-  ice4s= (hashCategorias.get("Deportes")==null)?350:hashCategorias.get("Deportes");
-  ice5s= (hashCategorias.get("Internacional")==null)?350:hashCategorias.get("Internacional");
-  ice6s= (hashCategorias.get("Cultura")==null)?350:hashCategorias.get("Cultura");
-  ice7s= (hashCategorias.get("Otros")==null)?350:hashCategorias.get("Otros");
-  */
-  
   
   build = new Builder();  
   loadMenuInicial();
   loadMenuPerfiles();
-  loadMenuCategorias();
+  g1.setValue(0);
 }
 
 void draw() {
   background(255);
-   //superMenu();  // Barras de menu general (superior e inferior)
+  superMenu();  // Barras de menu general (superior e inferior)
   // Triangulos (no dinamicos)
   stroke(90);  // color de lineav
   build.loadTriangles(politicas, economias, espectaculos,deportes, internacionals, culturas, otros);
@@ -143,6 +117,10 @@ void draw() {
   build.loadIcebergOtro(otrBel,otrCom,otrAmb, otrOpt);  
 */
 // Icebergs (vertex no dinamicos aun)
+
+ build.loadIceberg(cualidades[0], cualidades[1], cualidades[2], cualidades[3], cualidades[4], cualidades[5], cualidades[6]);
+
+/*
   ice1.update();
   ice1.display();
 
@@ -163,6 +141,7 @@ void draw() {
 
   ice7.update();
   ice7.display();
+  */
   // Puntos "mar"
   /*
   stroke(0);
@@ -177,17 +156,14 @@ void draw() {
 void loadMenuInicial() {
   cp5 = new ControlP5(this);
   g1 = cp5.addListBox("Principal")
-        .setPosition(25,42)
+        .setPosition(140,280)
         .setBackgroundHeight(100)
         .setBackgroundColor(color(255,50))
         ;
-  g1.actAsPulldownMenu(true);
-  
-  //g1.captionLabel().set("Emol");    
+  g1.actAsPulldownMenu(true);     
   g1.close();
-  //build.loadGroup(g1, rss);
   build.loadList(g1, rss);  
-  g1.setValue(0);
+  
 }
 
 void loadMenuCategorias() {
@@ -207,7 +183,7 @@ void loadMenuCategorias() {
 void loadMenuPerfiles() {
     cp5Perfil = new ControlP5(this);
     g2 = cp5Perfil.addListBox("Perfil")
-      .setPosition(140,360)
+      .setPosition(140,390)
       .setBackgroundHeight(100)
       .setBackgroundColor(color(255,50))
       ;
@@ -222,93 +198,26 @@ void loadMenuPerfiles() {
 */
 void controlEvent(ControlEvent theEvent) {
   if( "Perfil".equals(theEvent.group().name()) ) {
-     //println("Es el grupo del perfil");
-     //println(g2.getCaptionLabel().getText() );
-     //matchingPerfiles(categorias, perfiles,g2.getCaptionLabel().getText(),  menuInicialSelected);
-     cargaPerfiles(g2.getCaptionLabel().getText(),"" );
-     
+     cualidades =  util.matchingPerfilesPorCategoria(categorias, perfiles, g2.getCaptionLabel().getText(), menuInicialSelected); 
   } else if("Categorias".equals(theEvent.group().name()) ) {
-    //println("Es el grupo del perfil");
-    //println(g3.getCaptionLabel().getText() );
     
   } else if("Principal".equals(theEvent.group().name())) {
-    //println("Es el grupo del Menu principal");
-    menuInicialSelected = g1.getCaptionLabel().getText();
-    //println(g1.getCaptionLabel().getText() );
-    if(start == 1 ) {
-       cargaPerfiles(g2.getCaptionLabel().getText(),"" );    
-    }
-    start = 1;
-    
+    menuInicialSelected = g1.getCaptionLabel().getText();    
+    cualidades =  util.matchingPerfilesPorCategoria(categorias, perfiles, g2.getCaptionLabel().getText(), menuInicialSelected);    
+    cargaCategorias();
   }
 }
 
-void cargaPerfiles(String nombrePerfil, String nombreCategoria) {
-    /*SE CARGA MAPA CON LOS CONTADORES DE PERFILES*/
-  //hashPerfiles = util.matchingPerfiles(categorias, perfiles, rss);
-  //HashMap<String,String> matchingPerfiles(XML[] categorias, XML[] perfil, String perfilName, String rssName) 
-  hashPerfiles = util.matchingPerfiles(categorias, perfiles, nombrePerfil, menuInicialSelected); 
-  String[] aPol = hashPerfiles.get("Política").split(",");
-  String[] aEco = hashPerfiles.get("Economía").split(",");
-  String[] aEsp = hashPerfiles.get("Espectáculos").split(",");
-  String[] aDep = hashPerfiles.get("Deportes").split(",");
-  String[] aInt = hashPerfiles.get("Internacional").split(",");
-  String[] aCul = hashPerfiles.get("Cultura").split(",");
-  String[] aOtro = hashPerfiles.get("Otros").split(",");
-  polBel= int(aPol[0]);
-  polCom=int(aPol[1]);
-  polAmb=int(aPol[2]);
-  polOpt=int(aPol[3]);
-  
-  ecoBel=int(aEco[0]);
-  ecoCom=int(aEco[1]);
-  ecoAmb=int(aEco[2]);
-  ecoOpt=int(aEco[3]);
-  
-  espBel=int(aEsp[0]);
-  espCom=int(aEsp[1]);
-  espAmb=int(aEsp[2]);
-  espOpt=int(aEsp[3]);
-  
-  depBel=int(aDep[0]);
-  depCom=int(aDep[1]);
-  depAmb=int(aDep[2]);
-  depOpt=int(aDep[3]);
-  
-  
-  intBel=int(aInt[0]);
-  intCom=int(aInt[1]);
-  intAmb=int(aInt[2]);
-  intOpt=int(aInt[3]);
-  
-  culBel=int(aCul[0]);
-  culCom=int(aCul[1]);
-  culAmb=int(aCul[2]);
-  culOpt=int(aCul[3]);
-  
-  otrBel=int(aOtro[0]);
-  otrCom=int(aOtro[1]);
-  otrAmb=int(aOtro[2]);
-  otrOpt=int(aOtro[3]);  
-  
-  ice1 = new Iceberg(
-      225+(offTrianX), 350, 
-      325+(offTrianX), 350, 
-      polCom+(offTrianX), 475, //LINEA A CAMBIAR
-      255+(offTrianX), 400, 
-      245+(offTrianX), 400);
-  ice2 = new Iceberg(
-      325+(offTrianX), 350, 
-      425+(offTrianX), 350, 
-      375+(offTrianX), 420, //LINEA A CAMBIAR
-      355+(offTrianX), 400, 
-      345+(offTrianX), 400);
-  ice3 = new Iceberg(425+(offTrianX), 350, 525+(offTrianX), 350, 475+(offTrianX), 430, 455+(offTrianX), 400, 445+(offTrianX), 400);
-  ice4 = new Iceberg(525+(offTrianX), 350, 625+(offTrianX), 350, 575+(offTrianX), 390, 555+(offTrianX), 370, 545+(offTrianX), 370);
-  ice5 = new Iceberg(625+(offTrianX), 350, 725+(offTrianX), 350, 675+(offTrianX), 390, 655+(offTrianX), 370, 645+(offTrianX), 370);
-  ice6 = new Iceberg(725+(offTrianX), 350, 825+(offTrianX), 350, 775+(offTrianX), 380, 755+(offTrianX), 370, 745+(offTrianX), 370);
-  ice7 = new Iceberg(825+(offTrianX), 350, 925+(offTrianX), 350, 875+(offTrianX), 390, 855+(offTrianX), 370, 845+(offTrianX), 370);
-  
+
+void cargaCategorias() {
+  hashCategorias = util.matching(categorias, rss, menuInicialSelected);   
+  politicas= (hashCategorias.get("Política")==null)?350:hashCategorias.get("Política");
+  economias= (hashCategorias.get("Economía")==null)?350:hashCategorias.get("Economía");
+  espectaculos= (hashCategorias.get("Espectáculos")==null)?350:hashCategorias.get("Espectáculos");
+  deportes= (hashCategorias.get("Deportes")==null)?350:hashCategorias.get("Deportes");
+  internacionals = (hashCategorias.get("Internacional")==null)?350:hashCategorias.get("Internacional");
+  culturas= (hashCategorias.get("Cultura")==null)?350:hashCategorias.get("Cultura");
+  otros= (hashCategorias.get("Otros")==null)?350:hashCategorias.get("Otros"); 
 }
 
 void keyPressed() {
@@ -316,4 +225,10 @@ void keyPressed() {
     //cp5.group("g1").remove();
     println("Tecla Presionada" + key);
   }
+}
+// -------- Funciones --------
+void superMenu() {
+  stroke(214);
+  line(21, 21, width-21, 21);
+  line(21, height-21, width-21, height-21);
 }

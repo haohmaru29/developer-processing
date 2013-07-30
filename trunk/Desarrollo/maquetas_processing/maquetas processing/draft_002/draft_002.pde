@@ -43,7 +43,12 @@ void setup() {
 
   // the Icebergs (quinto y sexto valor dan el "pick" del iceberg)
   ice1 = new Iceberg(225+(offTrianX), 350, 325+(offTrianX), 350, 275+(offTrianX), 475, 255+(offTrianX), 400, 245+(offTrianX), 400);
-  ice2 = new Iceberg(325+(offTrianX), 350, 425+(offTrianX), 350, 375+(offTrianX), 420, 355+(offTrianX), 400, 345+(offTrianX), 400);
+  ice2 = new Iceberg(
+      325+(offTrianX), 350, 
+      425+(offTrianX), 350, 
+      350+(offTrianX), 350, 
+      355+(offTrianX), 400, 
+      345+(offTrianX), 400);
   ice3 = new Iceberg(425+(offTrianX), 350, 525+(offTrianX), 350, 475+(offTrianX), 430, 455+(offTrianX), 400, 445+(offTrianX), 400);
   ice4 = new Iceberg(525+(offTrianX), 350, 625+(offTrianX), 350, 575+(offTrianX), 390, 555+(offTrianX), 370, 545+(offTrianX), 370);
   ice5 = new Iceberg(625+(offTrianX), 350, 725+(offTrianX), 350, 675+(offTrianX), 390, 655+(offTrianX), 370, 645+(offTrianX), 370);
