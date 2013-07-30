@@ -3,6 +3,126 @@ class Utils {
   void logger(String message) {
       println(message);
   }
+  
+  void iteraXML(XML[] xmlNode, XML[] categorias) {
+      XML xmlRemote = null, url=null, name=null, channel = null,  newXML=null, catName = null, words=null; 
+      XML[] content=null;
+      String[] stringRemote = null, palabrasCategorias=null;
+      for(int x=0; x< xmlNode.length; x++) {
+         url = xmlNode[x].getChild("url");
+         name = xmlNode[x].getChild("name");  
+         stringRemote = loadStrings(url.getContent() );
+         try {
+           for(int i=0; i<categorias.length; i++) {
+               catName = categorias[i].getChild("name");
+               words = categorias[i].getChild("words");
+               palabrasCategorias = words.getContent().split(",");
+               newXML = loadXML("xmlBase.xml", "UTF-8"); 
+               logger("XML REMOTE ---> " + name.getContent() );
+               logger(stringRemote[0] + "");           
+               String sitesOneLine = "";
+               if("Dario Financiero".equals(name.getContent())) {
+                  int largo = (stringRemote[0] + "").length();
+                  stringRemote[0] = stringRemote[0].substring(1,largo);
+                  sitesOneLine = join(stringRemote, "").replace("&", " "); 
+               } else {
+                 sitesOneLine = join(stringRemote, "");
+               }
+               xmlRemote = XML.parse(sitesOneLine);
+               content = xmlRemote.getChildren("channel/item");
+               for(int y=0; y<content.length; y++) {
+                   XML title = content[y].getChild("title");
+                   XML description = content[y].getChild("title");
+                   for(int j=0; j<palabrasCategorias.length; j++) {
+                       if(contienePalabra(title, description, palabrasCategorias[j])>0) {
+                            XML newChild = newXML.getChild("channel").addChild("title");
+                            newChild.setContent(title.getContent());
+                            XML newChild2 = newXML.getChild("channel").addChild("description");
+                            newChild2.setContent(description.getContent());
+                       }
+                   }
+                   
+               }
+               
+               
+               
+               saveXML(newXML, "data/pruebas/" +catName.getContent() +"/" + name.getContent() +".xml");     
+           }
+           
+           
+         }catch(IOException e) {
+           logger("ERROR: " + e.getMessage() );
+         } catch(Exception e) {
+           logger("ERROR: " + e.getMessage() );
+         }
+      }
+  }
+  
+  int contienePalabra(XML title, XML description, String palabra) {
+      int response = 0;
+       String[] m = match(title.getContent(), palabra);
+       String[] m2 = match(description.getContent(), palabra);
+        if(m!= null && m2 != null) {
+            response = m.length + m2.length;                              
+        }
+  
+      return response;
+  }
+  
+  
+   void saveToFileStringsFromXMl2(XML[] xmlNode, XML[] categorias) {
+      iteraXML(xmlNode,categorias);
+      /*
+      String[] xmlStr = null;
+      XML url = null, name = null, cateName=null, cateWords=null, fileRss=null,fileRss2=null;   
+      XML  xml = null;
+      XML[] xmls = null;
+      for(int x=0; x<xmlNode.length; x++) {
+          url = xmlNode[x].getChild("url");
+          name = xmlNode[x].getChild("name");
+          String urlContent = url.getContent();
+          logger("Cargando rss ---> " + name.getContent());
+          xml = loadXML(urlContent);    
+
+          for(int y=0; y<categorias.length; y++) {
+              boolean perteneceAcategoria= false;
+              cateName = categorias[y].getChild("name");
+              cateWords = categorias[y].getChild("words");
+              fileRss = categorias[y].getChild("files");
+              //removeChilds(fileRss, categorias[y]);
+              logger("Categoria ---> " + cateName.getContent() );
+              String[] words = cateWords.getContent().split(",");
+              for(int z=0; z<words.length; z++) {
+                  String word = words[z];
+                  
+                  for(int i=0; i<xmls.length; i++) {
+                      XML link = xmls[i].getChild("title");
+                      XML description = xmls[i].getChild("description");
+                      logger("LINK: " + xmls[i].getContent());
+                  
+                  }
+                  /*                  
+                  for(int i=0; i<xmlStr.length; i++) {
+                      String[] m = match(xmlStr[i], word);
+                      if(m!= null) {
+                          perteneceAcategoria = true;                              
+                      }
+                      if(perteneceAcategoria==true) break;
+                      
+                  } */             /*  
+                  if(perteneceAcategoria== true)  break;                  
+              }
+              if(perteneceAcategoria== true) {
+                  if(!"".equals(name.getContent()) ) {
+                      XML newChild = fileRss.addChild("rss");
+                      newChild.setContent(name.getContent().replace(" ","_") + ".xml");
+                      saveStrings("data/rss/" + cateName.getContent() +"/" + name.getContent().replace(" ","_") + ".xml", xmlStr);
+                  }
+              }               
+          }        
+             
+      }*/
+  }
       
   boolean saveRss(XML[] xmlNode, XML[] time, XML[] categorias) {
     boolean reponse = false;
@@ -16,6 +136,7 @@ class Utils {
     XML internet = time[0].getChild("internet");
     String xmlTime = day.getContent() + "-" + month.getContent()+ "-" + year.getContent() + "_" + hour.getContent() + "_" + minute.getContent();
     logger(" time ---> " + xmlTime);
+    saveToFileStringsFromXMl2(xmlNode, categorias);
     if(!"false".equals(internet.getContent()) ) {
         if("".equals(xmlTime.replace("-", "").replace("_", "") )) {   
            logger("No se ha buscado informacion desde los rss");     
@@ -93,9 +214,12 @@ class Utils {
       }
   }
   
+  
+  
   void saveToFileStringsFromXMl(XML[] xmlNode, XML[] categorias) {
       String[] xmlStr = null;
-      XML url = null, name = null, cateName=null, cateWords=null, fileRss=null,fileRss2=null;     
+      XML url = null, name = null, cateName=null, cateWords=null, fileRss=null,fileRss2=null;   
+      
       for(int x=0; x<xmlNode.length; x++) {
           url = xmlNode[x].getChild("url");
           name = xmlNode[x].getChild("name");

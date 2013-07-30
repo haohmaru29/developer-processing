@@ -11,10 +11,8 @@
         <rss>The_Clinic.xml</rss>
         <rss>EL_Ciudadano.xml</rss>
         <rss>Bio-Bio.xml</rss>
-        <rss>ADN.xml</rss>
         <rss>U._de_Chile.xml</rss>
         <rss>CNN_Chile.xml</rss>
-        <rss>MegaNoticias.xml</rss>
       </files>
     </data>
     <data>
@@ -24,8 +22,7 @@
       <files>
         <rss>Diario_Financiero.xml</rss>
         <rss>Bio-Bio.xml</rss>
-        <rss>ADN.xml</rss>
-        <rss>U._de_Chile.xml</rss>
+        <rss>Cooperativa.xml</rss>
         <rss>CNN_Chile.xml</rss>
       </files>
     </data>
@@ -40,12 +37,11 @@
       <name>Deportes</name>
       <words>Deportes, Deporte</words>
       <files>
+        <rss>Emol.xml</rss>
         <rss>El_mostrador.xml</rss>
-        <rss>La_cuarta.xml</rss>
         <rss>Bio-Bio.xml</rss>
         <rss>ADN.xml</rss>
         <rss>Cooperativa.xml</rss>
-        <rss>MegaNoticias.xml</rss>
       </files>
     </data>
     <data>
@@ -57,9 +53,10 @@
         <rss>El_mostrador.xml</rss>
         <rss>The_Clinic.xml</rss>
         <rss>EL_Ciudadano.xml</rss>
-        <rss>Diario_Financiero.xml</rss>
+        <rss>Bio-Bio.xml</rss>
         <rss>ADN.xml</rss>
         <rss>U._de_Chile.xml</rss>
+        <rss>24_Horas.xml</rss>
         <rss>CNN_Chile.xml</rss>
         <rss>MegaNoticias.xml</rss>
       </files>
@@ -70,10 +67,11 @@
       <words>Cultura, Machu</words>
       <files>
         <rss>Emol.xml</rss>
-        <rss>La_tercera.xml</rss>
         <rss>El_mostrador.xml</rss>
         <rss>The_Clinic.xml</rss>
+        <rss>EL_Ciudadano.xml</rss>
         <rss>Bio-Bio.xml</rss>
+        <rss>ADN.xml</rss>
         <rss>CNN_Chile.xml</rss>
       </files>
     </data>
@@ -83,14 +81,13 @@
       <words>Otros, otro, auto</words>
       <files>
         <rss>Emol.xml</rss>
-        <rss>La_tercera.xml</rss>
         <rss>El_mostrador.xml</rss>
         <rss>The_Clinic.xml</rss>
         <rss>EL_Ciudadano.xml</rss>
         <rss>Diario_Financiero.xml</rss>
         <rss>Bio-Bio.xml</rss>
+        <rss>ADN.xml</rss>
         <rss>U._de_Chile.xml</rss>
-        <rss>24_Horas.xml</rss>
         <rss>CNN_Chile.xml</rss>
         <rss>MegaNoticias.xml</rss>
       </files>
@@ -226,11 +223,11 @@
   <time>
     <!-- false no tiene conexion a internet; true si tiene conexion a internet -->
     <internet>false</internet>
-    <day>29</day>
+    <day>30</day>
     <month>7</month>
     <year>2013</year>
-    <hour>23</hour>
-    <minute>45</minute>
+    <hour>16</hour>
+    <minute>41</minute>
     <!-- TIEMPO EN MINUTOS -->
     <diff>50</diff>
   </time>
