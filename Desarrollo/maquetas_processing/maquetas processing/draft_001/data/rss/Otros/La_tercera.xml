@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2enclosuresfull.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+    <channel>
+        <title>LA TERCERA</title>
+        <link>http://www.latercera.com</link>
+        <description>Noticias de LA TERCERA: El diario hoy</description>
+        <image>
+            <title />
+            <url />
+            <link />
+            <description />
+        </image>
+        <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/latercera/xMfs" /><feedburner:info uri="latercera/xmfs" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><itunes:explicit>no</itunes:explicit><itunes:subtitle>Noticias de LA TERCERA: El diario hoy</itunes:subtitle><feedburner:browserFriendly></feedburner:browserFriendly><item>
+            <title>Compañía de Teatro La Carnicera estrena "Coraje Corazón y Rita" en FETEX 2013</title>
+            <link>http://www.latercera.com/noticia/cultura/2013/07/1453-535343-9-compania-de-teatro-la-carnicera-estrena-coraje-corazon-y-rita-en-fetex-2013.shtml</link>
+            <description><![CDATA[<img align="left" border="0"  src="http://static.latercera.com/20130729/1794007_150.jpg" alt="" title="" style="margin:0 10px 5px 5px" /> El montaje dirigido por Priscilla Guerra es parte de la competencia del primer festival de teatro experimental que se llevará a cabo en La Casa Rodante.]]></description>
+            <pubDate>Mon, 29 Jul 2013 23:00:00</pubDate>
+            <guid>http://www.latercera.com/noticia/cultura/2013/07/1453-535343-9-compania-de-teatro-la-carnicera-estrena-coraje-corazon-y-rita-en-fetex-2013.shtml</guid>
+            <dc:date>2013-07-29T23:00:00-04:00</dc:date>
+        </item>
+        <item>
+            <title>Doce años de prisión para profesor que fue condenado por abuso de alumnas</title>
+            <link>http://www.latercera.com/noticia/nacional/2013/07/680-535340-9-doce-anos-de-prision-para-profesor-que-fue-condenado-por-abuso-de-alumnas.shtml</link>
+            <description><![CDATA[El Tribunal Oral de Temuco determinó la sentencia por los abusos cometidos contra cinco menores.]]></description>
+            <pubDate>Mon, 29 Jul 2013 22:16:03</pubDate>
+            <guid>http://www.latercera.com/noticia/nacional/2013/07/680-535340-9-doce-anos-de-prision-para-profesor-que-fue-condenado-por-abuso-de-alumnas.shtml</guid>
+            <dc:date>2013-07-29T22:16:03-04:00</dc:date>
+        </item>
+        <item>
+            <title>Luciano Cruz-Coke es ratificado como candidato a senador por Antofagasta</title>
+            <link>http://www.latercera.com/noticia/politica/2013/07/674-535339-9-luciano-cruzcoke-es-ratificado-como-candidato-a-senador-por-antofagasta.shtml</link>
+            <description><![CDATA[<img align="left" border="0"  src="http://static.latercera.com/20130724/1790953_150.jpg" alt="" title="" style="margin:0 10px 5px 5px" /> El ex ministro de Cultura será la carta de Renovación Nacional en la Segunda Región. La comisión electoral tomó el acuerdo por decisión unánime. ]]></description>
+            <pubDate>Mon, 29 Jul 2013 21:37:00</pubDate>
+            <guid>http://www.latercera.com/noticia/politica/2013/07/674-535339-9-luciano-cruzcoke-es-ratificado-como-candidato-a-senador-por-antofagasta.shtml</guid>
+            <dc:date>2013-07-29T21:37:00-04:00</dc:date>
+        </item>
+        <item>
+            <title>Senado de EEUU confirma a James Comey como director del FBI por diez años </title>
+            <link>http://www.latercera.com/noticia/mundo/2013/07/678-535337-9-senado-de-eeuu-confirma-a-james-comey-como-director-del-fbi-por-diez-anos.shtml</link>
+            <description><![CDATA[Su confirmación se había retrasado más de un mes debido a la protesta del senador por Kentucky Rand Paul, el único que votó en contra, ante los 93 votos que tuvo a favor.]]></description>
+            <pubDate>Mon, 29 Jul 2013 21:05:16</pubDate>
+            <guid>http://www.latercera.com/noticia/mundo/2013/07/678-535337-9-senado-de-eeuu-confirma-a-james-comey-como-director-del-fbi-por-diez-anos.shtml</guid>
+            <dc:date>2013-07-29T21:05:16-04:00</dc:date>
+        </item>
+        <item>
+            <title>EEUU acusa a JPMorgan de manipulación de precios en los mercados de energía </title>
+            <link>http://www.latercera.com/noticia/negocios/2013/07/655-535331-9-eeuu-acusa-a-jpmorgan-de-manipulacion-de-precios-en-los-mercados-de-energia.shtml</link>
+            <description><![CDATA[Eso sí, en los próximos días se anunciaría un acuerdo que pondría fin a las demandas de la autoridad federal estadounidense de la energía.]]></description>
+            <pubDate>Mon, 29 Jul 2013 20:13:13</pubDate>
+            <guid>http://www.latercera.com/noticia/negocios/2013/07/655-535331-9-eeuu-acusa-a-jpmorgan-de-manipulacion-de-precios-en-los-mercados-de-energia.shtml</guid>
+            <dc:date>2013-07-29T20:13:13-04:00</dc:date>
+        </item>
+        <item>
+            <title>Enrique Osses será el encargado de dirigir el duelo entre U. Española y U. Católica</title>
+            <link>http://www.latercera.com/noticia/deportes/2013/07/656-535329-9-enrique-osses-sera-el-encargado-de-dirigir-el-duelo-entre-u-espanola-y-u.shtml</link>
+            <description><![CDATA[<img align="left" border="0"  src="http://static.latercera.com/20130722/1790221_150.jpg" alt="" title="" style="margin:0 10px 5px 5px" /> El experimentado juez nacional tendrá a cargo de impartir justicia en el partido más atractivo de la segunda fecha.
+]]></description>
+            <pubDate>Mon, 29 Jul 2013 19:56:08</pubDate>
+            <guid>http://www.latercera.com/noticia/deportes/2013/07/656-535329-9-enrique-osses-sera-el-encargado-de-dirigir-el-duelo-entre-u-espanola-y-u.shtml</guid>
+            <dc:date>2013-07-29T19:56:08-04:00</dc:date>
+        </item>
+        <item>
+            <title>Rodrigo Miranda gana plata en Cali y suma su tercera medalla consecutiva en los World Games</title>
+            <link>http://www.latercera.com/noticia/deportes/2013/07/656-535328-9-rodrigo-miranda-gana-plata-en-cali-y-suma-su-tercera-medalla-consecutiva-en-los.shtml</link>
+            <description><![CDATA[<img align="left" border="0"  src="http://static.latercera.com/20130526/1758304_150.jpg" alt="" title="" style="margin:0 10px 5px 5px" /> El deportista nacional tuvo una caída en su segundo intento que le impidió mejorar su primer registro, pero igual subió al podio.
+]]></description>
+            <pubDate>Mon, 29 Jul 2013 19:04:00</pubDate>
+            <guid>http://www.latercera.com/noticia/deportes/2013/07/656-535328-9-rodrigo-miranda-gana-plata-en-cali-y-suma-su-tercera-medalla-consecutiva-en-los.shtml</guid>
+            <dc:date>2013-07-29T19:04:00-04:00</dc:date>
+        </item>
+        <item>
+            <title>Angelina Jolie se alza como la actriz mejor pagada de Hollywood </title>
+            <link>http://www.latercera.com/noticia/entretencion/2013/07/661-535324-9-angelina-jolie-se-alza-como-la-actriz-mejor-pagada-de-hollywood.shtml</link>
+            <description><![CDATA[La pareja de Brad Pitt facturó 33 millones de dólares en el último año. La siguen la ganadora del Oscar Jennifer Lawrence y la joven Kristen Stewart, quien ha amasado su fortuna gracias a la saga Crepúsculo. 
+]]></description>
+            <pubDate>Mon, 29 Jul 2013 18:52:00</pubDate>
+            <guid>http://www.latercera.com/noticia/entretencion/2013/07/661-535324-9-angelina-jolie-se-alza-como-la-actriz-mejor-pagada-de-hollywood.shtml</guid>
+            <dc:date>2013-07-29T18:52:00-04:00</dc:date>
+        </item>
+        <item>
+            <title>¿Aún utilizas Ares para descargar música? pronto recibirás una notificación de tu operadora</title>
+            <link>http://www.latercera.com/noticia/tendencias/2013/07/659-535326-9-aun-utilizas-ares-para-descargar-musica-pronto-recibiras-una-notificacion-de-tu.shtml</link>
+            <description><![CDATA[<img align="left" border="0"  src="http://static.latercera.com/20130729/1793919_150.jpg" alt="" title="" style="margin:0 10px 5px 5px" /> Una campaña de la Asociación de Productores Fonográficos de Chile busca disminuir el número de descargas ilícitas de música, afirmando que hasta ahora 4 mil hogares han recibido la advertencia.]]></description>
+            <pubDate>Mon, 29 Jul 2013 18:49:00</pubDate>
+            <guid>http://www.latercera.com/noticia/tendencias/2013/07/659-535326-9-aun-utilizas-ares-para-descargar-musica-pronto-recibiras-una-notificacion-de-tu.shtml</guid>
+            <dc:date>2013-07-29T18:49:00-04:00</dc:date>
+        </item>
+        <item>
+            <title> BID financiará proyecto solar en el desierto de Atacama por US$ 41,4 millones</title>
+            <link>http://www.latercera.com/noticia/negocios/2013/07/655-535325-9-bid-financiara-proyecto-solar-en-el-desierto-de-atacama-por-us-414-millones.shtml</link>
+            <description><![CDATA[<img align="left" border="0"  src="http://static.latercera.com/20110630/1295156_150.jpg" alt="" title="" style="margin:0 10px 5px 5px" /> Una vez terminada la construcción, el Proyecto Pozo Almonte generará más de 60.000 MWh al año y ayudará a abastecer de energía a las compañías mineras Collahuasi y Codelco.]]></description>
+            <pubDate>Mon, 29 Jul 2013 18:39:29</pubDate>
+            <guid>http://www.latercera.com/noticia/negocios/2013/07/655-535325-9-bid-financiara-proyecto-solar-en-el-desierto-de-atacama-por-us-414-millones.shtml</guid>
+            <dc:date>2013-07-29T18:39:29-04:00</dc:date>
+        </item>
+    <language>en-us</language><media:rating>nonadult</media:rating></channel>
+</rss>
